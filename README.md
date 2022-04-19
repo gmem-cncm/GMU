@@ -39,9 +39,10 @@ Some patches needs the [iana~] external (for sinusoidal decomposition) by Todor 
 ## Contributions
 
 GMU was developped at GMEM - Marseille - Centre National de Création Musicale by :
-	Charles Bascou		
-	Leopold Frey			
-	Laurent Pottier
-and also contributions from :
-	Jean-François Oliver
-	Loïc Kessous
+- Charles Bascou		
+- Leopold Frey			
+- Laurent Pottier
+
+And also contributions from :
+- Jean-François Oliver
+- Loïc Kessous
