@@ -36,11 +36,11 @@ you can start with the help files in help folders.
 
 Examples folder contains more advanced example patch (see *tranche_ctrl5.maxhelp* and *trig_ctrl5.maxhelp* for help on random generators used in the patches). 
 
-Some patches needs the [iana~] external (for sinusoidal decomposition) by Todor Todoroff.
+Some patches needs the [iana~](https://forum.ircam.fr/projects/detail/max-sound-box/) external (for sinusoidal decomposition) by Todor Todoroff.
 
 ## Contributions
 
-GMU was developped at GMEM - Marseille - Centre National de Création Musicale by :
+GMU was developped at [GMEM - Marseille - Centre National de Création Musicale](https://gmem.org/) by :
 - Charles Bascou		
 - Leopold Frey			
 - Laurent Pottier
@@ -48,3 +48,5 @@ GMU was developped at GMEM - Marseille - Centre National de Création Musicale b
 And also contributions from :
 - Jean-François Oliver
 - Loïc Kessous
+
+More info : [GMU Website](https://gmem.org/recherche/gmu-granular-synthesis-environment/)
