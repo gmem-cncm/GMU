@@ -7,7 +7,7 @@ GMU is a flexible granular synthesis environnement for Max. It includes a set of
 **THIS SOFTWARE IS _NO MORE MAINTAINED_ AND _NO SUPPORT_ WILL BE PROVIDED.**
 
 This software is released under special license terms.
-Please refer to the License file "LICENSE.md" for further details.
+Please refer to the License file [LICENSE.md](LICENSE.md) for further details.
 
 
 ## Description
