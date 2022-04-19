@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<pattrstorage name = "trig_ctrl5_help">
+	<slot number = "1">
+		<pattr name = "comp-rat" value = "0.05" />
+		<pattr name = "sel" value = "1" />
+		<patcher name = "pitch1_ctrl">
+			<pattr name = "pitch1_baseO" value = "60." />
+			<pattr name = "pitch1_curve" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.701149 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.586207 0. 0. 0. 0. 0. 0. 0.471264 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.632184 0. 0. 0. 0. 0. 0.586207 0. 0. 0. 0. 0. 0.712644 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+			<pattr name = "pitch1_genON" value = "1" />
+			<pattr name = "pitch1_genT" value = "50." />
+			<pattr name = "pitch1_glide" value = "0" />
+			<pattr name = "pitch1_local_preset" value = "-1" />
+			<pattr name = "pitch1_rand_max" value = "90." />
+			<pattr name = "pitch1_rand_min" value = "0." />
+		</patcher>
+		<patcher name = "reso_ctrl">
+			<pattr name = "reso_baseO" value = "0." />
+			<pattr name = "reso_curve" value = "0. 0.931035 0.885057 0.827586 0.793103 0.747126 0.735632 0.701149 0.701149 0.701149 0.724138 0. 0. 0. 0. 0.770115 0.770115 0. 0. 0. 0. 0. 0.816092 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.551724 0. 0. 0. 0. 0. 0. 0. 0. 0.597701 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.505747 0.505747 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.390805 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.356322 0.356322 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+			<pattr name = "reso_genON" value = "0" />
+			<pattr name = "reso_genT" value = "50." />
+			<pattr name = "reso_glide" value = "6." />
+			<pattr name = "reso_local_preset" value = "-1" />
+			<pattr name = "reso_rand_max" value = "1." />
+			<pattr name = "reso_rand_min" value = "0." />
+		</patcher>
+		<patcher name = "cutoff_ctrl">
+			<pattr name = "cutoff_baseO" value = "0." />
+			<pattr name = "cutoff_curve" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.551724 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.574713 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.770115 0. 0. 0. 0. 0. 0. 0.574713 0.574713 0. 0. 0.505747 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.609195 0. 0. 0. 0. 0.574713 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.126437 0. 0. 0. 0. 0.08046 0.057471 0.057471 0.022989 0.011494 0. 0. 0. 0.057471 0. 0. 0. 0. 0. 0.586207 0.609195 0.609195 0. 0. 0. 0." />
+			<pattr name = "cutoff_genON" value = "1" />
+			<pattr name = "cutoff_genT" value = "50." />
+			<pattr name = "cutoff_glide" value = "52." />
+			<pattr name = "cutoff_local_preset" value = "-1" />
+			<pattr name = "cutoff_rand_max" value = "127." />
+			<pattr name = "cutoff_rand_min" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "comp-rat" value = "0.05" />
+		<pattr name = "sel" value = "4" />
+		<patcher name = "pitch1_ctrl">
+			<pattr name = "pitch1_baseO" value = "60." />
+			<pattr name = "pitch1_curve" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.344828 0.344828 0.356322 0.362069 0.367816 0.367816 0.367816 0.367816 0.505747 0.471264 0.471264 0.471264 0.666667 0.655172 0.637931 0.62069 0.609195 0.574713 0.563218 0.528736 0. 0. 0. 0. 0.482759 0. 0.528736 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.597701 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.586207 0. 0. 0. 0. 0. 0. 0.471264 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.632184 0. 0. 0. 0. 0. 0.586207 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+			<pattr name = "pitch1_genON" value = "1" />
+			<pattr name = "pitch1_genT" value = "50." />
+			<pattr name = "pitch1_glide" value = "0" />
+			<pattr name = "pitch1_local_preset" value = "-1" />
+			<pattr name = "pitch1_rand_max" value = "90." />
+			<pattr name = "pitch1_rand_min" value = "0." />
+		</patcher>
+		<patcher name = "reso_ctrl">
+			<pattr name = "reso_baseO" value = "0." />
+			<pattr name = "reso_curve" value = "0. 0.931035 0.885057 0.827586 0.793103 0.747126 0.735632 0.701149 0.701149 0.701149 0.724138 0. 0. 0. 0. 0.770115 0.770115 0. 0. 0. 0. 0. 0.816092 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.551724 0. 0. 0. 0. 0. 0. 0. 0. 0.597701 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.505747 0.505747 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.390805 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.356322 0.356322 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+			<pattr name = "reso_genON" value = "1" />
+			<pattr name = "reso_genT" value = "50." />
+			<pattr name = "reso_glide" value = "6." />
+			<pattr name = "reso_local_preset" value = "-1" />
+			<pattr name = "reso_rand_max" value = "1." />
+			<pattr name = "reso_rand_min" value = "0." />
+		</patcher>
+		<patcher name = "cutoff_ctrl">
+			<pattr name = "cutoff_baseO" value = "0." />
+			<pattr name = "cutoff_curve" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.551724 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.574713 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.770115 0. 0. 0. 0. 0. 0. 0.574713 0.574713 0. 0. 0.505747 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.609195 0. 0. 0. 0. 0.574713 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.08046 0.057471 0.057471 0.022989 0.011494 0. 0. 0. 0.057471 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+			<pattr name = "cutoff_genON" value = "1" />
+			<pattr name = "cutoff_genT" value = "50." />
+			<pattr name = "cutoff_glide" value = "52." />
+			<pattr name = "cutoff_local_preset" value = "-1" />
+			<pattr name = "cutoff_rand_max" value = "127." />
+			<pattr name = "cutoff_rand_min" value = "0." />
+		</patcher>
+	</slot>
+</pattrstorage>
+
