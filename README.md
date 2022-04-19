@@ -38,7 +38,7 @@ _______________________
   INSTALLATION  
 
 
-This release is for Max up to 8.0.2 on was tested on MacOS up to 10.13 & Windows 10.
+This release is for Max up to 8.0.2 and was tested on MacOS up to 10.13 & Windows 10.
 
 Just put the whole package in a max search path.
 
