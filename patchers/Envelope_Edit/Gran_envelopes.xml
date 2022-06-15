@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<pattrstorage name = "env_storage">
+	<slot number = "1" name = " tic-tic">
+		<pattr name = "op_list" value = "replace rand 1000. 1. 0., replace pow 14., mult sin 20. 0., mult sin 24. 0." />
+	</slot>
+	<slot number = "2" name = "expo sinsoidÂ?e">
+		<pattr name = "op_list" value = "replace expodecay 4., mult sin 28. 0." />
+	</slot>
+	<slot number = "3" name = "expo decay ">
+		<pattr name = "op_list" value = "replace expodecay 4." />
+	</slot>
+	<slot number = "4" name = "expo sinux 2">
+		<pattr name = "op_list" value = "replace sin 50. 0., mult expodecay 5." />
+	</slot>
+	<slot number = "5" name = "sweep mod">
+		<pattr name = "op_list" value = "replace hanning, mult sin 14. 0., mult repeat 1. 9. 1.68" />
+	</slot>
+	<slot number = "6" name = "expo bump">
+		<pattr name = "op_list" value = "replace sin 50. 0., add sin 1. 0., mult expodecay 5." />
+	</slot>
+	<slot number = "7" name = "deux freq">
+		<pattr name = "op_list" value = "replace sin 50. 0., add sin 75. 0., mult expodecay 5." />
+	</slot>
+	<slot number = "8" name = "sweep gratt">
+		<pattr name = "op_list" value = "replace gauss 0.44, replace repeat 1. 17. -0.68, mult expodecay 3., replace flipY 0.5, replace repeat 1. 5. 1." />
+	</slot>
+	<slot number = "9" name = "bpf sin 1">
+		<pattr name = "op_list" value = "replace sin 50. 0., add sin 1. 0., mult expodecay 5., mult bpf 0. 0. 1. 0.028302 0. 0.186321 1. 0.408019 0. 0.412736 0. 1." />
+	</slot>
+	<slot number = "10" name = "bpf trapez ">
+		<pattr name = "op_list" value = "replace bpf 0. 0. 1. 0.061321 1. 0.549528 0. 1." />
+	</slot>
+	<slot number = "11" name = "bpf sin 2  ">
+		<pattr name = "op_list" value = "replace bpf 0. 0. 1. 0.004717 0.129032 0.058962 0.419355 0.351415 0. 1., replace pow 2.43, mult sin 200. 0." />
+	</slot>
+	<slot number = "12" name = "blobby">
+		<pattr name = "op_list" value = "replace gauss 0.2, replace repeat 2.23 0.56 1., mult constant 3., add gauss 0.5, mult constant 0.29, replace rotate -0.18, replace repeat 1. 0.76 1." />
+	</slot>
+	<slot number = "13" name = "gratz blob">
+		<pattr name = "op_list" value = "replace gauss 0.2, replace repeat 4.48 0.56 1., mult constant 3., add gauss 0.6, mult constant 0.29, replace repeat 11. 11. 1." />
+	</slot>
+	<slot number = "14" name = "crickss">
+		<pattr name = "op_list" value = "replace gauss 0.2, replace repeat 4.48 0.56 1., mult constant 3., add gauss 0.07, mult constant 0.29, replace repeat 11. 11. 1., add repeat 1. 1.02 1., mult bpf 0. 0. 1. 0.042453 0. 1." />
+	</slot>
+	<slot number = "15" name = "sin noise">
+		<pattr name = "op_list" value = "replace sin 24. 0., mult bpf 0. 0. 1. 0.004717 0.032258 0.068396 0. 1., add rand 792. 0.07 0., mult bpf 1. 0. 1. 0.775943 0. 1." />
+	</slot>
+	<slot number = "16" name = "sin noise 3">
+		<pattr name = "op_list" value = "replace sin 11. 0., mult bpf 0. 0. 1. 0.004717 0.032258 0.068396 0.177419 0.688679 0.419355 0.745283 1. 0.787736 0.145161 0.787736 0. 1., add rand 792. 0.1 0., mult bpf 1. 0. 1. 0.775943 0. 1." />
+	</slot>
+	<slot number = "17" name = "sin noise 2">
+		<pattr name = "op_list" value = "replace sin 11. 0., mult bpf 0. 0. 1. 0.091981 0.096774 0.198113 0. 1., add rand 792. 0.13 0., mult bpf 1. 0. 0.387097 0.160377 1. 0.775943 0. 1." />
+	</slot>
+	<slot number = "18" name = "gratz blob rehauss">
+		<pattr name = "op_list" value = "replace gauss 0.2, replace repeat 4.48 0.56 1., mult constant 3., add gauss 0.6, mult constant 0.29, replace repeat 11. 11. 1., add constant 0.25" />
+	</slot>
+	<slot number = "19" name = " gauss_bruitend">
+		<pattr name = "op_list" value = "replace rand 1000. 1. 0., mult bpf 0. 0. 0. 0.299528 0.016129 0.490566 0.064516 0.582547 0.645161 0.875 0.725806 0.936321 0. 1., replace rotate -0.13, add gauss 0.46" />
+	</slot>
+	<slot number = "20" name = " gauss_bruitend_rept">
+		<pattr name = "op_list" value = "replace rand 1000. 1. 0., mult bpf 0. 0. 0. 0.299528 0.016129 0.490566 0.064516 0.582547 0.564516 0.872642 0.725806 0.936321 0. 1., replace rotate -0.13, add gauss 0.46, mult repeat 1. 37. 8., replace rotate -0.26" />
+	</slot>
+	<slot number = "21" name = "bpf trapez rept">
+		<pattr name = "op_list" value = "replace bpf 0. 0. 1. 0.061321 1. 0.141509 0.112903 0.403302 0. 0.551887 0. 1., replace repeat 1. 37. 2.98" />
+	</slot>
+	<slot number = "22" name = "cluster bruiteux">
+		<pattr name = "op_list" value = "replace gauss 0.2, replace repeat 9.55 217. 1., mult bpf 0. 0. 1. 0.042453 0. 1., add rand 10365. 0.07 0." />
+	</slot>
+	<slot number = "23" name = "clust bruit deux">
+		<pattr name = "op_list" value = "replace rand 7769. 1. 0., mult bpf 0. 0. 0.419355 0.082547 0. 0.106132 0.548387 0.129717 0. 0.200472 0.709677 0.238208 0.16129 0.285377 0. 0.32783 0.790323 0.341981 0.33871 0.400943 0.854839 0.46934 0.016129 0.490566 0.467742 0.533019 0.064516 0.582547 0.645161 0.646226 0.193548 0.738208 0. 0.820755 0.66129 0.872642 0. 0.908019 0.725806 0.936321 0. 1., replace rotate -0.13, add gauss 0.65, mult repeat 1. 133. 8., replace rotate -0.26, replace repeat 1. 0.62 1." />
+	</slot>
+</pattrstorage>
+
