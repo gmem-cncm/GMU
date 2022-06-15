@@ -53,7 +53,6 @@ void ext_main(void* r)
 	class_addmethod(c, (method)bufGranul_assist, "assist", A_CANT, 0);		// assistance in out 
     class_addmethod(c, (method)bufGranul_dsp64, "dsp64", A_CANT, 0);			// signal processing
     class_addmethod(c, (method)bufGranul_sinterp, "sinterp", A_LONG, 0);	// interpollation dans la lecture du buffer pour éviter les clics
-    class_addmethod(c, (method)bufGranul_microtiming, "microtiming", A_LONG, 0);        // infos du mode loop
     class_addmethod(c, (method)bufGranul_clear, "clear",0);				// panique ! effacement des grains en cours
     class_addmethod(c, (method)bufGranul_clear, "panic",0);				// panique ! effacement des grains en cours
     
@@ -97,7 +96,7 @@ int bufGranul_poly_assign_voice(t_bufGranul *x)
     // check actual polyphony and check age and remain of each voices
     for(i = 0 ; i < NVOICES; i++)
     {
-        if(x->x_voiceOn[i]==1) // active
+        if(x->x_voiceOn[i]==1)
         {
             curpoly++;
             zombi_robin = i;
@@ -109,16 +108,12 @@ int bufGranul_poly_assign_voice(t_bufGranul *x)
             
             if(remain_ind < x->x_remain_ind[i])
             {
-                remain_ind = x->x_remain_ind[i];
+                actual_ind = x->x_remain_ind[i];
                 zombi_remain = i;
             }
 
         }
-        else if(x->x_voiceOn[i]==2) // waiting
-        {
-            // don't touch waiting voice
-        }
-        else if(x->x_voiceOn[i]==0) // not in killing mode
+        else if(x->x_voiceOn[i]!=2) // not in killing mode
             freevoice = i;
             
     }
@@ -138,6 +133,7 @@ int bufGranul_poly_assign_voice(t_bufGranul *x)
     switch(x->x_poly_mode)
     {
             
+            
         case 0 :
             return 0;
         
@@ -148,76 +144,14 @@ int bufGranul_poly_assign_voice(t_bufGranul *x)
         case 2 : // kill grain which is the oldest
             bufGranul_kill(x, zombi_actual);
             return freevoice;
-
+            break;
         
         case 3 : // kill grain which has the longest tail
             bufGranul_kill(x, zombi_remain);
             return freevoice;
-
+            break;
 
             
-    }
-}
-
-void bufGranul_poly_check_and_kill(t_bufGranul *x)
-{
-    int curpoly=0;
-    int i;
-    double actual_ind = 0., remain_ind = 0.;
-    int zombi_actual, zombi_remain, zombi_robin;
-    
-    // check actual polyphony and check age and remain of each voices
-    for(i = 0 ; i < NVOICES; i++)
-    {
-        if(x->x_voiceOn[i]==1) // active
-        {
-            curpoly++;
-            zombi_robin = i;
-            if(actual_ind < x->x_ind[i])
-            {
-                actual_ind = x->x_ind[i];
-                zombi_actual = i;
-            }
-            
-            if(remain_ind < x->x_remain_ind[i])
-            {
-                actual_ind = x->x_remain_ind[i];
-                zombi_remain = i;
-            }
-            
-        }
-        else if(x->x_voiceOn[i]==2) // waiting
-        {
-            // don't touch waiting voice
-        }
-
-        
-    }
-    
-    
-    if(curpoly >= x->x_nvoices) // poly is full so we have to kill one voice
-    {
-        // 0 : wait 1 : round_robin 2 : max_time_lasted 3 : max_time_remaining
-        switch(x->x_poly_mode)
-        {
-                
-            case 0 : // special for wait mode kill oldest
-                bufGranul_kill(x, zombi_robin);
-                return ;
-                
-            case 1 :
-                bufGranul_kill(x, zombi_robin);
-                return ;
-                
-            case 2 : // kill grain which is the oldest
-                bufGranul_kill(x, zombi_actual);
-                return ;
-                
-            case 3 : // kill grain which has the longest tail
-                bufGranul_kill(x, zombi_remain);
-                return ;
-
-        }
     }
 }
 
@@ -258,7 +192,7 @@ void bufGranul_grain(t_bufGranul *x, t_symbol *s, short ac, t_atom *av)
 				
 				if(p)
 				{
-                    x->x_voiceOn[p] = (delay > 0.) ? 2 : 1; // wait mode or active mode
+    				x->x_voiceOn[p] = 1;
 					x->x_sind[p] = x->Vbeg[p] = begin;	// index dans buffer
 					x->Vtranspos[p] = detune ;			// valeur de pitch
 					x->Vamp[p]		= amp;						// amplitude
@@ -272,12 +206,6 @@ void bufGranul_grain(t_bufGranul *x, t_symbol *s, short ac, t_atom *av)
 							x->envinc[p]	= -1.*(float)(x->x_env_frames[x->Venv[p]] - 1.) / x->Vlength[p] ;
 							x->envind[p]	= x->x_env_frames[x->Venv[p]] - 1;
 						}
-                        else if (length == 0.) // whole buffer
-                        {
-                            x->Vlength[p] = x->x_buf_frames[x->Vbuf[p]];
-                            x->envinc[p]    = (float)(x->x_env_frames[x->Venv[p]] - 1.) / x->Vlength[p] ;
-                            x->envind[p]    = 0. ;
-                        }
 						else
 						{
 							x->Vlength[p]	= length * srms;
@@ -299,7 +227,8 @@ void bufGranul_grain(t_bufGranul *x, t_symbol *s, short ac, t_atom *av)
                     x->Vloopend[p] = x->x_loopend;
                     
 				}
-    
+
+	
 }
 
 
@@ -315,7 +244,7 @@ void bufGranul_clear (t_bufGranul *x)
 void bufGranul_killall (t_bufGranul *x)
 {
     int i;
-    for (i=0; i< NVOICES; i++)  x->x_voiceOn[i] = (x->x_voiceOn[i] > 0) ? 3 : 0;
+    for (i=0; i< NVOICES; i++)  x->x_voiceOn[i] = (x->x_voiceOn[i]) ? 2 : 0;
 }
 
 // kill specific grain
@@ -323,7 +252,7 @@ void bufGranul_kill(t_bufGranul *x, long k)
 {
     if(k < NVOICES)
     {
-        if(x->x_voiceOn[k] > 0) x->x_voiceOn[k] = 3;
+        if(x->x_voiceOn[k]) x->x_voiceOn[k] = 2;
     }
 }
 
@@ -332,7 +261,7 @@ void bufGranul_setvoice(t_bufGranul *x, long k)
 {
     if(k < NVOICES)
     {
-        if(x->x_voiceOn[k]) x->x_voiceOn[k] = 3;
+        if(x->x_voiceOn[k]) x->x_voiceOn[k] = 2;
     }
 }
 
@@ -661,7 +590,7 @@ void bufGranul_float(t_bufGranul *x, double f)
 void bufGranul_nvoices(t_bufGranul *x, long n) 
 { 
 	n = (n > 0) ? n : 1 ;
-	x->x_nvoices = (n < NMAXPOLY) ? n : NMAXPOLY;
+	x->x_nvoices = (n < NVOICES) ? n : NVOICES/2;
 }
 
 void bufGranul_bchan_offset(t_bufGranul *x, long n)
@@ -674,11 +603,6 @@ void bufGranul_bchan_offset(t_bufGranul *x, long n)
 void bufGranul_sinterp(t_bufGranul *x, long n)
 { 
 	x->x_sinterp = SAT(n,0,2) ;
-}
-
-void bufGranul_microtiming(t_bufGranul *x, long flag)
-{
-    x->x_microtiming = SAT(flag,0,1) ;
 }
 
 // mode loop begin end ....
@@ -872,7 +796,7 @@ void *bufGranul_new(t_symbol *s, short ac, t_atom *av)
 	if(ac < 2)
 	{
 		post("syntax error : bufgranul~ <snd_buf> <env_buf> <out_channels> <buffer_chans_offset");
-		return;
+		return nil;
 	} else {
 
 		//////////////arguments/////////////////
@@ -951,7 +875,7 @@ void *bufGranul_new(t_symbol *s, short ac, t_atom *av)
 		}
 
 		// initialisation des autres parametres
-		x->x_nvoices = 128;
+		x->x_nvoices = 64;
 		x->x_askfor = 0;    
 		x->x_begin = 0;
 		x->x_transpos = 1.0;
@@ -959,8 +883,7 @@ void *bufGranul_new(t_symbol *s, short ac, t_atom *av)
 		x->x_length = 100;
     
 		x->x_sinterp = 1;
-        x->x_loop = 0 ;
-        x->x_microtiming = 0;
+		 x->x_loop = 0 ;
     
 		x->x_pan = 1/(x->x_nouts*2);
 		x->x_dist = 1;
@@ -1050,7 +973,7 @@ void *bufGranul_new(t_symbol *s, short ac, t_atom *av)
             
             
         }
-        x->x_fadein = (double *) sysmem_newptr( MAX_VECTORSIZE * sizeof(double) );
+            
         x->x_kill_fadeout = (double *) sysmem_newptr( MAX_VECTORSIZE * sizeof(double) );
         x->x_unity_gain = (double *) sysmem_newptr( MAX_VECTORSIZE * sizeof(double) );
         
@@ -1350,12 +1273,10 @@ void bufGranul_dsp64(t_bufGranul *x, t_object *dsp64, short *count, double sampl
 	x->x_in7con = count[6] > 0;
 	x->x_in8con = count[7] > 0;
     
-    // generate fadein and fadeout
+    // generate fadeout
     
-    for(i=0;i<maxvectorsize;i++){
-        x->x_fadein[i] = (double)i / maxvectorsize;
-        x->x_kill_fadeout[i] = (double)(maxvectorsize-i)/maxvectorsize;
-    }
+    for(i=0;i<maxvectorsize;i++)
+        x->x_kill_fadeout[i]=(double)(maxvectorsize-i)/maxvectorsize;
 
     object_method(dsp64, gensym("dsp_add64"), x, bufGranul_perform, 0, NULL);
 }

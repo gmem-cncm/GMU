@@ -34,10 +34,9 @@
 #include <string.h>
 #include <math.h>
 
-#define NMAXPOLY 1024 // nombre maximum de voix
-#define NVOICES 2048 // nombre maximum de voix materielle ( x2 pour le swapping )
-#define NSBUF 2048	// nombre maximum de buffers son
-#define NEBUF 2048	// nombre maximum de buffers enveloppe
+#define NVOICES 512 // nombre maximum de voix
+#define NSBUF 512	// nombre maximum de buffers son
+#define NEBUF 512	// nombre maximum de buffers enveloppe
 #define MIN_LENGTH 0.1 // longueur minimum des grains en ms  // DISABLED 
 
 // Le mode perf_debug cree une 3-5-7-9eme sortie a l'objet
@@ -54,6 +53,8 @@
 
 // MACRO UTILES
 #define SAT(a,min,max) (a < min) ? min : ( (a > max) ? max : a )
+#define MIN(a,min) (a < min) ? a : min
+#define MAX(a,max) (a > max) ? a : max 
 #define MOD(val,mod) val - (mod * floor( (double)val / mod ))
 
 #define MODI(val,mod) val - (mod * ((val/mod) + (val >> 31))) // modulo LONG 32 bits version 
@@ -121,7 +122,7 @@ typedef struct _bufGranul
     t_symbol *x_buf_filename[NSBUF];	// nom du fichier dans le buffer~ son 
     int		  x_buf_nchan[NSBUF];		// nombre de canaux du buffer~ son
     long	  x_buf_frames[NSBUF];		// le nombre de sample dans le buffer~ son
-	float	 *x_buf_samples[NSBUF];		// pointeur sur le tableau d'échantillon du buffer~ son
+	double	 *x_buf_samples[NSBUF];		// pointeur sur le tableau d'échantillon du buffer~ son
 	double     x_buf_sronsr[NSBUF];		// freq ech buffer sur freq ech globale
 	int		  x_nbuffer;				// nombre de buffer son
  	int       x_active_buf;				// le buffer son actif est celui dans lequel les nouveaux grains sont prélevés.
@@ -134,7 +135,7 @@ typedef struct _bufGranul
     t_buffer *x_env_buf[NEBUF];			// le buffer~ enveloppe
     t_symbol *x_env_sym[NEBUF];			// le symbol correspondant au nom du buffer~ enveloppe
     long	  x_env_frames[NEBUF];		// le nombre de sample dans le buffer~ enveloppe
-    float	 *x_env_samples[NEBUF];		// pointeur sur le tableau d'échantillon du buffer~ enveloppe
+	double	 *x_env_samples[NEBUF];		// pointeur sur le tableau d'échantillon du buffer~ enveloppe
 	int		  x_nenvbuffer;				// nombre de buffer enveloppe
  	int       x_active_env;				// le buffer enveloppe actif est celui dans lequel les nouveaux grains sont prélevés.
 
@@ -192,12 +193,10 @@ typedef struct _bufGranul
     double * x_blackman_table;
     double * x_sinc_norm_table;
     
-// FADEIN FADEOUT KILL
-    double * x_fadein;
+// FADEOUT KILL
     double * x_kill_fadeout;
     double * x_unity_gain;
-    
-    long x_microtiming;
+
 	 
 // DSP
     double x_sr;						// frequence d'echantillonnage
@@ -252,14 +251,12 @@ void bufGranul_setvoice(t_bufGranul *x, long k);    // TODO : address specific v
 
 void bufGranul_polymode(t_bufGranul *x, long k);
 int bufGranul_poly_assign_voice(t_bufGranul *x);
-void bufGranul_poly_check_and_kill(t_bufGranul *x); // when waiting voices are playing
-
 
 void bufGranul_nvoices(t_bufGranul *x, long n);			// definition du nombre de voix (polyphonie)
 void bufGranul_bchan_offset(t_bufGranul *x, long n);    // buffer channel offset
 void bufGranul_tellme(t_bufGranul *x);					// demande d'information sur l'etat de l'objet
 void bufGranul_loop(t_bufGranul *x, t_symbol *s, short ac, t_atom *av); // definition de loop points dans le buffer
-void bufGranul_microtiming(t_bufGranul *x, long flag);        // nombres de voix en sorties
+
 
 // spatialisation
 float spat (float x, float d, int n);
