@@ -122,10 +122,10 @@ typedef struct _bufGranul
     t_symbol *x_buf_filename[NSBUF];	// nom du fichier dans le buffer~ son 
     int		  x_buf_nchan[NSBUF];		// nombre de canaux du buffer~ son
     long	  x_buf_frames[NSBUF];		// le nombre de sample dans le buffer~ son
-	double	 *x_buf_samples[NSBUF];		// pointeur sur le tableau d'échantillon du buffer~ son
+	double	 *x_buf_samples[NSBUF];		// pointeur sur le tableau d'ï¿½chantillon du buffer~ son
 	double     x_buf_sronsr[NSBUF];		// freq ech buffer sur freq ech globale
 	int		  x_nbuffer;				// nombre de buffer son
- 	int       x_active_buf;				// le buffer son actif est celui dans lequel les nouveaux grains sont prélevés.
+ 	int       x_active_buf;				// le buffer son actif est celui dans lequel les nouveaux grains sont prï¿½levï¿½s.
 // BUFFER SON LOOP
 	long 	  x_buf_loopstart[NSBUF];	// debut de boucle
 	long 	  x_buf_loopend[NSBUF];		// fin de boucle
@@ -135,9 +135,9 @@ typedef struct _bufGranul
     t_buffer *x_env_buf[NEBUF];			// le buffer~ enveloppe
     t_symbol *x_env_sym[NEBUF];			// le symbol correspondant au nom du buffer~ enveloppe
     long	  x_env_frames[NEBUF];		// le nombre de sample dans le buffer~ enveloppe
-	double	 *x_env_samples[NEBUF];		// pointeur sur le tableau d'échantillon du buffer~ enveloppe
+	double	 *x_env_samples[NEBUF];		// pointeur sur le tableau d'ï¿½chantillon du buffer~ enveloppe
 	int		  x_nenvbuffer;				// nombre de buffer enveloppe
- 	int       x_active_env;				// le buffer enveloppe actif est celui dans lequel les nouveaux grains sont prélevés.
+ 	int       x_active_env;				// le buffer enveloppe actif est celui dans lequel les nouveaux grains sont prï¿½levï¿½s.
 
 // PARAMETRES D'HIVERS
     int		  x_nvoices;				// nombre de voix
@@ -175,8 +175,8 @@ typedef struct _bufGranul
     long   *Vbuf;				// numero du buffer son dans lequel sera pris le grain
 
     int   x_env_dir;					// direction de lecture de l'enveloppe
-    double *envinc;				// pas d'avancement dans le buffer enveloppe (par rapport à la longueur du grain
-	double *envind;				// indice de départ dans le buffer enveloppe (debut si lecture normale, fin si lecture inversee)
+    double *envinc;				// pas d'avancement dans le buffer enveloppe (par rapport ï¿½ la longueur du grain
+	double *envind;				// indice de dï¿½part dans le buffer enveloppe (debut si lecture normale, fin si lecture inversee)
 	double *x_env;				// enveloppe de chaque voix
     long   *Venv;				// numero du buffer enveloppe dans lequel sera pris le grain
 
@@ -223,9 +223,9 @@ int bufGranul_desalloc(t_bufGranul *x);
 
 // Buffer son
 void bufGranul_set(t_bufGranul *x,t_symbol *msg, short ac, t_atom * av);		// definition des buffer~ son 
-//void bufGranul_setInit(t_bufGranul *x, t_symbol *s);	// definition du buffer~ son (à l'initialisation du patch)
+//void bufGranul_setInit(t_bufGranul *x, t_symbol *s);	// definition du buffer~ son (ï¿½ l'initialisation du patch)
 void bufGranul_swap(t_bufGranul *x);					// bascule buffer son
-int bufGranul_bufferinfos(t_bufGranul *x);				// affectation des paramètres des buffers
+int bufGranul_bufferinfos(t_bufGranul *x);				// affectation des paramï¿½tres des buffers
 //void bufGranul_nbuffer(t_bufGranul *x, long n);		// nombre de buffer son
 
 // Bufffer enveloppe
