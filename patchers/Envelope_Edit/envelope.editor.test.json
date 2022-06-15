@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "envelope.editor.test",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Envelope_editor::gmu.env.bank" : [ 1 ],
+					"Envelope_editor::slot_list" : [ 1, "replace expodecay 4.0000 :: mult rand 2978.0000 1.0000 0.0000 0.0000", "::::", 2, "replace sin 50.0000 0.0000 :: mult expodecay 5.0000", "::::", 3, "replace gauss 0.2000 :: replace repeat 4.4800 0.5600 1.0000 :: mult constant 3.0000 :: add gauss 0.6000 :: mult constant 0.2900 :: replace repeat 11.0000 11.0000 1.0000 :: add constant 0.2500", "::::", 4, "replace gauss 0.2000 :: replace repeat 4.4800 0.5600 1.0000 :: mult constant 3.0000 :: add gauss 0.0700 :: mult constant 0.2900 :: replace repeat 11.0000 11.0000 1.0000 :: add repeat 1.0000 1.0200 1.0000 :: mult bpf 0.0000 0.0000 1.0000 0.0425 0.0000 1.0000", "::::", 5, "replace gauss 0.2000 :: replace repeat 9.5500 217.0000 1.0000 :: mult bpf 0.0000 0.0000 1.0000 0.0425 0.0000 1.0000 :: add rand 10365.0000 0.0700 0.0000", "::::", 6, "replace gauss 0.6781", "::::", 7, "replace gauss 0.4950 :: replace repeat 2.2300 0.5600 1.0000 :: mult constant 3.0000 :: add gauss 1.4972 :: mult constant 0.2900 :: replace rotate -0.1800 :: replace repeat 1.0000 0.7600 1.0000", "::::", 8, "replace sin 50.0000 0.0000 :: add sin 1.0000 0.0000 :: mult expodecay 5.0000", "::::", 9, "replace sin 50.0000 0.0000 :: add sin 1.0000 0.0000 :: mult expodecay 5.0000" ],
+					"Envelope_editor::env::op_list" : [ "replace", "sin", 50.0, 0.0, ",", "add", "sin", 1.0, 0.0, ",", "mult", "expodecay", 5.0 ],
+					"Envelope_editor::env::gmu.env.default" : [ 6 ],
+					"Envelope_editor::live.tab" : [ 8.0 ],
+					"Envelope_editor[1]::gmu.env.bank" : [ -1 ],
+					"Envelope_editor[1]::slot_list" : [ 1, "0" ],
+					"Envelope_editor[1]::env::op_list" : [ 0 ],
+					"Envelope_editor[1]::env::gmu.env.default" : [ -1 ],
+					"Envelope_editor[1]::live.tab" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Envelope_editor::gmu.env.bank" : [  ],
+					"Envelope_editor::slot_list" : [ 1, "replace gauss 0.2000 :: replace repeat 4.4800 0.5600 1.0000 :: mult constant 3.0000 :: add gauss 0.0700 :: mult constant 0.2900 :: replace repeat 11.0000 11.0000 1.0000 :: add repeat 1.0000 1.0200 1.0000 :: mult bpf 0.0000 0.0000 1.0000 0.0425 0.0000 1.0000", "::::", 2, "replace sin 24.0000 0.0000 :: mult bpf 0.0000 0.0000 1.0000 0.0047 0.0323 0.0684 0.0000 1.0000 :: add rand 792.0000 0.0700 0.0000 :: mult bpf 1.0000 0.0000 1.0000 0.7759 0.0000 1.0000" ],
+					"Envelope_editor::env::op_list" : [  ],
+					"Envelope_editor::env::gmu.env.default" : [  ],
+					"Envelope_editor::live.tab" : [ 0.0 ],
+					"Envelope_editor[1]::gmu.env.bank" : [  ],
+					"Envelope_editor[1]::slot_list" : [ 0 ],
+					"Envelope_editor[1]::env::op_list" : [  ],
+					"Envelope_editor[1]::env::gmu.env.default" : [  ],
+					"Envelope_editor[1]::live.tab" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Envelope_editor::gmu.env.bank" : [  ],
+					"Envelope_editor::slot_list" : [ 1, "replace gauss 0.2000 :: replace repeat 4.4800 0.5600 1.0000 :: mult constant 3.0000 :: add gauss 0.0700 :: mult constant 0.2900 :: replace repeat 11.0000 11.0000 1.0000 :: add repeat 1.0000 1.0200 1.0000 :: mult bpf 0.0000 0.0000 1.0000 0.0425 0.0000 1.0000", "::::", 2, "replace sin 24.0000 0.0000 :: mult hanning :: add rand 792.0000 0.0700 0.0000 0.0000 :: mult bpf 1.0000 0.0000 1.0000 0.7759 0.0000 1.0000" ],
+					"Envelope_editor::env::op_list" : [  ],
+					"Envelope_editor::env::gmu.env.default" : [  ],
+					"Envelope_editor::live.tab" : [ 0.0 ],
+					"Envelope_editor[1]::gmu.env.bank" : [  ],
+					"Envelope_editor[1]::slot_list" : [ 0 ],
+					"Envelope_editor[1]::env::op_list" : [  ],
+					"Envelope_editor[1]::env::gmu.env.default" : [  ],
+					"Envelope_editor[1]::live.tab" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
