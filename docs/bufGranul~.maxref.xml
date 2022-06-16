@@ -248,6 +248,15 @@
             <!-- Assist et dsp64?? -->
 
         </methodlist>
-        
+
+        <!--SEEALSO-->
+         <seealsolist
+                <seealso name="sinGranul~"/>
+                <seealso name="liveGranul~"/>
+                <seealso name="buffer~"/>
+        </seealsolist>
+    
+
+
 
 </c74object>
