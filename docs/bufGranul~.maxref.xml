@@ -249,13 +249,12 @@
 
         </methodlist>
 
-        <!--SEEALSO
-         <seealsolist
-                <seealso name="sinGranul~"/>
-                <seealso name="liveGranul~"/>
-                <seealso name="buffer~"/>
-        </seealsolist>
-        -->
+        <!--SEEALSO-->
+	<seealsolist>
+		<seealso name="sinGranul~"/>
+		<seealso name="liveGranul~"/>
+		<seealso name="buffer~"/>
+	</seealsolist>
     
     
 
