@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 8,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "" ],
+					"patching_rect" : [ 76.0, 243.0, 212.0, 22.0 ],
+					"text" : "bufGranul~ bufexemple envexemple 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-56",
@@ -48,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.0, 42.0, 458.0, 67.0 ],
-					"presentation_linecount" : 3,
 					"text" : "The GMEM Microsound Universe is a granular synthesis environement and random controls made for advanced real time controls."
 				}
 
@@ -79,7 +90,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.5, 709.0, 465.0, 35.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 				}
 
@@ -121,7 +131,11 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "bufGranul~.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 
