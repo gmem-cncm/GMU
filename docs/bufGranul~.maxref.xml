@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
 
-<c74object name="BufGranul~">
+<c74object name="bufGranul~">
 
     <digest>
         Sound multibuffer granulation with signal form parameters and buffer based envelope.
@@ -41,27 +41,64 @@
 
     <!--ARGUMENTS-->
     <objarglist>
-        <objarg name="Sound buffer name" optional="0" type="symbol">
-            <digest>Name of the sound buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.</digest>
+        <objarg name="soundbuffer-name" optional="0" type="symbol">
+            <digest>Name of the sound buffer</digest>
+             <description>
+                    Name of the sound buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.
+            </description>
         </objarg>
-    </objarglist>
-    <objarglist>
-        <objarg name="Enveloppe buffer name" optional="0" type="symbol">
-            <digest>Name of the enveloppe buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.</digest>
+        <objarg name="envbuffer-name" optional="0" type="symbol">
+            <digest>Name of the envelope buffer</digest>
+             <description>
+                    Name of the envelope buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.
+            </description>
         </objarg>
-    </objarglist>
-    <objarglist>
-        <objarg name="Channels" optional="1" type="int">
+        <objarg name="channels" optional="1" type="int">
             <digest>1-2-4-6 or 8 outputs if specified. Default is 2. </digest>
         </objarg>
-    </objarglist>
-    <objarglist>
-        <objarg name="buffer channel offset" optional="1" type="long">
+        <objarg name="channel-offset" optional="1" type="long">
             <digest> Polyphonic voice number. Default is 512. </digest>
         </objarg>
     </objarglist>
 
-    
+    <!--MESSAGES-->
+        <methodlist>
+            <method name="set">
+                <arglist>
+                    <arg name="buffer number" optional="0" type="int" />
+                    <arg name="buffer name" optional="0" type="symbol" />
+                </arglist>
+                <digest>
+                    Store a specific sound buffer into a specific slot.
+                </digest>
+                <description>
+                    Store a specific sound buffer into a specific slot.
+                </description>
+            </method>
+            <method name="setenv">
+                <arglist>
+                    <arg name="buffer number" optional="0" type="int" />
+                    <arg name="buffer name" optional="0" type="symbol" />
+                </arglist>
+                <digest>
+                    Store a specific envelope buffer into a specific slot.
+                </digest>
+                <description>
+                    Store a specific envelope buffer into a specific slot.
+                </description>
+            </method><method name="env buffer">
+                <arglist>
+                    <arg name="buffer number" optional="0" type="long" />
+                </arglist>
+                <digest>
+                    Active envelope buffer.
+                </digest>
+                <description>
+                    Active envelope buffer.
+                </description>
+            </method>
+           
+        </methodlist>
 
 
 </c74object>
