@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, -1003.0, 1467.0, 929.0 ],
+		"rect" : [ 34.0, -993.0, 1092.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 42.0, -995.0, 1452.0, 929.0 ],
+						"rect" : [ 42.0, -993.0, 1452.0, 929.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -98,7 +98,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 297.0, 91.948718130588531, 196.0, 36.0 ],
-									"presentation_linecount" : 4,
 									"text" : "Keyboard has an influence on Detune factor ",
 									"textjustification" : 1
 								}
@@ -321,8 +320,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 478.75213611125946, 700.5, 137.24786388874054, 42.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 478.75213611125946, 700.5, 137.24786388874054, 41.0 ],
 									"text" : "Recording module"
 								}
 
@@ -336,7 +334,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 580.87606805562973, 641.444444894790649, 68.0, 17.0 ],
-									"presentation_linecount" : 3,
 									"text" : "Start recording",
 									"textjustification" : 1
 								}
@@ -1097,7 +1094,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 887.423080444335938, 485.0, 96.0, 23.0 ],
+									"patching_rect" : [ 887.423080444335938, 485.0, 96.0, 22.0 ],
 									"text" : "Randomness"
 								}
 
@@ -1128,7 +1125,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 274.5, 784.5, 100.0, 38.0 ],
+									"patching_rect" : [ 274.5, 784.5, 100.0, 37.0 ],
 									"text" : "Empties output buffer (but does not stop de grain buffer)",
 									"textjustification" : 1
 								}
@@ -1153,7 +1150,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 297.0, 755.5, 49.0, 27.0 ],
+									"patching_rect" : [ 297.0, 755.5, 49.0, 26.0 ],
 									"text" : "panic",
 									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ]
 								}
@@ -1168,7 +1165,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 114.5, 691.0, 100.0, 38.0 ],
+									"patching_rect" : [ 114.5, 691.0, 100.0, 37.0 ],
 									"text" : "Gives info about current state in the Max Console  ",
 									"textjustification" : 1
 								}
@@ -1592,7 +1589,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 290.0, 210.0, 49.0, 23.0 ],
+									"patching_rect" : [ 290.0, 210.0, 49.0, 22.0 ],
 									"text" : "Begin"
 								}
 
@@ -1664,7 +1661,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1146.77611780166626, 210.0, 56.0, 23.0 ],
+									"patching_rect" : [ 1146.77611780166626, 210.0, 56.0, 22.0 ],
 									"text" : "Buffer"
 								}
 
@@ -1705,7 +1702,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 999.0, 210.0, 74.0, 23.0 ],
+									"patching_rect" : [ 999.0, 210.0, 74.0, 22.0 ],
 									"text" : "Distance"
 								}
 
@@ -1787,7 +1784,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 868.0, 210.0, 34.0, 23.0 ],
+									"patching_rect" : [ 868.0, 210.0, 34.0, 22.0 ],
 									"text" : "Pan"
 								}
 
@@ -1815,7 +1812,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 679.0, 235.0, 130.0, 38.0 ],
+									"patching_rect" : [ 679.0, 235.0, 130.0, 37.0 ],
 									"text" : "Length of grains.;\rWhen Length is < 0, envelope is read backward"
 								}
 
@@ -1829,7 +1826,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 713.0, 210.0, 62.0, 23.0 ],
+									"patching_rect" : [ 713.0, 210.0, 62.0, 22.0 ],
 									"text" : "Length"
 								}
 
@@ -1902,7 +1899,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 576.0, 210.0, 40.0, 23.0 ],
+									"patching_rect" : [ 576.0, 210.0, 40.0, 22.0 ],
 									"text" : "Amp"
 								}
 
@@ -1948,7 +1945,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 423.059701919555664, 210.0, 62.0, 23.0 ],
+									"patching_rect" : [ 423.059701919555664, 210.0, 62.0, 22.0 ],
 									"text" : "Detune"
 								}
 
@@ -1962,7 +1959,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 378.059701919555664, 235.0, 152.0, 58.0 ],
+									"patching_rect" : [ 378.059701919555664, 235.0, 152.0, 57.0 ],
 									"text" : "Detune factor (read speed) \n\n1. : original pitch value \n0.5 : octave inf;\r< 0 : the sound is read backward"
 								}
 
@@ -2020,7 +2017,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 51.5, 150.552813410758972, 61.0, 23.0 ],
+									"patching_rect" : [ 51.5, 150.552813410758972, 61.0, 22.0 ],
 									"text" : "Trigg"
 								}
 
@@ -2096,7 +2093,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 175.552813410758972, 132.0, 38.0 ],
+									"patching_rect" : [ 17.0, 175.552813410758972, 132.0, 37.0 ],
 									"text" : "Grains are trigged by bang, by trigger signal ( each zero-crossing ) or randomly"
 								}
 
@@ -2246,7 +2243,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 47.5, 273.0, 34.0 ],
+									"patching_rect" : [ 6.0, 47.5, 273.0, 33.0 ],
 									"text" : "sound multi buffer granulation with signal form parameters and buffer based envelope."
 								}
 
@@ -2259,7 +2256,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 14.0, 273.0, 34.0 ],
+									"patching_rect" : [ 6.0, 14.0, 273.0, 33.0 ],
 									"text" : "bufGranul~"
 								}
 
@@ -2744,6 +2741,21 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"border" : 0,
+									"filename" : "aidetitre.js",
+									"id" : "obj-9",
+									"ignoreclick" : 1,
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 751.0, 723.0, 259.0, 98.5 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -2752,7 +2764,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 371.0, 661.5, 78.0, 27.0 ],
+									"patching_rect" : [ 371.0, 661.5, 78.0, 26.0 ],
 									"text" : "SOUND"
 								}
 
@@ -2766,7 +2778,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 274.5, 784.5, 100.0, 38.0 ],
+									"patching_rect" : [ 274.5, 784.5, 100.0, 37.0 ],
 									"text" : "Empties output buffer (but does not stop de grain buffer)",
 									"textjustification" : 1
 								}
@@ -2791,7 +2803,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 297.0, 755.5, 49.0, 27.0 ],
+									"patching_rect" : [ 297.0, 755.5, 49.0, 26.0 ],
 									"text" : "panic",
 									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ]
 								}
@@ -2806,7 +2818,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 114.5, 691.0, 100.0, 38.0 ],
+									"patching_rect" : [ 114.5, 691.0, 100.0, 37.0 ],
 									"text" : "Gives info about current state in the Max Console  ",
 									"textjustification" : 1
 								}
@@ -3230,7 +3242,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 290.0, 210.0, 49.0, 23.0 ],
+									"patching_rect" : [ 290.0, 210.0, 49.0, 22.0 ],
 									"text" : "Begin"
 								}
 
@@ -3302,7 +3314,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1146.77611780166626, 210.0, 56.0, 23.0 ],
+									"patching_rect" : [ 1146.77611780166626, 210.0, 56.0, 22.0 ],
 									"text" : "Buffer"
 								}
 
@@ -3343,7 +3355,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 999.0, 210.0, 74.0, 23.0 ],
+									"patching_rect" : [ 999.0, 210.0, 74.0, 22.0 ],
 									"text" : "Distance"
 								}
 
@@ -3425,7 +3437,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 868.0, 210.0, 34.0, 23.0 ],
+									"patching_rect" : [ 868.0, 210.0, 34.0, 22.0 ],
 									"text" : "Pan"
 								}
 
@@ -3453,7 +3465,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 679.0, 235.0, 130.0, 38.0 ],
+									"patching_rect" : [ 679.0, 235.0, 130.0, 37.0 ],
 									"text" : "Length of grains.;\rWhen Length is < 0, envelope is read backward"
 								}
 
@@ -3467,7 +3479,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 713.0, 210.0, 62.0, 23.0 ],
+									"patching_rect" : [ 713.0, 210.0, 62.0, 22.0 ],
 									"text" : "Length"
 								}
 
@@ -3540,7 +3552,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 576.0, 210.0, 40.0, 23.0 ],
+									"patching_rect" : [ 576.0, 210.0, 40.0, 22.0 ],
 									"text" : "Amp"
 								}
 
@@ -3586,7 +3598,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 423.059701919555664, 210.0, 62.0, 23.0 ],
+									"patching_rect" : [ 423.059701919555664, 210.0, 62.0, 22.0 ],
 									"text" : "Detune"
 								}
 
@@ -3600,7 +3612,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 378.059701919555664, 235.0, 152.0, 58.0 ],
+									"patching_rect" : [ 378.059701919555664, 235.0, 152.0, 57.0 ],
 									"text" : "Detune factor (read speed) \n\n1. : original pitch value \n0.5 : octave inf;\r< 0 : the sound is read backward"
 								}
 
@@ -3658,7 +3670,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 51.5, 150.552813410758972, 61.0, 23.0 ],
+									"patching_rect" : [ 51.5, 150.552813410758972, 61.0, 22.0 ],
 									"text" : "Trigg"
 								}
 
@@ -3734,7 +3746,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 175.552813410758972, 132.0, 38.0 ],
+									"patching_rect" : [ 17.0, 175.552813410758972, 132.0, 37.0 ],
 									"text" : "Grains are trigged by bang, by trigger signal ( each zero-crossing ) or randomly"
 								}
 
@@ -3898,7 +3910,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 47.5, 273.0, 34.0 ],
+									"patching_rect" : [ 6.0, 47.5, 273.0, 33.0 ],
 									"text" : "sound multi buffer granulation with signal form parameters and buffer based envelope."
 								}
 
@@ -3911,7 +3923,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 14.0, 273.0, 34.0 ],
+									"patching_rect" : [ 6.0, 14.0, 273.0, 33.0 ],
 									"text" : "bufGranul~"
 								}
 
@@ -4219,8 +4231,15 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "bufGranul~.mxe64",
-				"type" : "mx64"
+				"name" : "aidetitre.js",
+				"bootpath" : "~/Documents/GitHub/GMU/jsui",
+				"patcherrelativepath" : "../jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bufGranul~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
