@@ -77,27 +77,41 @@
             </method>
             <method name="setenv">
                 <arglist>
-                    <arg name="buffer number" optional="0" type="int" />
-                    <arg name="buffer name" optional="0" type="symbol" />
+                    <arg name="envelope buffer number" optional="0" type="int" />
+                    <arg name="envelope buffer name" optional="0" type="symbol" />
                 </arglist>
                 <digest>
                     Store a specific envelope buffer into a specific slot.
                 </digest>
                 <description>
                     Store a specific envelope buffer into a specific slot.
-                </description>
-            </method><method name="env buffer">
-                <arglist>
-                    <arg name="buffer number" optional="0" type="long" />
-                </arglist>
-                <digest>
-                    Active envelope buffer.
-                </digest>
-                <description>
-                    Active envelope buffer.
                 </description>
             </method>
-           
+            <method name="envbuffer">
+                <arglist>
+                    <arg name="envelope buffer number" optional="0" type="long" />
+                </arglist>
+                <digest>
+                    Active envelope buffer.
+                </digest>
+                <description>
+                    Active envelope buffer.
+                </description>
+           </method>
+           <method name="loop">
+                <arglist>
+                    <arg name="mode" optional="0" type="int" />
+                    <arg name="begin_ms" optional="1" type="float" />
+                    <arg name="end_ms" optional="0" type="float" />
+                </arglist>
+                <digest>
+                    Loop mode message.
+                </digest>
+                <description>
+                    Loop mode message. Buffer position playback is wrapped between begin an end.
+                    <br/>Mode : 0 - loop disabled 1 - loop between begin and end. If no begin  end is given loop entire buffer.
+                </description>
+            </method>
         </methodlist>
 
 
