@@ -8,7 +8,8 @@
     </digest>
 ​
     <description>
-         Grains are triggered either by signal zero-crossing or messages. Each grains can be individually panned on 1-2-4-6 or 8 outputs.
+         Grains are triggered either by signal zero-crossing or messages. Each grains can be individually panned on 1-2-4-6 or 8 outputs. 
+         This handles grains continuity when changing the buffer. Inputs can be signal or floats, even buffer selection.
     </description>
 
     <!--METADATA-->
@@ -37,5 +38,30 @@
             </description>
         </inlet>
     </inletlist>
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="Sound buffer name" optional="0" type="symbol">
+            <digest>Name of the sound buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.</digest>
+        </objarg>
+    </objarglist>
+    <objarglist>
+        <objarg name="Enveloppe buffer name" optional="0" type="symbol">
+            <digest>Name of the enveloppe buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.</digest>
+        </objarg>
+    </objarglist>
+    <objarglist>
+        <objarg name="Channels" optional="1" type="int">
+            <digest>1-2-4-6 or 8 outputs if specified. Default is 2. </digest>
+        </objarg>
+    </objarglist>
+    <objarglist>
+        <objarg name="buffer channel offset" optional="1" type="long">
+            <digest> Polyphonic voice number. Default is 512. </digest>
+        </objarg>
+    </objarglist>
+
+    
+
 
 </c74object>
