@@ -1,24 +1,26 @@
 {
-    "author" : "GMEM",
-    "description" : "Granular synthesis tools with buffer based envelope and multichannel spatialisation.",
+    "name" : "GMU for Max",
+    "displayname" : "",
+    "author" : "GMEM - Marseille - Centre National de Création Musicale",
+    "authors" :["Charles Bascou", "Leopold Frey","Laurent Pottier"],
+    "description" : "Granular synthesis tools with buffer based envelope and multichannel spatialisation. Multibuffers are available for both sound buffers and envelope buffers.",
     "homepatcher" : "GMU_overview.maxpat",
     "max_version_min" : "8.3.1", "max_version_max" : "none",
-    "name" : "ease",
-    "os" : {
-        "macintosh" : {
-            "platform" : [ "ia32", "x64" ],
-            "min_version" : "none"
-        },
-        "windows" : {
-            "platform" : [ "ia32", "x64" ],
-            "min_version" : "none"
-        }
-    },
-    "package_extra" : {
-        "reverse_domain" : "com.cycling74",
-        "copyright" : "Copyright (c) 2016 Cycling '74"
-    },
-    "tags" : [ ],
-    "version" : "1.0.2",
-    "website" : "http://gmem.org"
+   
+    "os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.13.x",
+			"platform" : [ "x64", "aarch64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "10",
+			"platform" : [ "x64" ]
+		}
+
+	}
+,
+    "tags" : [ "granular synthesis","buffer based envelope","signal 0 X-sing","multichannel"],
+    "version" : "2.0.1",
+    "website" : "https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 }
