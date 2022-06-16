@@ -11,5 +11,31 @@
          Grains are triggered either by signal zero-crossing or messages. Each grains can be individually panned on 1-2-4-6 or 8 outputs.
     </description>
 
+    <!--METADATA-->
+    <metadatalist>
+        <metadata name="author">Charles Bascou and Laurent Pottier</metadata>
+        <metadata name="tag">Granular</metadata>
+        <metadata name="tag">Buffer</metadata>
+        <metadata name="tag">Multichannel</metadata>
+    </metadatalist>
+
+    <!--INLETS-->
+    <inletlist>
+        <inlet id="0" type="bang/signal Zero X-ing/set/">
+            <digest>Trigger</digest>
+        </inlet>
+        <inlet id="1" type="signal/float">
+            <digest>Begin</digest>
+            <description>
+                Time position in milliseconds where the grain waveform is picked in the sound buffer.
+            </description>
+        </inlet>
+           <inlet id="2" type="signal/float">
+            <digest>Detune</digest>
+            <description>
+               transposition factor (ie. read speed) of the grain waveform. For example, 1. corresponds to original speed, 0.5 to lower octave, 2. to upper octave. Note that if the speed is negative the buffer waveform is read backward.
+            </description>
+        </inlet>
+    </inletlist>
 
 </c74object>
