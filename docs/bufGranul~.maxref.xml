@@ -3,10 +3,13 @@
 
 <c74object name="BufGranul~">
 
-<digest>
-        Sound multi buffer granulation with signal form parameters and buffer based envelope.
+    <digest>
+        Sound multibuffer granulation with signal form parameters and buffer based envelope.
     </digest>
 ​
     <description>
-         Bufgranul~ is a granular synthesis tool specially made to deal with multichannel outputs, and multi buffer inputs.
+         Grains are triggered either by signal zero-crossing or messages. Each grains can be individually panned on 1-2-4-6 or 8 outputs.
     </description>
+
+
+</c74object>
