@@ -4,7 +4,7 @@
 <c74object name="bufGranul~">
 
     <digest>
-        Sound multibuffer granulation with signal form parameters and buffer based envelope.
+        Sound multibuffer granulation with signal from parameters and buffer based envelope.
     </digest>
 ​
     <description>

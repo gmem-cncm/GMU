@@ -40,13 +40,53 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
+					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 76.0, 243.0, 212.0, 22.0 ],
-					"text" : "bufGranul~ bufexemple envexemple 2"
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 76.0, 628.0, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 76.0, 291.0, 94.0, 22.0 ],
+					"text" : "help bufGranul~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 76.0, 231.0, 177.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 76.0, 231.0, 177.0, 26.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Open bufGranul~ help patcher",
+					"varname" : "live.text"
 				}
 
 			}
@@ -60,6 +100,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.0, 42.0, 458.0, 67.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 343.0, 42.0, 458.0, 67.0 ],
 					"text" : "The GMEM Microsound Universe is a granular synthesis environement and random controls made for advanced real time controls."
 				}
 
@@ -116,6 +159,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 46.0, 42.0, 281.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.0, 42.0, 281.0, 47.0 ],
 					"text" : "GMU Overview",
 					"varname" : "HelpTitle"
 				}
@@ -124,6 +169,20 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-38", 0 ]
@@ -131,11 +190,21 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "bufGranul~.mxo",
-				"type" : "iLaX"
+		"parameters" : 		{
+			"obj-1" : [ "live.text", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
- ],
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
