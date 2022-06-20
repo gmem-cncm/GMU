@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 959.0, 779.0 ],
+		"rect" : [ 264.0, 74.0, 1053.0, 1006.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1377,7 +1377,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "bufgran_sto.xml",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-29",
@@ -1676,6 +1675,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
+					"local" : 1,
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
@@ -2211,16 +2211,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bufgran_sto.xml",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/examples",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dialog_preset.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs/Envelope_Edit",
-				"patcherrelativepath" : "../abs/Envelope_Edit",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers/Envelope_Edit",
+				"patcherrelativepath" : "../patchers/Envelope_Edit",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2230,40 +2223,29 @@
 			}
 , 			{
 				"name" : "mslide_XY2MS.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mychange.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mysw.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rand_dist_list~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "setname.js",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/js",
-				"patcherrelativepath" : "../js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "storage_helper.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2276,22 +2258,22 @@
 			}
 , 			{
 				"name" : "tranche_ctrl5.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transp2sp~.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "trig_ctrl5.maxpat",
-				"bootpath" : "~/Documents/9-GMEM/GMU-main_Git/abs",
-				"patcherrelativepath" : "../abs",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
