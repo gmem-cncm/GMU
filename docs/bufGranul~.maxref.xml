@@ -58,7 +58,7 @@
         <objarg name="channels" optional="1" type="int">
             <digest>1-2-4-6 or 8 outputs if specified. Default is 2. </digest>
         </objarg>
-        <objarg name="channel-offset" optional="1" type="long">
+        <objarg name="channel-offset" optional="1" type="int">
             <digest> Polyphony voices number. Default is 512. </digest>
         </objarg>
     </objarglist>
@@ -109,7 +109,7 @@
             </method>
             <method name="envbuffer">
                 <arglist>
-                    <arg name="envelope buffer number" optional="0" type="long" />
+                    <arg name="envelope buffer number" optional="0" type="int" />
                 </arglist>
                 <digest>
                     Active envelope buffer.
