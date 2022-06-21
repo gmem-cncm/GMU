@@ -52,7 +52,7 @@
         <objarg name="envbuffer-name" optional="0" type="symbol">
             <digest>Name of the envelope buffer</digest>
              <description>
-                    Name of the envelope buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.
+                    Name of the envelope buffer stored by default in 0 position of the buffer list. Even if replaced later, the buffer 0 has to be set and valid.
             </description>
         </objarg>
         <objarg name="channels" optional="1" type="int">
@@ -251,7 +251,7 @@
 
         <!--SEEALSO-->
 	<seealsolist>
-		<seealso name="sinGranul~"/>
+		<seealso name="synGranul~"/>
 		<seealso name="liveGranul~"/>
 		<seealso name="buffer~"/>
 	</seealsolist>
