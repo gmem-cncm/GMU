@@ -8,10 +8,9 @@
     </digest>
 ​
     <description>
-         Grains are triggered either by signal zero-crossing or messages. Each grains can be individually panned on 1-2-4-6 or 8 outputs. 
-         This handles grains continuity when changing the buffer. Inputs can be signal or floats, even buffer selection.
+         Grains are triggered either by signal zero-crossing or messages. Inputs can be signals or floats. bufGranul~ handles multichannel outputs.
     </description>
-
+~
     <!--METADATA-->
     <metadatalist>
         <metadata name="author">Charles Bascou and Laurent Pottier</metadata>

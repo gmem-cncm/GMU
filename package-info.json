@@ -3,7 +3,7 @@
     "displayname" : "",
     "author" : "GMEM - Marseille - Centre National de Création Musicale",
     "authors" :["Charles Bascou", "Leopold Frey","Laurent Pottier"],
-    "description" : "Granular synthesis tools with buffer based envelope and multichannel spatialisation. Multibuffers are available for both sound buffers and envelope buffers.",
+    "description" : "GMU is a flexible granular synthesis environnement for Max. It includes a set of synthesis and control DSP objects, advanced control subpatches and UI interfaces patches examples.",
     "homepatcher" : "GMU_overview.maxpat",
     "max_version_min" : "8.3.1", "max_version_max" : "none",
    
