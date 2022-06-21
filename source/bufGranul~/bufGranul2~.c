@@ -52,7 +52,7 @@ void ext_main(void* r)
    
 	class_addmethod(c, (method)bufGranul_assist, "assist", A_CANT, 0);		// assistance in out 
     class_addmethod(c, (method)bufGranul_dsp64, "dsp64", A_CANT, 0);			// signal processing
-    class_addmethod(c, (method)bufGranul_sinterp, "sinterp", A_LONG, 0);	// interpollation dans la lecture du buffer pour éviter les clics
+    class_addmethod(c, (method)bufGranul_sinterp, "sinterp", A_LONG, 0);	// interpollation dans la lecture du buffer pour ï¿½viter les clics
     class_addmethod(c, (method)bufGranul_clear, "clear",0);				// panique ! effacement des grains en cours
     class_addmethod(c, (method)bufGranul_clear, "panic",0);				// panique ! effacement des grains en cours
     
@@ -318,7 +318,7 @@ t_symbol * atom2symbol(t_atom * av, int ind)
 
 }
 
-// Fonction de verification de la validitŽ du buffer demandŽ
+// Fonction de verification de la validitï¿½ du buffer demandï¿½
 int buffer_check(t_bufGranul *x, int num)
 {
 	int index;
@@ -329,7 +329,7 @@ int buffer_check(t_bufGranul *x, int num)
 	return index;
 }
 
-// Fonction de verification de la validitŽ du buffer demandŽ
+// Fonction de verification de la validitï¿½ du buffer demandï¿½
 int bufferenv_check(t_bufGranul *x, int num)
 {
 	return ( x->x_env_buf[num] == 0 ) ? 0 : num ;
@@ -682,6 +682,8 @@ void bufGranul_tellme(t_bufGranul *x)
 
 	post("outputs : %ld",x->x_nouts);
     post("voices : %ld",x->x_nvoices);
+	post("loop mode : %ld",x->x_loop);
+	post("loop mode : %ld",x->x_poly_mode);
 	post("________________________________");
 
 	post("::sound buffers::");
@@ -1120,13 +1122,13 @@ int bufGranul_bufferinfos(t_bufGranul *x)
 	// Test si enabled
     if (x->x_obj.z_disabled) return -1;
     
-    // init des index ˆ 0
+    // init des index ï¿½ 0
     memset(x->x_buf_valid_index,0,NSBUF*sizeof(int));
 
-	// Test sur la validité et l'activite des buffers & initialisations
+	// Test sur la validitï¿½ et l'activite des buffers & initialisations
     for(cpt = 0; cpt < x->x_nbuffer ; cpt++)
 	{
-		if( x->x_buf_sym[cpt] ) // si un nom de buffer a ŽtŽ donnŽ -> collecter les infos
+		if( x->x_buf_sym[cpt] ) // si un nom de buffer a ï¿½tï¿½ donnï¿½ -> collecter les infos
 		{
 		
 			if ((b = (t_buffer *)(x->x_buf_sym[cpt]->s_thing)) && ob_sym(b) == ps_buffer && b->b_valid && !b->b_inuse) // attention inuse !!!
@@ -1159,7 +1161,7 @@ int bufGranul_bufferinfos(t_bufGranul *x)
 			}
 			else {
 				//post("invalid %d",cpt);
-				// le buffer 0 est celui utilisŽ si celui choisi est pas valide ... si il n'y est pas -> pas dsp !!!
+				// le buffer 0 est celui utilisï¿½ si celui choisi est pas valide ... si il n'y est pas -> pas dsp !!!
 				if(cpt == 0) {return 0;}
 				x->x_buf[cpt] = 0;
 
@@ -1169,7 +1171,7 @@ int bufGranul_bufferinfos(t_bufGranul *x)
 
 	for(cpt = 0; cpt < x->x_nenvbuffer ; cpt++)
 	{
-		if( x->x_env_sym[cpt] ) // si un nom de buffer a ŽtŽ donnŽ -> collecter les infos
+		if( x->x_env_sym[cpt] ) // si un nom de buffer a ï¿½tï¿½ donnï¿½ -> collecter les infos
 		{
 		
 			if ((b = (t_buffer *)(x->x_env_sym[cpt]->s_thing)) && ob_sym(b) == ps_buffer && b->b_valid && !b->b_inuse) // attention inuse !!!
@@ -1182,7 +1184,7 @@ int bufGranul_bufferinfos(t_bufGranul *x)
 			}
 			else {
 				//post("invalid %d",cpt);
-				// le buffer 0 est celui utilisŽ si celui choisi est pas valide ... si il n'y est pas -> pas dsp !!!
+				// le buffer 0 est celui utilisï¿½ si celui choisi est pas valide ... si il n'y est pas -> pas dsp !!!
 				if(cpt == 0) {return 0;}
 				x->x_env_buf[cpt] = 0;
 
@@ -1248,7 +1250,7 @@ void bufGranul_setenv(t_bufGranul *x, t_symbol *msg, short ac, t_atom * av)
 }
 
 
-// affectation du numŽro de buffer enveloppe actif
+// affectation du numï¿½ro de buffer enveloppe actif
 void bufGranul_envbuffer(t_bufGranul *x, long n)
 {
 	x->x_active_env = (n < 0)? 0 : ((n >= NEBUF)? NEBUF-1 : n );
