@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 81.0, 87.0, 956.0, 779.0 ],
+		"rect" : [ -47.0, -944.0, 956.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.65,
+					"bubbleside" : 0,
+					"fontface" : 1,
+					"id" : "obj-6",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 429.178971303360868, 484.5, 419.752623387745416, 79.0 ],
+					"presentation_linecount" : 10,
+					"text" : "The interpolation algorythm affects the render of the sound especially when the detune value is not an integer. \nWhen linear (1), it  reduces a bit the polyphony capacities of the object. \nIn sinc16 (2) mode only a few polyphony voices are tolerated."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "spectroscope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.555282997233462, 636.792735815048218, 206.0, 60.0 ]
+					"patching_rect" : [ 550.178971303360868, 380.576938629150391, 299.0, 99.0 ]
 				}
 
 			}
@@ -56,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 429.178971303360868, 434.576938629150391, 63.0, 22.0 ],
+					"patching_rect" : [ 429.178971303360868, 457.85048645734787, 63.0, 22.0 ],
 					"text" : "sinterp $1"
 				}
 
@@ -68,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 429.178971303360868, 355.0, 360.0, 20.0 ],
+					"patching_rect" : [ 429.178971303360868, 336.0, 359.0, 20.0 ],
 					"text" : "Sinc antialiased interpolation when resampling ( eg detuning)",
 					"underline" : 1
 				}
@@ -83,7 +100,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 429.178971303360868, 399.576938629150391, 100.0, 22.0 ]
+					"patching_rect" : [ 429.178971303360868, 380.576938629150391, 100.0, 22.0 ]
 				}
 
 			}
@@ -110,7 +127,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.94996377825737, 90.923061370849609, 181.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Polyphony parameters",
 					"underline" : 1
 				}
@@ -118,14 +134,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"fontface" : 1,
 					"id" : "obj-73",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.502623387745416, 118.5, 341.0, 33.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 427.502623387745416, 118.5, 341.0, 52.0 ],
 					"text" : "loop <mode> <begin ms> <end ms>\rbuffer position playback is wrapped between begin & end"
 				}
 
@@ -139,7 +156,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 449.178971303360868, 178.5, 180.0, 60.0 ],
-					"presentation_linecount" : 3,
 					"text" : "0 : loop disabled\n1 : loop between begin & end;\rif no begin & end is given loop entire buffer"
 				}
 
@@ -346,7 +362,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.5, 294.5, 225.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Polyphonic restriction :\nlimits the number of voices (max 512)"
 				}
 
@@ -1160,6 +1175,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 1 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1211,6 +1233,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -1276,8 +1319,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 25.5, 763.0, 820.0, 763.0, 820.0, 614.0, 599.055282997233462, 614.0 ],
 					"order" : 2,
 					"source" : [ "obj-82", 0 ]
 				}
@@ -1312,6 +1361,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
