@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
+
+<c74object name="liveGranul~"
+    <digest>
+        Live granulation with signal form parameter and buffer based envelope
+    </digest>
+
+    <description>
+        Multi-buffer with external envelopes and sounds 
+        Grains are continuous when buffer change happens
+        Float and/or audio control
+    </description>
+
+    <!--METADATA-->
+    <metadatalist>
+        <metadata name="author">Laurent Pottier, Loic Kessous, Charles Bascou and Leopold Frey</metadata>
+        <metadata name="tag">Granular</metadata>
+        <metadata name="tag">Multibuffer</metadata>
+        <metadata name="tag">Live</metadata>
+    </metadatalist>
+
+    <!--INLETS
+    <inletlist>
+        <inlet id="0" type="signal">
+            <digest>Input Signal</digest>
+        </inlet>
+        <inlet id="1" type="signal 0 X-ing/bang/set"
+            <digest>Trigger</digest>
+        </inlet>
+    </inletlist>
+    -->
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="envbuffer-name" optional="0" type="symbol">
+            <digest> name of the envelope buffer </digest>
+        </objarg>
+        <objarg name="channels" optional="1" type="int">
+            <digest> number of channel outputs (1-16) </digest>
+        </objarg>
+        <objarg name="buffer-size" optional="1" type="float">
+            <digest> buffer size in milliseconds (default is 10000) </digest>
+        </objarg>
+    </objarglist>
+    
+    <!--MESSAGES-->
+    <methodlist>
+        <method name="assist">
+            <arglist>
+                <arg name="mode" optional="0" type="int">
+            </arglist>
+            <digest>
+                    Assistance in out.
+            </digest>
+            <description>
+                    Assistance in out.
+            </description>
+        </method>
+        <method name="bang">
+                <digest>
+                    Bang routine, Triggers a grain.
+                </digest>
+                <description>
+                   Bang routine, Triggers a grain.
+                </description>
+        </method>
+        <method name="clear">
+                <digest>
+                    Bang routine, Triggers a grain.
+                </digest>
+                <description>
+                   Bang routine, Triggers a grain.
+                </description>
+        </method>
+        <method name="dsp64">
+            <arglist>
+                <arg name="mode" optional="0" type="int">
+                <arg name="mode" optional="0" type="int">
+
+            </arglist>
+            <digest>
+                    Assistance in out.
+            </digest>
+            <description>
+                    Assistance in out.
+            </description>
+        </method>
+
+</c74object>
+
+
+
+
