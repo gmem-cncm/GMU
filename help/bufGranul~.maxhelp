@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1213.0, 650.0 ],
+		"rect" : [ 189.0, -929.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 98.0, -820.0, 638.0, 478.0 ],
+						"rect" : [ 189.0, -903.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -98,7 +98,6 @@
 						"subpatcher_template" : "",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -2257,7 +2256,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4700,7 +4699,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5235,7 +5234,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 34.0, 512.0, 48.0 ],
+									"patching_rect" : [ 2.0, 34.0, 513.0, 48.0 ],
 									"text" : "You can choose how many channels output you want from bufGranul and control it easily with \nthe multislider. bufGranul~ allows you to add some randomness to the pan parameter. You can also change de distance parameter. Distance must be different from 0 to allow Pan changing"
 								}
 
@@ -5466,7 +5465,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 27.027940511703491, 197.0, 117.0, 50.0 ],
 									"size" : 3,
-									"value" : 1
+									"value" : 2
 								}
 
 							}
@@ -6392,7 +6391,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6428,7 +6427,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 34.0, 512.0, 48.0 ],
+									"patching_rect" : [ 1.0, 34.0, 514.0, 48.0 ],
 									"text" : "Two channels output can be controlled via the multislider. bufGranul~ allows you to add some randomness to the pan parameter. You can also change de distance parameter. Distance must be different from 0 to allow Pan changing"
 								}
 
@@ -8137,7 +8136,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10254,7 +10253,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11643,7 +11642,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -13042,7 +13041,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15728,7 +15727,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 103.0, 1213.0, 624.0 ],
+						"rect" : [ 0.0, 26.0, 1852.0, 903.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
