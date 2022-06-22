@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
 
-<c74object name="liveGranul~"
+<c74object name="liveGranul~">
     <digest>
         Live granulation with signal form parameter and buffer based envelope
     </digest>
@@ -48,7 +48,7 @@
     <methodlist>
         <method name="assist">
             <arglist>
-                <arg name="mode" optional="0" type="int">
+                <arg name="mode" optional="0" type="int"/>
             </arglist>
             <digest>
                     Assistance in out.
@@ -73,19 +73,118 @@
                    Bang routine, Triggers a grain.
                 </description>
         </method>
-        <method name="dsp64">
+        <method name="envbuffer">
             <arglist>
-                <arg name="mode" optional="0" type="int">
-                <arg name="mode" optional="0" type="int">
-
+                <arg name="envelope buffer number" optional="0" type="int"/>
             </arglist>
             <digest>
-                    Assistance in out.
+                    Active envelope buffer.
             </digest>
             <description>
-                    Assistance in out.
+                    Active envelope buffer.
             </description>
         </method>
+        <method name="float">
+            <digest>
+                    Non-signal paramaters recover routine.
+            </digest>
+            <description>
+                    Non-signal paramaters recover routine.
+            </description>
+        </method>
+        <method name="freeze">
+            <digest>
+                    Stops recording.
+            </digest>
+            <description>
+                    Stops recording.
+            </description>
+        </method>
+        <method name="grain">
+            <arglist>
+                    <arg name="delay(ms)" optional="0" type="float" />
+                    <arg name="begin(ms)" optional="0" type="float" />
+                    <arg name="detune(ms)" optional="0" type="float" />
+                    <arg name="amp(ms)" optional="0" type="float" />
+                    <arg name="length(ms)" optional="0" type="float" />
+                    <arg name="pan[0;1]" optional="0" type="float" />
+                    <arg name="dist[0;1]" optional="0" type="float" />
+                    <arg name="buffer" optional="0" type="int" />
+                    <arg name="envbuffer" optional="0" type="int" />
+            </arglist>
+            <digest>
+                   Triggers a grain by a list of floats parameters.
+            </digest>
+            <description>
+                    Triggers a grain by a list of floats parameters. Easy way to trigger grains at the exact same time. Less CPU consuming but also less accurate
+                </description>
+        </method>
+        <method name="init">
+            <digest>
+                    Initialization of buffers.
+            </digest>
+            <description>
+                    Initialization of buffers.
+            </description>
+        </method>
+        <method name="nvoices">
+            <arglist>
+                <arg name="mode" optional="0" type"int"/>
+            </arglist>
+            <digest>
+                    Number of voices
+            </digest>
+            <description>
+                    Sets number of voices (polyphony)
+            </description>
+        </method>
+        <method name="panic">
+            <digest>
+                    Panic! Delete all playing grains
+            </digest>
+            <description>
+                    Panic! Delete all playing grains
+            </description>
+        </method>
+        <method name="setenv">
+                <arglist>
+                    <arg name="envelope buffer number" optional="0" type="int" />
+                    <arg name="envelope buffer name" optional="0" type="symbol" />
+                </arglist>
+                <digest>
+                    Store a specific envelope buffer into a specific slot.
+                </digest>
+                <description>
+                    Store a specific envelope buffer into a specific slot.
+                </description>
+            </method>
+        <method name="sinterp">
+                <arglist>
+                    <arg name="mode" optional="1" type="int" />
+                </arglist>
+                <digest>
+                    Interpolation
+                </digest>
+                <description>
+                    Linear interpolation for sound and envelope buffer.
+                </description>
+            </method>
+        <method name="tell me">
+                <digest>
+                    Info about object.
+                </digest>
+                <description>
+                    Print infos about the object into the console.
+                </description>
+            </method>
+            
+    </methodlist>
+
+    <!--SEEALSO-->
+    <seealsolist>
+        <seealso name "bufGranul~"/>
+        <seealso name "synGranul~"/>
+    </seealsolist>
 
 </c74object>
 
