@@ -129,11 +129,11 @@
         </method>
         <method name="nvoices">
             <arglist>
-                <arg name="mode" optional="0" type"int"/>
+                    <arg name="mode" optional="0" type="int" />
             </arglist>
             <digest>
                     Number of voices
-            </digest>
+            </digest>   
             <description>
                     Sets number of voices (polyphony)
             </description>
@@ -182,8 +182,8 @@
 
     <!--SEEALSO-->
     <seealsolist>
-        <seealso name "bufGranul~"/>
-        <seealso name "synGranul~"/>
+        <seealso name="bufGranul~" />
+        <seealso name="synGranul~" />
     </seealsolist>
 
 </c74object>
