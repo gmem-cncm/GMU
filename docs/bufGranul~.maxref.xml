@@ -42,13 +42,13 @@
 
     <!--ARGUMENTS-->
     <objarglist>
-        <objarg name="soundbuffer-name" optional="0" type="symbol">
+        <objarg name="soundbuffer" optional="0" type="symbol">
             <digest>Name of the sound buffer</digest>
              <description>
                     Name of the sound buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.
             </description>
         </objarg>
-        <objarg name="envbuffer-name" optional="0" type="symbol">
+        <objarg name="envbuffer" optional="0" type="symbol">
             <digest>Name of the envelope buffer</digest>
              <description>
                     Name of the envelope buffer stored by default in 0 position of the buffer list. Even if replaced later, the buffer 0 has to be set and valid.
@@ -57,7 +57,7 @@
         <objarg name="channels" optional="1" type="int">
             <digest>1-2-4-6 or 8 outputs if specified. Default is 2. </digest>
         </objarg>
-        <objarg name="channel-offset" optional="1" type="int">
+        <objarg name="voicenumber" optional="1" type="int">
             <digest> Polyphony voices number. Default is 512. </digest>
         </objarg>
     </objarglist>
@@ -78,7 +78,7 @@
                     <arg name="mode" optional="0" type="int" />
                 </arglist>
                 <digest>
-                    Sets the maximum polyphony voices number
+                    Sets the maximum polyphony voices number.
                 </digest>
                 <description>
                     Sets the maximum polyphony voices number. The default value is 512 grains playing at the same time. Similar to "nvoices".
@@ -105,13 +105,13 @@
             </method>
             <method name="grain">
                 <arglist>
-                    <arg name="delay(ms)" optional="0" type="float" />
-                    <arg name="begin(ms)" optional="0" type="float" />
-                    <arg name="detune(ms)" optional="0" type="float" />
-                    <arg name="amp(ms)" optional="0" type="float" />
-                    <arg name="length(ms)" optional="0" type="float" />
-                    <arg name="pan[0;1]" optional="0" type="float" />
-                    <arg name="dist[0;1]" optional="0" type="float" />
+                    <arg name="delay (ms)" optional="0" type="float" />
+                    <arg name="begin (ms)" optional="0" type="float" />
+                    <arg name="detune (ms)" optional="0" type="float" />
+                    <arg name="amp (ms)" optional="0" type="float" />
+                    <arg name="length (ms)" optional="0" type="float" />
+                    <arg name="pan [0;1]" optional="0" type="float" />
+                    <arg name="dist [0;1]" optional="0" type="float" />
                     <arg name="buffer" optional="0" type="int" />
                     <arg name="envbuffer" optional="0" type="int" />
 
@@ -121,6 +121,16 @@
                 </digest>
                 <description>
                     Triggers a grain by a list of floats parameters. Easy way to trigger grains at the exact same time.
+                    <br/>
+                    <br/>Delay : time between the reception of the message and the grain trigger.
+                    <br/>Begin : time of the grain in the sample.
+                    <br/>Detune : speed ratio of the sample reading.
+                    <br/>Amp : amplitude of the signal.
+                    <br/>Length : length of the grain
+                    <br/>Pan : Multichannel sends ratio.
+                    <br/>Distance : Multichannel blend to simulate proximity.
+                    <br/>Buffer : sound buffer name.
+                    <br/>Envbuffer : envelope buffer name.
                 </description>
             </method>
             <method name="kill">
@@ -128,10 +138,10 @@
                     <arg name="grain" optional="0" type="int" />
                 </arglist>
                 <digest>
-                    kill the specified grain by fadeout.
+                    Kill a grain depending on the polymode.
                 </digest>
                 <description>
-                   kill the specified grain by fadeout.
+                   Kill a grain depending on the polymode.
                 </description>
             </method>
             <method name="killall">
@@ -153,7 +163,7 @@
                 </digest>
                 <description>
                     Loop mode message. Buffer position playback is wrapped between begin an end.
-                    <br/>loop 0 : loop disabled 
+                    <br/>loop 0 : loop disabled .
                     <br/> loop 1 : loop between begin and end. If no begin  end is given loop entire buffer.
                 </description>
             </method>
@@ -170,10 +180,10 @@
             </method>
             <method name="panic">
                 <digest>
-                    Panic! Deletes all playing grains
+                    Panic! Deletes all playing grains and stop the sound.
                 </digest>
                 <description>
-                    Panic! Deletes all playing grains
+                    Panic! Deletes all playing grains and stop the sound.
                 </description>
             </method>
             <method name="polymode">
@@ -181,11 +191,11 @@
                     <arg name="mode" optional="0" type="int" />
                 </arglist>
                 <digest>
-                    Sets the desired polyphonic interpolation mode.
+                    ets the constraint for killing a grain. Default is 0.
                 </digest>
                 <description>
-                   Sets the desired polyphonic interpolation mode. 
-                   <br/>
+                   Sets the constraint for killing a grain.
+                   <br/> 
                    <br/>polymode 0 : doesn't trigger if all voices ar allocated (default)
                    <br/>polymode 1 : kill the oldest grain
                    <br/>polymode 2 : kill the longest grain
@@ -224,7 +234,8 @@
                     Interpolation algorythm mode.
                 </digest>
                 <description>
-                    Sinc antialisased interpolation when resampling (eg. detuning)
+                    Sinc antialisased interpolation when resampling (eg. detuning).
+                    <br/>
                     <br/> sinterp 0 : none
                     <br/> sinterp 1 : linear
                     <br/> sinterp 2 : sinc16
