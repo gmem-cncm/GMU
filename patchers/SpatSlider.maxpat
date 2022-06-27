@@ -184,7 +184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.5, 820.0, 150.0, 33.0 ],
+					"patching_rect" : [ 302.5, 820.0, 150.0, 34.0 ],
 					"text" : "Display the source parameters"
 				}
 
@@ -262,7 +262,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 258.0, 203.111969111969159, 11.729324042797089, 116.000000000000028 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.90226799249649, 13.63830172877519, 11.729324042797089, 116.000000000000028 ]
+					"presentation_rect" : [ 178.90226799249649, 11.63830172877519, 11.729324042797089, 116.000000000000028 ]
 				}
 
 			}
@@ -503,7 +503,7 @@
 					"maxclass" : "nodes",
 					"nodecolor" : [ 0.741176470588235, 0.266666666666667, 0.266666666666667, 0.51 ],
 					"nodesnames" : [ "+" ],
-					"nsize" : [ 0.2 ],
+					"nsize" : [ 0.15 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
