@@ -7,9 +7,9 @@
     </digest>
 
     <description>
-        Multi-buffer with external envelopes and sounds 
-        Grains are continuous when buffer change happens
-        Float and/or audio control
+        Multi-buffer with external envelopes and sounds.
+        <br/>Grains are continuous when buffer change happens.
+        <br/>Float and/or audio control.
     </description>
 
     <!--METADATA-->
@@ -34,13 +34,13 @@
     <!--ARGUMENTS-->
     <objarglist>
         <objarg name="envbuffer-name" optional="0" type="symbol">
-            <digest> name of the envelope buffer </digest>
+            <digest> Name of the envelope buffer </digest>
         </objarg>
         <objarg name="channels" optional="1" type="int">
-            <digest> number of channel outputs (1-16) </digest>
+            <digest> Number of channel outputs (1 to 16) </digest>
         </objarg>
         <objarg name="buffer-size" optional="1" type="float">
-            <digest> buffer size in milliseconds (default is 10000) </digest>
+            <digest> Buffer size in milliseconds (default is 10000) </digest>
         </objarg>
     </objarglist>
     
@@ -116,7 +116,7 @@
                    Triggers a grain by a list of floats parameters.
             </digest>
             <description>
-                    Triggers a grain by a list of floats parameters. Easy way to trigger grains at the exact same time. Less CPU consuming but also less accurate
+                    Triggers a grain by a list of floats parameters. <n/>Easiest way to trigger grains at the exact same time. Less CPU consuming but also less accurate.
                 </description>
         </method>
         <method name="init">
@@ -132,18 +132,18 @@
                     <arg name="mode" optional="0" type="int" />
             </arglist>
             <digest>
-                    Number of voices
+                    Number of voices.
             </digest>   
             <description>
-                    Sets number of voices (polyphony)
+                    Sets number of voices (polyphony).
             </description>
         </method>
         <method name="panic">
             <digest>
-                    Panic! Delete all playing grains
+                    Panic! Delete all playing grains.
             </digest>
             <description>
-                    Panic! Delete all playing grains
+                    Panic! Delete all playing grains.
             </description>
         </method>
         <method name="setenv">
@@ -169,12 +169,12 @@
                     Linear interpolation for sound and envelope buffer.
                 </description>
             </method>
-        <method name="tell me">
+        <method name="tellme">
                 <digest>
                     Info about object.
                 </digest>
                 <description>
-                    Print infos about the object into the console.
+                    Print infos about the object in the max console.
                 </description>
             </method>
             
