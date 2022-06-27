@@ -180,10 +180,10 @@
             </method>
             <method name="panic">
                 <digest>
-                    Panic! Deletes all playing grains and stop the sound.
+                    Panic! Stop the sound of all the playing grains.
                 </digest>
                 <description>
-                    Panic! Deletes all playing grains and stop the sound.
+                    Panic! Stop the sound of all the playing grains.
                 </description>
             </method>
             <method name="polymode">
