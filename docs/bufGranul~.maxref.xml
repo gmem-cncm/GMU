@@ -64,8 +64,8 @@
 
     <!--MESSAGES-->
         <methodlist>
-         </method>
-             <method name="bang">
+         
+           <method name="bang">
                 <digest>
                     Bang routine, Triggers a grain.
                 </digest>
@@ -157,7 +157,7 @@
                     <br/> loop 1 : loop between begin and end. If no begin  end is given loop entire buffer.
                 </description>
             </method>
-             <method name="nvoices">
+            <method name="nvoices">
                 <arglist>
                     <arg name="mode" optional="0" type="int" />
                 </arglist>
@@ -168,7 +168,7 @@
                    Similar to bchan_offset. Sets the maximum polyphony voices number. The default value is 512 grains playing at the same time.
                 </description>
             </method>
-             <method name="panic">
+            <method name="panic">
                 <digest>
                     Panic! Deletes all playing grains
                 </digest>
@@ -176,7 +176,7 @@
                     Panic! Deletes all playing grains
                 </description>
             </method>
-             <method name="polymode">
+            <method name="polymode">
                 <arglist>
                     <arg name="mode" optional="0" type="int" />
                 </arglist>
@@ -238,6 +238,7 @@
                 <description>
                    Print infos about the object in the console.
                 </description>
+            </method>
            
             
 
