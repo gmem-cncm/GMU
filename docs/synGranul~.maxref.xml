@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
+
+<c74object name="synGranul~">
+    <digest>
+        Granular synth with sine wave and buffer based envelope
+    </digest>
+
+    <description>
+        Multi-buffer with external envelopes and sounds.
+        <br/>Grains are continuous when buffer change happens.
+        <br/>Float and/or audio control.
+    </description>
+
+    <!--METADATA-->
+    <metadatalist>
+        <metadata name="author">Laurent Pottier, Loic Kessous, Charles Bascou and Leopold Frey</metadata>
+        <metadata name="tag">Granular</metadata>
+        <metadata name="tag">Multibuffer</metadata>
+        <metadata name="tag">Sine</metadata>
+    </metadatalist>
+
+
+<!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="envbuffer-name" optional="0" type="symbol">
+            <digest> Name of the envelope buffer </digest>
+        </objarg>
+        <objarg name="channels" optional="1" type="int">
+            <digest> Number of channel outputs (1 to 16) </digest>
+        </objarg>
+    </objarglist>
+
+    
