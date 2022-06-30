@@ -184,7 +184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.5, 820.0, 150.0, 34.0 ],
+					"patching_rect" : [ 302.5, 820.0, 150.0, 33.0 ],
 					"text" : "Display the source parameters"
 				}
 
@@ -503,12 +503,12 @@
 					"maxclass" : "nodes",
 					"nodecolor" : [ 0.741176470588235, 0.266666666666667, 0.266666666666667, 0.51 ],
 					"nodesnames" : [ "+" ],
-					"nsize" : [ 0.15 ],
+					"nsize" : [ 0.2 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 201.111969111969159, 121.0, 116.888030888030841 ],
+					"patching_rect" : [ 264.25, 203.111969111969159, 121.0, 116.888030888030841 ],
 					"pointcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.90226799249649, 13.63830172877519, 121.0, 116.888030888030841 ],
@@ -548,7 +548,8 @@
 ,
 					"size" : 100.0,
 					"thickness" : 20.0,
-					"varname" : "dial"
+					"varname" : "dial",
+					"vtracking" : 0
 				}
 
 			}
