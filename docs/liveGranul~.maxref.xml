@@ -7,7 +7,7 @@
     </digest>
 
     <description>
-        Multi-buffer with external envelopes and sounds.
+        Multi-buffer with external envelopes.
         <br/>Grains are continuous when buffer change happens.
         <br/>Float and/or audio control.
     </description>
