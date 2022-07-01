@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 993.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1406.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -56,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 993.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1406.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2177,7 +2178,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 993.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1406.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4982,7 +4983,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 993.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1406.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5087,7 +5088,7 @@
 										"number[7]" : [ 0.0 ],
 										"number[8]" : [ 1.0 ],
 										"number[9]" : [ 0.0 ],
-										"pictslider" : [ -9, -8 ],
+										"pictslider" : [ 0, 0 ],
 										"radiogroup" : [ 2 ],
 										"textbutton" : [ -1 ],
 										"textbutton[1]" : [ -1 ],
@@ -5700,8 +5701,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 34.0, 514.0, 47.0 ],
-									"presentation_linecount" : 3,
+									"patching_rect" : [ 1.0, 34.0, 517.0, 47.0 ],
 									"text" : "Two channels output can be controlled via the multislider. bufGranul~ allows you to add some randomness to the pan parameter. You can also change the distance parameter. Distance must be different from 0 to allow Pan changing"
 								}
 
@@ -9664,7 +9664,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 993.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1406.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9726,7 +9726,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 993.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1406.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -13031,7 +13031,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 993.0, 753.0 ],
+						"rect" : [ 34.0, 113.0, 1406.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
