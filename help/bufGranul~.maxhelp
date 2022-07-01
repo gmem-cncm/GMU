@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1001.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 997.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 84.0, 131.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2667,7 +2667,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2820,7 +2820,7 @@
 										"live.gain~" : [ -21.693170099872304 ],
 										"number" : [ 195.918374125798493 ],
 										"number[1]" : [ 1.0 ],
-										"number[2]" : [ 155.736966839812965 ],
+										"number[2]" : [ 155.714291102066966 ],
 										"number[3]" : [ 0.8 ],
 										"number[4]" : [ 2.0 ],
 										"number[5]" : [ 0.25 ],
@@ -5380,7 +5380,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5594,7 +5594,7 @@
 									"patching_rect" : [ 1172.0, 391.934121310710907, 135.0, 22.0 ],
 									"restore" : 									{
 										"button" : [ 0.0 ],
-										"button[1]" : [ 0.0 ],
+										"button[1]" : [ 1.0 ],
 										"live.gain~" : [ 6.0 ],
 										"live.gain~[1]" : [ 0.0 ],
 										"number" : [ 1.0 ],
@@ -7845,7 +7845,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7964,7 +7964,7 @@
 									"patching_rect" : [ 1172.0, 391.934121310710907, 135.0, 22.0 ],
 									"restore" : 									{
 										"button" : [ 0.0 ],
-										"button[1]" : [ 0.0 ],
+										"button[1]" : [ 1.0 ],
 										"live.gain~" : [ -19.850142759939644 ],
 										"number" : [ 181.0 ],
 										"number[10]" : [ 0.0 ],
@@ -9904,7 +9904,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10192,7 +10192,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 70.908536999999995, 132.689178705215454, 78.0, 68.0 ],
 									"size" : 3,
-									"value" : 1,
+									"value" : 0,
 									"varname" : "radiogroup"
 								}
 
@@ -12411,7 +12411,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14123,7 +14123,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14300,7 +14300,7 @@
 									"restore" : 									{
 										"button" : [ 0.0 ],
 										"button[1]" : [ 0.0 ],
-										"button[2]" : [ 0.0 ],
+										"button[2]" : [ 1.0 ],
 										"live.gain~" : [ -28.7757132665825 ],
 										"number" : [ 0.0 ],
 										"number[1]" : [ 4.0 ],
@@ -15813,7 +15813,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -18499,7 +18499,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1001.0, 753.0 ],
+						"rect" : [ 34.0, 139.0, 997.0, 727.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
