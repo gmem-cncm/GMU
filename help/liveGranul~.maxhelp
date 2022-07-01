@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1031.0, 779.0 ],
+		"rect" : [ 34.0, 77.0, 1247.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -56,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -510,7 +511,7 @@
 									"restore" : 									{
 										"button" : [ 0.0 ],
 										"button[1]" : [ 0.0 ],
-										"button[2]" : [ 0.0 ],
+										"button[2]" : [ 1.0 ],
 										"live.gain~" : [ 0.0 ],
 										"number" : [ 0.0 ],
 										"number[1]" : [ 0.0 ],
@@ -701,7 +702,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 386.178971303360868, 397.5, 419.752623387745416, 79.0 ],
+									"patching_rect" : [ 386.178971303360868, 397.5, 419.752623387745416, 81.0 ],
 									"text" : "The interpolation algorythm affects the render of the sound especially when the detune value is not an integer. \nWhen linear (1), it  reduces a bit the polyphony capacities of the object. \nIn sinc16 (2) mode only a few polyphony voices are tolerated."
 								}
 
@@ -764,7 +765,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 384.502623387745416, 3.923061370849609, 181.0, 22.0 ],
+									"patching_rect" : [ 384.502623387745416, 3.923061370849609, 181.0, 23.0 ],
 									"text" : "Loop parameters",
 									"underline" : 1
 								}
@@ -778,7 +779,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.94996377825737, 5.923061370849609, 181.0, 22.0 ],
+									"patching_rect" : [ 3.94996377825737, 5.923061370849609, 181.0, 23.0 ],
 									"text" : "Polyphony parameters",
 									"underline" : 1
 								}
@@ -794,7 +795,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 384.502623387745416, 31.5, 341.0, 52.0 ],
+									"patching_rect" : [ 384.502623387745416, 31.5, 341.0, 53.0 ],
 									"text" : "loop <mode> <begin ms> <end ms>\rbuffer position playback is wrapped between begin & end"
 								}
 
@@ -807,7 +808,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.178971303360868, 91.5, 180.0, 60.0 ],
+									"patching_rect" : [ 406.178971303360868, 91.5, 180.0, 62.0 ],
 									"text" : "0 : loop disabled\n1 : loop between begin & end;\rif no begin & end is given loop entire buffer"
 								}
 
@@ -1017,7 +1018,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 43.5, 209.5, 225.0, 52.0 ],
+									"patching_rect" : [ 43.5, 209.5, 225.0, 53.0 ],
 									"text" : "Polyphonic restriction :\nlimits the number of voices (max 512)"
 								}
 
@@ -2059,7 +2060,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2261,7 +2262,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 8.078431248664856, 165.0, 24.0 ],
+									"patching_rect" : [ 8.0, 8.078431248664856, 165.0, 25.0 ],
 									"text" : "Multienvelope buffer",
 									"underline" : 1
 								}
@@ -2299,7 +2300,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 665.365853309631348, 166.248651266098022, 215.0, 37.0 ],
+									"patching_rect" : [ 665.365853309631348, 166.248651266098022, 215.0, 38.0 ],
 									"text" : "Store a buffer previously created : \nset <buffer number> <buffer name>"
 								}
 
@@ -3431,7 +3432,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 513.365853309631348, 41.629713118076324, 116.0, 22.0 ],
+									"patching_rect" : [ 513.365853309631348, 41.629713118076324, 116.0, 23.0 ],
 									"text" : "Envelope Buffer"
 								}
 
@@ -4180,7 +4181,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4371,7 +4372,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 613.0, 398.540239453315735, 153.0, 78.0 ],
+									"patching_rect" : [ 613.0, 398.540239453315735, 153.0, 79.0 ],
 									"text" : "Binaural convolution: must have HISSTools\nOtherwise route the left dac for regular six channels output"
 								}
 
@@ -5027,7 +5028,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 747.0, 162.246534287929535, 124.0, 37.0 ],
+									"patching_rect" : [ 747.0, 162.246534287929535, 124.0, 38.0 ],
 									"text" : "Move the slider to \nchange its size"
 								}
 
@@ -5119,7 +5120,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 162.246534287929535, 156.0, 37.0 ],
+									"patching_rect" : [ 380.0, 162.246534287929535, 156.0, 38.0 ],
 									"text" : "Move the dot to change \nde position of the source"
 								}
 
@@ -5819,7 +5820,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 34.0, 514.0, 47.0 ],
+									"patching_rect" : [ 1.0, 34.0, 514.0, 48.0 ],
 									"text" : "Two channels output can be controlled via the multislider. liveGranul~ allows you to add some randomness to the pan parameter. You can also change de distance parameter. Distance must be different from 0 to allow Pan changing"
 								}
 
@@ -6046,7 +6047,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 284.044342780599663, 107.0, 152.0, 37.0 ],
+									"patching_rect" : [ 284.044342780599663, 107.0, 152.0, 38.0 ],
 									"text" : "Add some randomness to the pan parameter"
 								}
 
@@ -6359,7 +6360,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 8.078431248664856, 266.0, 24.0 ],
+									"patching_rect" : [ 1.0, 8.078431248664856, 266.0, 25.0 ],
 									"text" : "Multichannel output spatialization",
 									"underline" : 1
 								}
@@ -6985,7 +6986,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7703,7 +7704,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 34.0, 517.0, 47.0 ],
+									"patching_rect" : [ 1.0, 34.0, 517.0, 48.0 ],
 									"text" : "Two channels output can be controlled via the multislider. liveGranul~ allows you to add some randomness to the pan parameter. You can also change the distance parameter. Distance must be different from 0 to allow Pan changing"
 								}
 
@@ -7930,7 +7931,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 329.044342780599663, 112.906553993144996, 152.0, 37.0 ],
+									"patching_rect" : [ 329.044342780599663, 112.906553993144996, 152.0, 38.0 ],
 									"text" : "Add some randomness to the pan parameter"
 								}
 
@@ -7944,7 +7945,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 635.5, 121.406553993144996, 150.0, 51.0 ],
+									"patching_rect" : [ 635.5, 121.406553993144996, 150.0, 52.0 ],
 									"text" : "Move the red circle to change de position of the source"
 								}
 
@@ -8989,7 +8990,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 8.078431248664856, 218.0, 24.0 ],
+									"patching_rect" : [ 1.0, 8.078431248664856, 218.0, 25.0 ],
 									"text" : "Stereo output spatialization",
 									"underline" : 1
 								}
@@ -9392,7 +9393,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9654,7 +9655,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 703.690530180513406, 255.5, 232.0, 52.0 ],
+									"patching_rect" : [ 703.690530180513406, 255.5, 232.0, 53.0 ],
 									"text" : "Double click on the jit Patch to change randomness parameters"
 								}
 
@@ -10082,7 +10083,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 620.454493811734892, 138.189178705215454, 96.0, 22.0 ],
+									"patching_rect" : [ 620.454493811734892, 138.189178705215454, 96.0, 23.0 ],
 									"text" : "Randomness"
 								}
 
@@ -10698,7 +10699,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 494.563586175441742, 50.406553685665131, 166.0, 35.0 ],
+									"patching_rect" : [ 494.563586175441742, 50.406553685665131, 166.0, 36.0 ],
 									"text" : "buffer~ help.env1 gmu.env.trapez05.aif"
 								}
 
@@ -11665,7 +11666,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11727,7 +11728,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12220,7 +12221,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 425.473321114267492, 546.660715034088071, 150.0, 60.0 ],
+									"patching_rect" : [ 425.473321114267492, 546.660715034088071, 150.0, 62.0 ],
 									"text" : "NOTE : Triggering by messages is less cpu consuming but also less accurate"
 								}
 
@@ -13335,7 +13336,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 814.93981603213706, 267.748616626342709, 150.0, 51.0 ],
+									"patching_rect" : [ 814.93981603213706, 267.748616626342709, 150.0, 52.0 ],
 									"text" : "Double click on the random-param Patch to modify randomness"
 								}
 
@@ -13361,7 +13362,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 16.078431248664856, 209.0, 24.0 ],
+									"patching_rect" : [ 14.0, 16.078431248664856, 209.0, 25.0 ],
 									"text" : "Trigger by Message",
 									"underline" : 1
 								}
@@ -15032,7 +15033,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1031.0, 753.0 ],
+						"rect" : [ 34.0, 103.0, 1247.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15750,7 +15751,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 494.563586175441742, 50.406553685665131, 166.0, 35.0 ],
+									"patching_rect" : [ 494.563586175441742, 50.406553685665131, 166.0, 36.0 ],
 									"text" : "buffer~ help.env1 gmu.env.trapez05.aif"
 								}
 
@@ -15764,7 +15765,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 494.563586175441742, 104.689178705215454, 171.0, 66.0 ],
+									"patching_rect" : [ 494.563586175441742, 104.689178705215454, 171.0, 67.0 ],
 									"text" : "NOTE : bufGranul~ works with an envelope buffer (sound file format)"
 								}
 
@@ -15846,7 +15847,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.483650973864883, 470.021175980567932, 182.0, 74.0 ],
+									"patching_rect" : [ 345.483650973864883, 470.021175980567932, 182.0, 75.0 ],
 									"text" : "Detune factor (read speed) \n\n1. : original pitch value \n0.5 : octave inf;\r< 0 : the sound is read backward"
 								}
 
@@ -15859,7 +15860,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.483650973864883, 560.374996066093445, 262.0, 33.0 ],
+									"patching_rect" : [ 345.483650973864883, 560.374996066093445, 262.0, 34.0 ],
 									"text" : "Amplitude of grains.\nWhen Amp < 0, polarity is reversed"
 								}
 
@@ -15872,7 +15873,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.483650973864883, 597.794107019901276, 262.0, 33.0 ],
+									"patching_rect" : [ 345.483650973864883, 597.794107019901276, 262.0, 34.0 ],
 									"text" : "Length of grains.;\rWhen Length is < 0, envelope is read backward"
 								}
 
@@ -15886,7 +15887,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 288.857142857142776, 603.419151246547699, 55.0, 22.0 ],
+									"patching_rect" : [ 288.857142857142776, 603.419151246547699, 55.0, 23.0 ],
 									"text" : "Length",
 									"underline" : 1
 								}
@@ -15901,7 +15902,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 288.857142857142776, 560.374996066093445, 40.0, 22.0 ],
+									"patching_rect" : [ 288.857142857142776, 560.374996066093445, 40.0, 23.0 ],
 									"text" : "Amp",
 									"underline" : 1
 								}
@@ -15916,7 +15917,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 288.857142857142776, 470.021175980567932, 56.0, 22.0 ],
+									"patching_rect" : [ 288.857142857142776, 470.021175980567932, 56.0, 23.0 ],
 									"text" : "Detune",
 									"underline" : 1
 								}
@@ -15931,7 +15932,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 288.857142857142776, 432.671777009963989, 47.0, 22.0 ],
+									"patching_rect" : [ 288.857142857142776, 432.671777009963989, 47.0, 23.0 ],
 									"text" : "Delay",
 									"underline" : 1
 								}
@@ -15946,7 +15947,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 288.857142857142776, 395.410898208618164, 43.0, 22.0 ],
+									"patching_rect" : [ 288.857142857142776, 395.410898208618164, 43.0, 23.0 ],
 									"text" : "Trigg",
 									"underline" : 1
 								}
@@ -16886,7 +16887,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SpatSlider.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"bootpath" : "~/Documents/GMEM Project/GMU/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -16898,12 +16899,12 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "liveGranul~.mxo",
-				"type" : "iLaX"
+				"name" : "liveGranul~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "multiconvolve~.mxo",
-				"type" : "iLaX"
+				"name" : "multiconvolve~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

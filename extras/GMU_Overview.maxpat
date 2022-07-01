@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -28.0, -952.0, 959.0, 779.0 ],
+		"rect" : [ 42.0, -952.0, 959.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 458.0, 458.0, 47.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 191.0, 458.0, 458.0, 48.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -60,8 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 402.0, 458.0, 47.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 191.0, 402.0, 458.0, 48.0 ],
 					"text" : "A real time granulation with signal form parameter and buffer based envelope."
 				}
 
@@ -73,8 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 335.0, 458.0, 47.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 191.0, 335.0, 458.0, 48.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -88,8 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 282.0, 458.0, 47.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 191.0, 282.0, 458.0, 48.0 ],
 					"text" : "A granular synthesis tool with sine wave and buffer based envelope"
 				}
 
@@ -101,8 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 225.0, 458.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 191.0, 225.0, 458.0, 34.0 ],
 					"text" : "Grains are triggered either by signal zero-crossing or messages. Inputs can be signals or floats. bufGranul~ handles multichannel outputs."
 				}
 
@@ -116,8 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 172.0, 458.0, 47.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 191.0, 172.0, 458.0, 48.0 ],
 					"text" : "A sound multibuffer granulation with signal from parameters and buffer based envelope."
 				}
 
@@ -146,7 +140,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 282.0, 108.0, 27.0 ],
-					"presentation_linecount" : 2,
 					"text" : "synGranul~"
 				}
 
@@ -201,7 +194,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 714.0, 432.0, 96.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "help liveGranul~"
 				}
 
@@ -271,9 +263,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.5, 723.0, 311.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : ";\rmax launchbrowser https://github.com/gmem-cncm/GMU"
+					"patching_rect" : [ 441.5, 723.0, 311.0, 36.0 ],
+					"text" : ";\r\nmax launchbrowser https://github.com/gmem-cncm/GMU"
 				}
 
 			}
@@ -350,7 +341,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 42.0, 458.0, 67.0 ],
+					"patching_rect" : [ 343.0, 42.0, 458.0, 69.0 ],
 					"text" : "The GMEM Microsound Universe is a granular synthesis environement and random controls made for advanced real time controls."
 				}
 
@@ -380,8 +371,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.5, 611.0, 465.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
+					"patching_rect" : [ 441.5, 611.0, 465.0, 36.0 ],
+					"text" : ";\r\nmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 				}
 
 			}
@@ -406,7 +397,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 42.0, 281.0, 47.0 ],
+					"patching_rect" : [ 46.0, 42.0, 281.0, 48.0 ],
 					"text" : "GMU Overview",
 					"varname" : "HelpTitle"
 				}
