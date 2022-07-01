@@ -67,10 +67,10 @@
         </method>
         <method name="clear">
                 <digest>
-                    Bang routine, Triggers a grain.
+                    Panic! Erase all grains.
                 </digest>
                 <description>
-                   Bang routine, Triggers a grain.
+                    Panic! Erase all grains.
                 </description>
         </method>
         <method name="envbuffer">
@@ -163,7 +163,7 @@
                     <arg name="mode" optional="1" type="int" />
                 </arglist>
                 <digest>
-                    Interpolation
+                    Interpolation.
                 </digest>
                 <description>
                     Linear interpolation for sound and envelope buffer.
