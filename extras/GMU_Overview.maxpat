@@ -40,12 +40,73 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 4,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.48 ],
+					"id" : "obj-29",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 32.0, 861.0, 72.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-26",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 39.0, 782.0, 209.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"text" : ";\rmax launchbrowser https://gmem.org/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"id" : "obj-17",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 46.0, 624.0, 118.0, 110.0 ],
+					"text" : "",
+					"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-9",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ -3.0, 624.0, 216.0, 110.0 ],
+					"pic" : "logo_2021_gmem.svg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 458.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 458.0, 458.0, 47.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -59,8 +120,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 402.0, 458.0, 48.0 ],
-					"text" : "A real time granulation with signal form parameter and buffer based envelope."
+					"patching_rect" : [ 191.0, 402.0, 458.0, 47.0 ],
+					"text" : "An audio input based granular synthesis tool with precise controls over grains parameters."
 				}
 
 			}
@@ -71,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 335.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 335.0, 458.0, 47.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -85,8 +146,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 282.0, 458.0, 48.0 ],
-					"text" : "A granular synthesis tool with sine wave and buffer based envelope"
+					"patching_rect" : [ 191.0, 282.0, 458.0, 47.0 ],
+					"text" : "A sine wave based granular synthesis tool with precise controls over grains parameters."
 				}
 
 			}
@@ -97,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 225.0, 458.0, 34.0 ],
+					"patching_rect" : [ 191.0, 225.0, 458.0, 33.0 ],
 					"text" : "Grains are triggered either by signal zero-crossing or messages. Inputs can be signals or floats. bufGranul~ handles multichannel outputs."
 				}
 
@@ -111,8 +172,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 172.0, 458.0, 48.0 ],
-					"text" : "A sound multibuffer granulation with signal from parameters and buffer based envelope."
+					"patching_rect" : [ 191.0, 172.0, 458.0, 47.0 ],
+					"text" : "A buffer~ based granular synthesis tool with precise controls over grains parameters."
 				}
 
 			}
@@ -247,7 +308,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 358.5, 695.0, 372.0, 18.5 ],
+					"patching_rect" : [ 343.0, 693.0, 372.0, 18.5 ],
 					"text" : "https://github.com/gmem-cncm/GMU",
 					"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -263,8 +324,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.5, 723.0, 311.0, 36.0 ],
-					"text" : ";\r\nmax launchbrowser https://github.com/gmem-cncm/GMU"
+					"patching_rect" : [ 426.0, 721.0, 311.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/gmem-cncm/GMU"
 				}
 
 			}
@@ -274,7 +335,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.5, 693.5, 295.0, 20.0 ],
+					"patching_rect" : [ 343.0, 691.5, 295.0, 20.0 ],
 					"text" : "GitHub link  :"
 				}
 
@@ -337,12 +398,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-56",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 42.0, 458.0, 69.0 ],
-					"text" : "The GMEM Microsound Universe is a granular synthesis environement and random controls made for advanced real time controls."
+					"patching_rect" : [ 343.0, 46.0, 458.0, 47.0 ],
+					"text" : "GMU for Max is a set of DSP objects and patches for advanced real time granular synthesis."
 				}
 
 			}
@@ -355,7 +416,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 358.5, 669.0, 372.0, 18.5 ],
+					"patching_rect" : [ 343.0, 667.0, 372.0, 18.5 ],
 					"text" : "https://gmem.org/recherche/gmu-granular-synthesis-environment/",
 					"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -371,8 +432,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.5, 611.0, 465.0, 36.0 ],
-					"text" : ";\r\nmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
+					"patching_rect" : [ 426.0, 609.0, 465.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 				}
 
 			}
@@ -382,7 +443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.5, 669.0, 497.0, 20.0 ],
+					"patching_rect" : [ 218.0, 667.0, 497.0, 20.0 ],
 					"text" : "Developed at GMEM  :"
 				}
 
@@ -397,7 +458,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 42.0, 281.0, 48.0 ],
+					"patching_rect" : [ 46.0, 42.0, 281.0, 47.0 ],
 					"text" : "GMU Overview",
 					"varname" : "HelpTitle"
 				}
@@ -454,6 +515,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-3", 0 ]
@@ -485,8 +554,19 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"dependency_cache" : [ 			{
+				"name" : "logo_2021_gmem.svg",
+				"bootpath" : "~/Documents/GitHub/GMU/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-9", "obj-17" ]
+			}
+ ]
 	}
 
 }
