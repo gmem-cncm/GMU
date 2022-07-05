@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, -952.0, 959.0, 779.0 ],
+		"rect" : [ 41.0, 84.0, 961.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -63,9 +63,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 782.0, 209.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : ";\rmax launchbrowser https://gmem.org/"
+					"patching_rect" : [ 39.0, 782.0, 209.0, 36.0 ],
+					"text" : ";\r\nmax launchbrowser https://gmem.org/"
 				}
 
 			}
@@ -106,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 458.0, 458.0, 47.0 ],
+					"patching_rect" : [ 191.0, 458.0, 458.0, 48.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -120,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 402.0, 458.0, 47.0 ],
+					"patching_rect" : [ 191.0, 402.0, 458.0, 48.0 ],
 					"text" : "An audio input based granular synthesis tool with precise controls over grains parameters."
 				}
 
@@ -132,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 335.0, 458.0, 47.0 ],
+					"patching_rect" : [ 191.0, 335.0, 458.0, 48.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -146,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 282.0, 458.0, 47.0 ],
+					"patching_rect" : [ 191.0, 282.0, 458.0, 48.0 ],
 					"text" : "A sine wave based granular synthesis tool with precise controls over grains parameters."
 				}
 
@@ -158,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 225.0, 458.0, 33.0 ],
+					"patching_rect" : [ 191.0, 225.0, 458.0, 34.0 ],
 					"text" : "Grains are triggered either by signal zero-crossing or messages. Inputs can be signals or floats. bufGranul~ handles multichannel outputs."
 				}
 
@@ -172,7 +171,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 172.0, 458.0, 47.0 ],
+					"patching_rect" : [ 191.0, 172.0, 458.0, 48.0 ],
 					"text" : "A buffer~ based granular synthesis tool with precise controls over grains parameters."
 				}
 
@@ -324,8 +323,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 721.0, 311.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://github.com/gmem-cncm/GMU"
+					"patching_rect" : [ 426.0, 721.0, 311.0, 36.0 ],
+					"text" : ";\r\nmax launchbrowser https://github.com/gmem-cncm/GMU"
 				}
 
 			}
@@ -402,7 +401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 46.0, 458.0, 47.0 ],
+					"patching_rect" : [ 343.0, 46.0, 458.0, 48.0 ],
 					"text" : "GMU for Max is a set of DSP objects and patches for advanced real time granular synthesis."
 				}
 
@@ -432,8 +431,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 609.0, 465.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
+					"patching_rect" : [ 426.0, 609.0, 465.0, 36.0 ],
+					"text" : ";\r\nmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 				}
 
 			}
@@ -458,7 +457,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 42.0, 281.0, 47.0 ],
+					"patching_rect" : [ 46.0, 42.0, 281.0, 48.0 ],
 					"text" : "GMU Overview",
 					"varname" : "HelpTitle"
 				}
@@ -556,7 +555,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "logo_2021_gmem.svg",
-				"bootpath" : "~/Documents/GitHub/GMU/media",
+				"bootpath" : "~/Documents/GMEM Project/GMU/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
