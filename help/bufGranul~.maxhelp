@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1006.0, 753.0 ],
+						"rect" : [ -77.0, -944.0, 1006.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,18 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-61",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 28.0, 40.078431248664856, 378.0, 47.0 ],
+									"text" : "Buffer position playback is wrapped between begin & end.\nthe message has to be send as [loop <mode> <begin ms> <end ms>]\nIf no begin & end is given loop entire buffer."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"bubblepoint" : 0.0,
@@ -129,30 +141,14 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
-									"bubblepoint" : 0.2,
-									"bubbleside" : 2,
 									"fontface" : 0,
-									"id" : "obj-73",
+									"id" : "obj-72",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 28.0, 60.576938629150391, 316.0, 52.0 ],
-									"text" : "loop <mode> <begin ms> <end ms>\rbuffer position playback is wrapped between begin & end"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"id" : "obj-72",
-									"linecount" : 4,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 118.576938629150391, 173.0, 60.0 ],
-									"text" : "0 : loop disabled\n1 : loop between begin & end;\rif no begin & end is given loop entire buffer"
+									"patching_rect" : [ 48.0, 118.576938629150391, 164.0, 33.0 ],
+									"text" : "0 : loop disabled\n1 : loop between begin & end"
 								}
 
 							}
@@ -3068,13 +3064,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 0.168627450980392 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"id" : "obj-135",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 114.72561955451954, 12.078431248664856, 360.0, 60.0 ],
+									"patching_rect" : [ 11.868476697376764, 38.078431248664856, 467.0, 47.0 ],
 									"text" : "GMU objects have the ability to store multiple buffers in an index so you can switch from a sample (or an envelope) to another very quickly. This tab demonstrate how to use polybuffer objects to charge and trigger multiple buffer in bufGranul~."
 								}
 
@@ -10178,7 +10174,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 272.871119001499778, 9.5, 428.0, 47.0 ],
+									"patching_rect" : [ 536.871492778745392, 564.038613080978394, 428.0, 47.0 ],
 									"text" : "NOTE : Triggering a grain by signal-zero crossing is the most precise and the fastest way to do it. It is more likely to require more CPU usage than using the trigger by message method described in the following tab."
 								}
 
@@ -14143,7 +14139,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -77.0, -944.0, 1006.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14188,13 +14184,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 0.168627450980392 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"id" : "obj-135",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 121.94996377825737, 16.5, 429.0, 74.0 ],
+									"patching_rect" : [ 15.0, 39.5, 597.0, 47.0 ],
 									"text" : "bufGranul~ object deals with layering voices considering the rules chosen. When the maximum number of voices is reached (nvoices) the priority is given to the new or the olds grains depending on the mode.\nLayering a lot of voices can affect the performances of the computer and leads to unpredictable results."
 								}
 
@@ -17038,7 +17034,7 @@
 									}
 ,
 									"size" : 3,
-									"value" : 1,
+									"value" : 0,
 									"varname" : "radiogroup"
 								}
 
