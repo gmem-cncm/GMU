@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 961.0, 642.0 ],
+		"rect" : [ 152.0, 91.0, 908.0, 635.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,22 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"border" : 4,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.48 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 32.0, 861.0, 72.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-26",
 					"linecount" : 2,
@@ -63,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 782.0, 209.0, 36.0 ],
+					"patching_rect" : [ 43.819277286529541, 651.867466807365417, 209.0, 36.0 ],
 					"text" : ";\r\nmax launchbrowser https://gmem.org/"
 				}
 
@@ -77,7 +61,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 46.0, 624.0, 118.0, 110.0 ],
+					"patching_rect" : [ 50.819277286529541, 493.867466807365417, 118.0, 110.0 ],
 					"text" : "",
 					"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -93,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ -3.0, 624.0, 216.0, 110.0 ],
+					"patching_rect" : [ 1.819277286529541, 493.867466807365417, 216.0, 110.0 ],
 					"pic" : "logo_2021_gmem.svg"
 				}
 
@@ -105,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 458.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 397.0, 458.0, 48.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -113,13 +97,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 402.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 352.0, 472.0, 43.0 ],
 					"text" : "An audio input based granular synthesis tool with precise controls over grains parameters."
 				}
 
@@ -131,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 335.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 290.0, 458.0, 48.0 ],
 					"text" : "Multiple envelopes can be stored and precisly called.\nGrains are continuous when buffer change happens.\nFloat and/or audio control."
 				}
 
@@ -139,13 +123,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-25",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 282.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 245.0, 470.0, 43.0 ],
 					"text" : "A sine wave based granular synthesis tool with precise controls over grains parameters."
 				}
 
@@ -157,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 225.0, 458.0, 34.0 ],
+					"patching_rect" : [ 191.0, 197.0, 458.0, 34.0 ],
 					"text" : "Grains are triggered either by signal zero-crossing or messages. Inputs can be signals or floats. bufGranul~ handles multichannel outputs."
 				}
 
@@ -165,13 +149,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-22",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 172.0, 458.0, 48.0 ],
+					"patching_rect" : [ 191.0, 152.0, 475.0, 43.0 ],
 					"text" : "A buffer~ based granular synthesis tool with precise controls over grains parameters."
 				}
 
@@ -185,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 402.0, 107.0, 27.0 ],
+					"patching_rect" : [ 75.0, 352.0, 107.0, 27.0 ],
 					"text" : "liveGranul~"
 				}
 
@@ -199,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 282.0, 108.0, 27.0 ],
+					"patching_rect" : [ 75.0, 245.0, 108.0, 27.0 ],
 					"text" : "synGranul~"
 				}
 
@@ -213,7 +197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 172.0, 105.0, 27.0 ],
+					"patching_rect" : [ 75.0, 152.0, 105.0, 27.0 ],
 					"text" : "bufGranul~"
 				}
 
@@ -228,7 +212,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 714.0, 402.0, 177.0, 26.0 ],
+					"patching_rect" : [ 714.0, 352.0, 177.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -253,7 +237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 714.0, 432.0, 96.0, 22.0 ],
+					"patching_rect" : [ 714.0, 382.0, 96.0, 22.0 ],
 					"text" : "help liveGranul~"
 				}
 
@@ -266,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 714.0, 204.0, 94.0, 22.0 ],
+					"patching_rect" : [ 714.0, 184.0, 94.0, 22.0 ],
 					"text" : "help bufGranul~"
 				}
 
@@ -281,7 +265,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 714.0, 172.0, 177.0, 26.0 ],
+					"patching_rect" : [ 714.0, 152.0, 177.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -307,7 +291,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 343.0, 693.0, 372.0, 18.5 ],
+					"patching_rect" : [ 347.819277286529541, 562.867466807365417, 372.0, 18.5 ],
 					"text" : "https://github.com/gmem-cncm/GMU",
 					"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -323,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 721.0, 311.0, 36.0 ],
+					"patching_rect" : [ 430.819277286529541, 590.867466807365417, 311.0, 36.0 ],
 					"text" : ";\r\nmax launchbrowser https://github.com/gmem-cncm/GMU"
 				}
 
@@ -334,7 +318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 691.5, 295.0, 20.0 ],
+					"patching_rect" : [ 347.819277286529541, 561.367466807365417, 295.0, 20.0 ],
 					"text" : "GitHub link  :"
 				}
 
@@ -347,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 714.0, 501.0, 51.0, 22.0 ],
+					"patching_rect" : [ 714.0, 449.0, 51.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -360,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 714.0, 316.0, 96.0, 22.0 ],
+					"patching_rect" : [ 714.0, 279.0, 96.0, 22.0 ],
 					"text" : "help synGranul~"
 				}
 
@@ -375,7 +359,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 714.0, 282.0, 177.0, 26.0 ],
+					"patching_rect" : [ 714.0, 245.0, 177.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -395,13 +379,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-56",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 46.0, 458.0, 48.0 ],
+					"patching_rect" : [ 343.0, 26.0, 487.0, 43.0 ],
 					"text" : "GMU for Max is a set of DSP objects and patches for advanced real time granular synthesis."
 				}
 
@@ -415,7 +399,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 343.0, 667.0, 372.0, 18.5 ],
+					"patching_rect" : [ 347.819277286529541, 536.867466807365417, 372.0, 18.5 ],
 					"text" : "https://gmem.org/recherche/gmu-granular-synthesis-environment/",
 					"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -431,7 +415,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 609.0, 465.0, 36.0 ],
+					"patching_rect" : [ 430.819277286529541, 478.867466807365417, 465.0, 36.0 ],
 					"text" : ";\r\nmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 				}
 
@@ -442,8 +426,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 667.0, 497.0, 20.0 ],
+					"patching_rect" : [ 222.819277286529541, 536.867466807365417, 497.0, 20.0 ],
 					"text" : "Developed at GMEM  :"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 4,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.48 ],
+					"id" : "obj-29",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 12.0, 861.0, 72.0 ],
+					"proportion" : 0.5
 				}
 
 			}
@@ -457,7 +457,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 42.0, 281.0, 48.0 ],
+					"patching_rect" : [ 46.0, 22.0, 281.0, 48.0 ],
 					"text" : "GMU Overview",
 					"varname" : "HelpTitle"
 				}
