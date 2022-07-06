@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -246.0, -993.0, 1446.0, 959.0 ],
+		"rect" : [ 42.0, -993.0, 1446.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1251.0, 282.0, 150.0, 48.0 ],
+					"text" : "1 hiver\n2 ETE\n3 trucvitefait"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-163",
 					"maxclass" : "newobj",
@@ -2040,7 +2052,7 @@
 						"client_rect" : [ 4, 87, 657, 492 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1034, 215 ]
+						"storage_rect" : [ 997, -721, 1446, -595 ]
 					}
 ,
 					"text" : "pattrstorage landscape",
@@ -2108,7 +2120,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 632.75, 443.5, 40.0, 22.0 ],
-					"restore" : [ 100 ],
+					"restore" : [ 1000 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2127,7 +2139,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 692.799992501735687, 443.5, 40.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 0.4 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2146,7 +2158,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 535.0, 438.599995017051697, 42.0, 22.0 ],
-					"restore" : [ 0.2 ],
+					"restore" : [ 0.4 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2165,7 +2177,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 429.750008761882782, 438.599995017051697, 91.0, 22.0 ],
-					"restore" : [ 0.246 ],
+					"restore" : [ 0.4 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4719,6 +4731,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"midpoints" : [ 1254.0, 393.890747000000033, 1254.0, 393.890747000000033 ],
 					"source" : [ "obj-65", 0 ]
@@ -4866,13 +4885,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bufGranul~.mxo",
-				"type" : "iLaX"
+				"name" : "bufGranul~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "gmempic.png",
+				"bootpath" : "~/Documents/GMEM Project",
+				"patcherrelativepath" : "../..",
+				"type" : "PNG",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seasons.json",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
+				"bootpath" : "~/Documents/GMEM Project/GMU/media",
+				"patcherrelativepath" : "../media",
 				"type" : "JSON",
 				"implicit" : 1
 			}
