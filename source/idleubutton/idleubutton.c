@@ -13,10 +13,10 @@ typedef struct _idleubutton
     long b_state;
     long b_inside;
     // options
-    long b_hilite;
-    long b_toggle;
-    long b_idle;
-    long b_drawborder;
+    char b_hilite;
+    char b_toggle;
+    char b_idle;
+    char b_drawborder;
     // colors
     t_jrgba c_bg;
     t_jrgba c_border;

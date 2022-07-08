@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 264.0, 74.0, 1053.0, 1006.0 ],
+		"rect" : [ 0.0, 45.0, 1101.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,46 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 228.0, 649.0, 48.0, 136.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 876.5, 303.0, 203.0, 22.0 ],
-					"text" : "buffer~ env123 gmu.env.trapez05.aif"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
@@ -87,6 +48,22 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 196.0, 537.0, 56.0, 24.0 ],
 					"text" : "3",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 897.0, 335.0, 56.0, 24.0 ],
+					"text" : "2",
 					"textjustification" : 1
 				}
 
@@ -149,8 +126,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 568.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -177,8 +155,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 527.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -205,8 +184,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 486.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -233,8 +213,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 445.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -249,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 876.5, 668.0, 109.0, 19.0 ],
+					"patching_rect" : [ 989.0, 574.0, 109.0, 19.0 ],
 					"text" : "prepend rand_minmax"
 				}
 
@@ -264,7 +245,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 867.0, 625.0, 72.0, 19.0 ],
+					"patching_rect" : [ 989.0, 551.0, 72.0, 19.0 ],
 					"text" : "pack 0. 1000."
 				}
 
@@ -293,7 +274,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -303,8 +283,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -337,7 +317,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bkgndpict" : "wfmodes.png",
@@ -373,8 +352,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -407,7 +386,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-24",
@@ -604,8 +582,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 144.21875, 443.571411000000012, 62.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1,
-														"precision" : 6
+														"embed" : 1
 													}
 ,
 													"text" : "coll"
@@ -939,8 +916,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -973,7 +950,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1020,8 +996,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 131.0, 255.0, 53.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 1,
-										"precision" : 6
+										"embed" : 1
 									}
 ,
 									"text" : "coll"
@@ -1279,7 +1254,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 725.5, 522.0, 365.0, 79.0 ],
 					"selectioncolor" : [ 0.0, 0.372549, 1.0, 0.5 ],
-					"setmode" : 1,
+					"setmode" : 3,
 					"waveformcolor" : [ 0.129412, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1364,6 +1339,79 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 839.0, 322.0, 49.0, 22.0 ],
+					"text" : "update"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"items" : [ "(gmu.env.default.json)", ",", 1, "-", "tic-tic", ",", 2, "-", "expo", "sinsoidÂ?e", ",", 3, "-", "expo", "decay", ",", 4, "-", "expo", "sinux", 2, ",", 5, "-", "sweep", "mod", ",", 6, "-", "expo", "bump", ",", 7, "-", "deux", "freq", ",", 8, "-", "sweep", "gratt", ",", 9, "-", "bpf", "sin", 1, ",", 10, "-", "bpf", "trapez", ",", 11, "-", "bpf", "sin", 2, ",", 12, "-", "blobby", ",", 13, "-", "gratz", "blob", ",", 14, "-", "crickss", ",", 15, "-", "sin", "noise", ",", 16, "-", "sin", "noise", 3, ",", 17, "-", "sin", "noise", 2, ",", 18, "-", "gratz", "blob", "rehauss", ",", 19, "-", "gauss_bruitend", ",", 20, "-", "gauss_bruitend_rept", ",", 21, "-", "bpf", "trapez", "rept", ",", 22, "-", "cluster", "bruiteux", ",", 23, "-", "clust", "bruit", "deux", ",", 24, "-", "peigne-gauss", ",", 25, "-", "sin", "noise", 4 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 957.0, 336.0, 129.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 928.0, 392.0, 32.0, 19.0 ],
+					"text" : "view"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 868.5, 392.0, 54.0, 19.0 ],
+					"text" : "view_env"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.070588235294118, 0.643137254901961, 0.07843137254902, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 839.0, 360.0, 137.0, 19.0 ],
+					"text" : "gmu.envelope.editor env1 4096",
+					"varname" : "Envelope_editor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-28",
 					"maxclass" : "message",
@@ -1377,6 +1425,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "bufgran_sto.xml",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-29",
@@ -1386,7 +1435,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 611.0, 175.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 0, 0, 640, 240 ],
+						"client_rect" : [ 10, 59, 873, 585 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 0, 0, 640, 240 ]
@@ -1406,13 +1455,12 @@
 					"enablevscroll" : 0,
 					"id" : "obj-30",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "storage_helper.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "clear" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 22.0, 526.0, 172.0, 74.0 ],
 					"viewvisibility" : 1
 				}
@@ -1453,8 +1501,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-33",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 401.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -1481,8 +1530,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 360.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -1509,8 +1559,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 319.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -1526,7 +1577,7 @@
 					"orientation" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 260.0, 482.0, 16.0, 92.0 ]
+					"patching_rect" : [ 261.0, 482.0, 16.0, 92.0 ]
 				}
 
 			}
@@ -1537,8 +1588,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "bargraf~",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 278.0, 482.0, 18.0, 92.0 ]
 				}
 
@@ -1567,7 +1619,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-41",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "tranche_ctrl5.maxpat",
 					"numinlets" : 5,
@@ -1590,7 +1641,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-42",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "tranche_ctrl5.maxpat",
 					"numinlets" : 5,
@@ -1613,7 +1663,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-43",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "tranche_ctrl5.maxpat",
 					"numinlets" : 5,
@@ -1636,7 +1685,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-44",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "tranche_ctrl5.maxpat",
 					"numinlets" : 5,
@@ -1659,7 +1707,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-45",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "tranche_ctrl5.maxpat",
 					"numinlets" : 5,
@@ -1675,11 +1722,10 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"local" : 1,
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 794.0, 33.0, 33.0 ]
+					"patching_rect" : [ 62.0, 490.0, 33.0, 33.0 ]
 				}
 
 			}
@@ -1693,7 +1739,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-47",
 					"lockeddragscroll" : 1,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "trig_ctrl5.maxpat",
 					"numinlets" : 5,
@@ -1715,7 +1760,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 9,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 22.0, 448.0, 946.0, 19.0 ],
+					"patching_rect" : [ 20.0, 446.0, 946.0, 19.0 ],
 					"text" : "bufGranul~ snd-gran env123 8"
 				}
 
@@ -1843,15 +1888,47 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-24", 1 ]
+					"destination" : [ "obj-27", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 848.5, 356.0, 848.5, 356.0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
+					"destination" : [ "obj-27", 1 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"midpoints" : [ 966.5, 385.0, 981.0, 385.0, 981.0, 321.0, 966.5, 321.0 ],
+					"source" : [ "obj-27", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -2066,24 +2143,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 1,
-					"source" : [ "obj-48", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 1 ],
-					"order" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 379.125, 475.0, 390.0, 475.0 ],
+					"midpoints" : [ 377.125, 475.0, 390.0, 475.0 ],
 					"source" : [ "obj-48", 3 ]
 				}
 
@@ -2091,7 +2152,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 263.25, 475.0, 349.0, 475.0 ],
+					"midpoints" : [ 261.25, 475.0, 349.0, 475.0 ],
 					"source" : [ "obj-48", 2 ]
 				}
 
@@ -2099,8 +2160,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 147.375, 475.0, 308.0, 475.0 ],
-					"order" : 0,
+					"midpoints" : [ 145.375, 475.0, 308.0, 475.0 ],
 					"source" : [ "obj-48", 1 ]
 				}
 
@@ -2108,8 +2168,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 31.5, 475.0, 266.0, 475.0 ],
-					"order" : 1,
+					"midpoints" : [ 29.5, 475.0, 267.0, 475.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -2198,83 +2257,143 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-24" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-27::obj-229" : [ "live.tab", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
-,
-			"inherited_shortname" : 1
+
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bufGranul~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dialog_preset.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers/Envelope_Edit",
-				"patcherrelativepath" : "../patchers/Envelope_Edit",
+				"name" : "trig_ctrl5.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "idleubutton.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mslide_XY2MS.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mychange.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mysw.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "storage_helper.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sw.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/_abs",
+				"patcherrelativepath" : "../../_abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mysw.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mychange.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "setname.js",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/js",
+				"patcherrelativepath" : "../js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "tranche_ctrl5.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "storage_helper.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dialog_preset.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/HoloLive_0.5/hololive.editor_0.5ß",
+				"patcherrelativepath" : "../../HoloLive_0.5/hololive.editor_0.5ß",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bufgran_sto.xml",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/examples",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gmu.envelope.editor.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs/Envelope_Edit",
+				"patcherrelativepath" : "../abs/Envelope_Edit",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ad.toggle2.png",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs/Envelope_Edit",
+				"patcherrelativepath" : "../abs/Envelope_Edit",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ad.toggle.png",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs/Envelope_Edit",
+				"patcherrelativepath" : "../abs/Envelope_Edit",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gmu.env.bank.json",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gmu.poly.buffer.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs/Envelope_Edit",
+				"patcherrelativepath" : "../abs/Envelope_Edit",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gmu.env.default.json",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/examples",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "view_env.maxpat",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs/Envelope_Edit",
+				"patcherrelativepath" : "../abs/Envelope_Edit",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transp2sp~.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/_Max_lib/gmem-ajout/+subfolder/GMU-1.7-max7-64bit/abs",
+				"patcherrelativepath" : "../abs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "trig_ctrl5.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
+				"name" : "wfmodes.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -2284,10 +2403,20 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wfmodes.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
+				"name" : "bufGranul~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "idleubutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rand_dist_list~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bargraf~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

@@ -58,10 +58,7 @@
 
 #define MAGIC_CIRCLE 1
 
-#define MIN(a,min) (a < min) ? a : min
-#define MAX(a,max) (a > max) ? a : max
 #define MOD(x,m) ( ( x = fmod(x,m) ) < 0. ) ? x+m : x 
-#define MAX(a,max) (a > max) ? a : max
 
 #define _SETSYM(ap, x) ((ap)->a_type = A_SYM, (ap)->a_w.w_sym = (x))
 #define _SETLONG(ap, x) ((ap)->a_type = A_LONG, (ap)->a_w.w_long = (x))
@@ -233,6 +230,8 @@ void synGranul_clear(t_synGranul *x);				// panique ! effacement des grains en c
 void synGranul_nvoices(t_synGranul *x, long n);			// definition du nombre de voix (polyphonie)
 void synGranul_tellme(t_synGranul *x);					// demande d'information sur l'etat de l'objet
 #endif
+
+int bufferenv_check(t_synGranul *x, int num);
 
 
 // spatialisation
@@ -413,8 +412,8 @@ void synGranul_grain(t_synGranul *x, t_symbol *s, short ac, t_atom *av)
 					x->Vmem1[p] = sin(iphase-fn);
 					x->Vmem2[p] = sin(iphase-2*fn);
 					
-					x->Vamp[p]		= amp;						// amplitude
-					x->Venv[p] =  bufferenv_check(x, envbuffer );	// enveloppe active pour ce grain
+					x->Vamp[p] = amp;						// amplitude
+					x->Venv[p] = bufferenv_check(x, envbuffer);	// enveloppe active pour ce grain
      
 				
 						if(length<0)
