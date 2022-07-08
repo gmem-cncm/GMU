@@ -6036,7 +6036,7 @@
 									"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 									"patching_rect" : [ 504.0, 206.5, 256.0, 64.0 ],
 									"selectioncolor" : [ 0.935047745704651, 0.794315576553345, 0.0, 1.0 ],
-									"setmode" : 1
+									"setmode" : 3
 								}
 
 							}
@@ -6363,7 +6363,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1009.0, 756.0 ],
+						"rect" : [ -2.0, -904.0, 1009.0, 756.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6531,7 +6531,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 670.997232228517532, 593.339866638183594, 170.0, 24.0 ],
+									"patching_rect" : [ 552.0, 516.339866638183594, 170.0, 24.0 ],
 									"text" : "IR samples are stored here"
 								}
 
@@ -6700,7 +6700,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 391.0, 689.461165487766266, 20.0, 20.0 ],
+									"patching_rect" : [ 443.0, 681.461165487766266, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -6803,12 +6803,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubbleside" : 3,
 									"id" : "obj-39",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 483.5, 460.339866638183594, 153.0, 78.0 ],
+									"patching_rect" : [ 197.5, 565.339866638183594, 153.0, 78.0 ],
 									"text" : "Binaural convolution: must have HISSTools\nOtherwise route the left dac for regular six channels output"
 								}
 
@@ -6820,9 +6821,10 @@
 									"maxclass" : "live.gain~",
 									"numinlets" : 2,
 									"numoutlets" : 5,
+									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 325.0, 523.0, 135.0, 142.0 ],
+									"patching_rect" : [ 377.0, 616.389875650405884, 135.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ 0 ],
@@ -6848,7 +6850,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 325.0, 675.461165487766266, 48.0, 48.0 ]
+									"patching_rect" : [ 377.0, 667.461165487766266, 48.0, 48.0 ]
 								}
 
 							}
@@ -7294,7 +7296,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 503.5, 634.389875650405884, 165.0, 22.0 ],
+									"patching_rect" : [ 377.0, 556.389875650405884, 165.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -7313,7 +7315,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 503.5, 555.839866638183594, 35.0, 22.0 ],
+									"patching_rect" : [ 377.0, 477.839866638183594, 35.0, 22.0 ],
 									"text" : "open"
 								}
 
@@ -7325,7 +7327,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 551.5, 555.839866638183594, 35.0, 22.0 ],
+									"patching_rect" : [ 425.0, 477.839866638183594, 35.0, 22.0 ],
 									"text" : "clear"
 								}
 
@@ -7337,7 +7339,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 598.5, 555.839866638183594, 70.0, 22.0 ],
+									"patching_rect" : [ 472.0, 477.839866638183594, 70.0, 22.0 ],
 									"text" : "getbufferlist"
 								}
 
@@ -7358,7 +7360,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 503.5, 594.339866638183594, 165.0, 22.0 ],
+									"patching_rect" : [ 377.0, 516.339866638183594, 165.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
@@ -7374,7 +7376,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 325.0, 488.339866638183594, 135.0, 22.0 ],
+									"patching_rect" : [ 377.0, 593.339866638183594, 135.0, 22.0 ],
 									"text" : "multiconvolve~ 6 2 zero"
 								}
 
@@ -7771,7 +7773,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.0, 488.339866638183594, 150.0, 39.0 ],
+									"patching_rect" : [ 110.0, 469.339866638183594, 150.0, 39.0 ],
 									"text" : "Change number of ouputs"
 								}
 
@@ -15542,7 +15544,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -2.0, -904.0, 1009.0, 756.0 ],
+						"rect" : [ 0.0, 26.0, 1009.0, 756.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
