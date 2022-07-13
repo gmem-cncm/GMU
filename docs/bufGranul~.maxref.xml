@@ -54,7 +54,7 @@
                     Name of the envelope buffer stored by default in 0 position of the buffer list. Even if replaced later, the buffer 0 has to be set and valid.
             </description>
         </objarg>
-        <objarg name="output_number" optional="1" type="int">
+        <objarg name="number_of_output" optional="1" type="int">
             <digest>1-2-4-6 or 8 outputs if specified. Default is 2. </digest>
         </objarg>
         <objarg name="channel_offset" optional="1" type="int">
