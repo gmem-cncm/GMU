@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -5.0, -965.0, 990.0, 777.0 ],
+		"rect" : [ -6.0, -966.0, 990.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -93,7 +93,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 33.078431000000002, 378.0, 47.0 ],
+									"patching_rect" : [ 4.388057, 33.078431000000002, 378.0, 48.0 ],
 									"text" : "Buffer position playback is wrapped between begin & end.\nthe message has to be send as [loop <mode> <begin ms> <end ms>]\nIf no begin & end is given loop entire buffer."
 								}
 
@@ -133,7 +133,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 6.078431, 138.0, 24.0 ],
+									"patching_rect" : [ 4.388057, 6.078431, 138.0, 25.0 ],
 									"text" : "Loop parameters",
 									"underline" : 1
 								}
@@ -147,7 +147,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 118.576938629150391, 164.0, 33.0 ],
+									"patching_rect" : [ 48.0, 118.576938629150391, 164.0, 34.0 ],
 									"text" : "0 : loop disabled\n1 : loop between begin & end"
 								}
 
@@ -552,8 +552,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -969,7 +969,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 495.0, 19.0, 33.0 ],
+					"patching_rect" : [ 88.0, 495.0, 19.0, 34.0 ],
 					"text" : "10"
 				}
 
@@ -984,8 +984,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1030,7 +1030,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 156.939905268805262, 467.446804344654083, 196.0, 37.0 ],
+									"patching_rect" : [ 156.939905268805262, 467.446804344654083, 196.0, 38.0 ],
 									"text" : "Check the object's modifications in the console"
 								}
 
@@ -1046,8 +1046,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1081,7 +1081,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"format" : 6,
@@ -1167,8 +1166,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 5,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1879,7 +1878,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 569.365853309631348, 356.436639953201279, 196.0, 51.0 ],
+									"patching_rect" : [ 569.365853309631348, 356.436639953201279, 196.0, 52.0 ],
 									"text" : "Choose the active sound buffer for grains in the last inlet of the object (signal or float)"
 								}
 
@@ -1934,7 +1933,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 186.799671513693482, 266.2273370509796, 240.0, 37.0 ],
+									"patching_rect" : [ 186.799671513693482, 266.2273370509796, 240.0, 38.0 ],
 									"text" : "Choose the active envelope for grains :\nenvbuffer <stored env num>"
 								}
 
@@ -1961,7 +1960,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 254.939905268805262, 132.217147994583115, 215.0, 37.0 ],
+									"patching_rect" : [ 254.939905268805262, 132.217147994583115, 215.0, 38.0 ],
 									"text" : "Store a buffer previously created : \nset <buffer number> <buffer name>"
 								}
 
@@ -2011,7 +2010,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 299.865853309631348, 611.308087468147278, 116.0, 22.0 ],
+									"patching_rect" : [ 299.865853309631348, 611.308087468147278, 116.0, 23.0 ],
 									"text" : "Envelope Buffer"
 								}
 
@@ -2025,7 +2024,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 161.568555891513824, 610.767546951770782, 97.0, 22.0 ],
+									"patching_rect" : [ 161.568555891513824, 610.767546951770782, 97.0, 23.0 ],
 									"text" : "Sound Buffer"
 								}
 
@@ -2038,7 +2037,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 161.568555891513824, 666.767546951770782, 105.0, 35.0 ],
+									"patching_rect" : [ 161.568555891513824, 666.767546951770782, 105.0, 36.0 ],
 									"text" : "buffer~ help.snd0 vibes-a1.aif"
 								}
 
@@ -2051,7 +2050,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 299.865853309631348, 667.308087468147278, 123.0, 35.0 ],
+									"patching_rect" : [ 299.865853309631348, 667.308087468147278, 123.0, 36.0 ],
 									"text" : "buffer~ help.env1 gmu.env.trapez05.aif"
 								}
 
@@ -2113,8 +2112,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2461,8 +2460,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2793,8 +2792,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3060,7 +3059,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 34.078431248664856, 467.0, 47.0 ],
+									"patching_rect" : [ 4.388057, 34.078431248664856, 467.0, 48.0 ],
 									"text" : "GMU objects have the ability to store multiple buffers in an index so you can switch from a sample (or an envelope) to another very quickly. This tab demonstrate how to use polybuffer objects to charge and trigger multiple buffer in bufGranul~."
 								}
 
@@ -3073,7 +3072,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 6.078431, 209.0, 24.0 ],
+									"patching_rect" : [ 4.388057, 6.078431, 209.0, 25.0 ],
 									"text" : "Multibuffer",
 									"underline" : 1
 								}
@@ -3532,8 +3531,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3576,7 +3575,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 815.0, 59.978834748268127, 166.0, 35.0 ],
+									"patching_rect" : [ 815.0, 59.978834748268127, 166.0, 36.0 ],
 									"text" : "buffer~ help.env1 gmu.env.trapez05.aif"
 								}
 
@@ -3631,7 +3630,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 223.999999999999943, 275.524391174316406, 252.0, 37.0 ],
+									"patching_rect" : [ 223.999999999999943, 275.524391174316406, 252.0, 38.0 ],
 									"text" : "Draw your own waveform (can be used to draw in the envelope buffer)"
 								}
 
@@ -3645,7 +3644,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 241.346688645226664, 233.5, 224.0, 37.0 ],
+									"patching_rect" : [ 241.346688645226664, 233.5, 224.0, 38.0 ],
 									"text" : "Click and drag up and down to zoom,\nleft and right to navigate"
 								}
 
@@ -4016,8 +4015,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4226,7 +4225,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 762.0, 396.5, 150.0, 74.0 ],
+									"patching_rect" : [ 762.0, 396.5, 150.0, 75.0 ],
 									"text" : "mouseinteract allows to change floats while visualizing it in the wave form : unlock to see connections"
 								}
 
@@ -4242,8 +4241,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4422,8 +4421,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 5,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4906,7 +4905,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 6.078431, 118.0, 24.0 ],
+									"patching_rect" : [ 4.388057, 6.078431, 118.0, 25.0 ],
 									"text" : "Waveform edit",
 									"underline" : 1
 								}
@@ -5102,8 +5101,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5392,8 +5391,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5462,8 +5461,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 5,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5958,7 +5957,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 15.0, 127.5, 54.0, 21.0 ],
+													"patching_rect" : [ 15.0, 127.5, 54.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -6357,8 +6356,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6404,8 +6403,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6810,7 +6809,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 197.5, 565.339866638183594, 153.0, 78.0 ],
+									"patching_rect" : [ 197.5, 565.339866638183594, 153.0, 79.0 ],
 									"text" : "Binaural convolution: must have HISSTools\nOtherwise route the left dac for regular six channels output"
 								}
 
@@ -6866,8 +6865,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7390,7 +7389,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 636.0, 163.246534287929535, 114.0, 37.0 ],
+									"patching_rect" : [ 636.0, 163.246534287929535, 114.0, 38.0 ],
 									"text" : "Slide to change grain's focus"
 								}
 
@@ -7484,8 +7483,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7707,7 +7706,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 709.997232228517532, 374.5, 152.0, 37.0 ],
+									"patching_rect" : [ 709.997232228517532, 374.5, 152.0, 38.0 ],
 									"text" : "Add some randomness to the pan parameter"
 								}
 
@@ -7761,7 +7760,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 269.0, 163.246534287929535, 154.0, 37.0 ],
+									"patching_rect" : [ 269.0, 163.246534287929535, 154.0, 38.0 ],
 									"text" : "Move the dot to change \nthe grain's position"
 								}
 
@@ -7824,7 +7823,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 33.078431000000002, 513.0, 47.0 ],
+									"patching_rect" : [ 4.388057, 33.078431000000002, 513.0, 48.0 ],
 									"text" : "You can choose how many channels output you want from bufGranul and control it easily with \nthe multislider. bufGranul~ allows you to add some randomness to the pan parameter. You can also change the distance parameter. Distance must be different from 0 to allow Pan changing."
 								}
 
@@ -7984,7 +7983,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 6.078431, 266.0, 24.0 ],
+									"patching_rect" : [ 4.388057, 6.078431, 266.0, 25.0 ],
 									"text" : "Multichannel output spatialization",
 									"underline" : 1
 								}
@@ -8550,8 +8549,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8594,7 +8593,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 498.675093446459073, 508.837563097476959, 148.0, 60.0 ],
+									"patching_rect" : [ 498.675093446459073, 508.837563097476959, 148.0, 62.0 ],
 									"text" : "NOTE : 0. and 1. set the Pan to the left, 0.5 to the right and 0.25 to the middle"
 								}
 
@@ -8610,8 +8609,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8752,7 +8751,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 599.175093446458959, 388.837563097476959, 173.0, 37.0 ],
+									"patching_rect" : [ 599.175093446458959, 388.837563097476959, 173.0, 38.0 ],
 									"text" : "Set the distance parameter between 0 and 1"
 								}
 
@@ -9100,7 +9099,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 33.078431000000002, 439.0, 74.0 ],
+									"patching_rect" : [ 4.388057, 33.078431000000002, 439.0, 75.0 ],
 									"text" : "Two channels output can be controlled via the live.dial . \nYou can also add randomness to the panning parameters which allows you to enlarge the grain cloud's width.  \nThe Dist parameter is the focus of each grain : at one, the grain is focused at the panning value on the stereo ramp and at zero, it is widened all accross the ramp."
 								}
 
@@ -9116,8 +9115,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9327,7 +9326,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 571.175093446459073, 271.337563097476959, 152.0, 37.0 ],
+									"patching_rect" : [ 571.175093446459073, 271.337563097476959, 152.0, 38.0 ],
 									"text" : "Add some randomness to the pan parameter"
 								}
 
@@ -9607,8 +9606,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9861,7 +9860,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 6.078431, 218.0, 24.0 ],
+									"patching_rect" : [ 4.388057, 6.078431, 218.0, 25.0 ],
 									"text" : "Stereo output spatialization",
 									"underline" : 1
 								}
@@ -10093,8 +10092,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10140,8 +10139,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10272,8 +10271,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10401,7 +10400,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 536.871492778745392, 564.038613080978394, 428.0, 47.0 ],
+									"patching_rect" : [ 536.871492778745392, 564.038613080978394, 428.0, 48.0 ],
 									"text" : "NOTE : Triggering a grain by signal-zero crossing is the most precise and the fastest way to do it. It is more likely to require more CPU usage than using the trigger by message method described in the following tab."
 								}
 
@@ -10496,8 +10495,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10916,7 +10915,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 604.132136941165186, 166.961614668369293, 120.0, 52.0 ],
+									"patching_rect" : [ 604.132136941165186, 166.961614668369293, 120.0, 53.0 ],
 									"text" : "Try different presets (the 6th one is 0)"
 								}
 
@@ -10984,7 +10983,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 675.871492778745392, 348.985799670219421, 150.0, 64.0 ],
+									"patching_rect" : [ 675.871492778745392, 348.985799670219421, 150.0, 66.0 ],
 									"text" : "Stops the sound of all the playing grains (but continues to generate grains)"
 								}
 
@@ -11022,7 +11021,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 49.731343150138855, 207.0, 24.0 ],
+									"patching_rect" : [ 2.0, 49.731343150138855, 207.0, 25.0 ],
 									"text" : "Advanced",
 									"underline" : 1
 								}
@@ -11068,8 +11067,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11279,7 +11278,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 803.0, 167.378058433532715, 166.0, 35.0 ],
+									"patching_rect" : [ 803.0, 167.378058433532715, 166.0, 36.0 ],
 									"text" : "buffer~ help.env1 gmu.env.trapez05.aif"
 								}
 
@@ -11457,7 +11456,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.981716156005859, 329.073172330856323, 232.0, 52.0 ],
+									"patching_rect" : [ 310.981716156005859, 329.073172330856323, 232.0, 53.0 ],
 									"text" : "Double click on the jit Patch to change randomness parameters"
 								}
 
@@ -11543,7 +11542,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 201.136069336525566, 224.422140598297119, 96.0, 22.0 ],
+									"patching_rect" : [ 201.136069336525566, 224.422140598297119, 96.0, 23.0 ],
 									"text" : "Randomness"
 								}
 
@@ -11556,7 +11555,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 675.871492778745392, 290.038401126861572, 150.0, 51.0 ],
+									"patching_rect" : [ 675.871492778745392, 290.038401126861572, 150.0, 52.0 ],
 									"text" : "Gives info about current state in the Max Console  "
 								}
 
@@ -11595,8 +11594,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12313,8 +12312,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12481,7 +12480,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 694.732431322336197, 591.209987282752991, 245.0, 33.0 ],
+									"patching_rect" : [ 694.732431322336197, 591.209987282752991, 245.0, 34.0 ],
 									"text" : "NOTE : Triggering by messages is less CPU\nconsuming but also less accurate."
 								}
 
@@ -12656,8 +12655,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12939,8 +12938,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13450,8 +13449,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13730,7 +13729,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 753.0, 411.057942152023315, 150.0, 66.0 ],
+									"patching_rect" : [ 753.0, 411.057942152023315, 150.0, 67.0 ],
 									"text" : "Double click on the random-param Patch to modify randomness"
 								}
 
@@ -13743,7 +13742,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 539.0, 6.078431248664856, 364.0, 24.0 ],
+									"patching_rect" : [ 539.0, 6.078431248664856, 364.0, 25.0 ],
 									"text" : "Trigger by Message with random parameters",
 									"underline" : 1
 								}
@@ -13757,7 +13756,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057112693787, 6.078431248664856, 158.0, 24.0 ],
+									"patching_rect" : [ 4.388057112693787, 6.078431248664856, 158.0, 25.0 ],
 									"text" : "Trigger by Message",
 									"underline" : 1
 								}
@@ -14025,8 +14024,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14069,7 +14068,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 6.078431, 209.0, 24.0 ],
+									"patching_rect" : [ 4.388057, 6.078431, 209.0, 25.0 ],
 									"text" : "Polyphony",
 									"underline" : 1
 								}
@@ -14083,7 +14082,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.388057, 33.078431000000002, 597.0, 47.0 ],
+									"patching_rect" : [ 4.388057, 33.078431000000002, 597.0, 48.0 ],
 									"text" : "bufGranul~ object deals with layering voices depending on the chosen rule. Polymode allows you to choose which grain to kill when the maximum voice value is reached. Layering a lot of voices can affect the performances of the computer and lead to unpredictable results."
 								}
 
@@ -14361,7 +14360,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 523.892145261168594, 417.153877258300781, 414.0, 79.0 ],
+									"patching_rect" : [ 523.892145261168594, 417.153877258300781, 414.0, 81.0 ],
 									"text" : "The interpolation algorythm affects the render of the sound especially when the transpose value is not an integer. \nWhen linear (1), it  reduces a bit the object's polyphonic abilities.\nIn sinc16 (2) mode only a few polyphonic voices are tolerated."
 								}
 
@@ -14397,7 +14396,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 523.892145261168594, 268.653877258300781, 418.0, 22.0 ],
+									"patching_rect" : [ 523.892145261168594, 268.653877258300781, 418.0, 23.0 ],
 									"text" : "Sinc antialiased interpolation when resampling ( eg detuning)",
 									"underline" : 1
 								}
@@ -14425,7 +14424,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.94996377825737, 108.5, 159.0, 22.0 ],
+									"patching_rect" : [ 14.94996377825737, 108.5, 159.0, 23.0 ],
 									"text" : "Polyphony parameters",
 									"underline" : 1
 								}
@@ -14520,7 +14519,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 54.5, 312.076938629150391, 235.0, 52.0 ],
+									"patching_rect" : [ 54.5, 312.076938629150391, 235.0, 53.0 ],
 									"text" : "Polyphonic restriction :\nlimits the number of voices (default is 512)"
 								}
 
@@ -14659,8 +14658,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14990,8 +14989,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15464,8 +15463,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15526,14 +15525,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -5.0, -939.0, 990.0, 751.0 ],
+						"rect" : [ -6.0, -940.0, 990.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15991,8 +15990,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16202,7 +16201,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 632.766506880521774, 157.978834748268127, 166.0, 35.0 ],
+									"patching_rect" : [ 632.766506880521774, 157.978834748268127, 166.0, 36.0 ],
 									"text" : "buffer~ help.env1 gmu.env.trapez05.aif"
 								}
 
@@ -16436,7 +16435,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.947218507528305, 536.165759325027466, 182.0, 74.0 ],
+									"patching_rect" : [ 322.947218507528305, 536.165759325027466, 182.0, 75.0 ],
 									"text" : "Transpose factor (read speed) \n\n1. : original pitch value \n0.5 : octave inf;\r< 0 : the sound is read backward"
 								}
 
@@ -16449,7 +16448,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.947218507528305, 626.519579410552979, 262.0, 33.0 ],
+									"patching_rect" : [ 322.947218507528305, 626.519579410552979, 262.0, 34.0 ],
 									"text" : "Amplitude of grains.\nWhen Amp < 0, polarity is reversed"
 								}
 
@@ -16462,7 +16461,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.947218507528305, 663.938690364360809, 262.0, 33.0 ],
+									"patching_rect" : [ 322.947218507528305, 663.938690364360809, 262.0, 34.0 ],
 									"text" : "Length of grains.;\rWhen Length is < 0, envelope is read backward"
 								}
 
@@ -16476,7 +16475,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 238.320710390806198, 669.563734591007233, 55.0, 22.0 ],
+									"patching_rect" : [ 238.320710390806198, 669.563734591007233, 55.0, 23.0 ],
 									"text" : "Length",
 									"underline" : 1
 								}
@@ -16491,7 +16490,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 238.320710390806198, 626.519579410552979, 40.0, 22.0 ],
+									"patching_rect" : [ 238.320710390806198, 626.519579410552979, 40.0, 23.0 ],
 									"text" : "Amp",
 									"underline" : 1
 								}
@@ -16506,7 +16505,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 238.320710390806198, 536.165759325027466, 79.0, 22.0 ],
+									"patching_rect" : [ 238.320710390806198, 536.165759325027466, 79.0, 23.0 ],
 									"text" : "Transpose",
 									"underline" : 1
 								}
@@ -16521,7 +16520,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 238.320710390806198, 498.816360354423523, 47.0, 22.0 ],
+									"patching_rect" : [ 238.320710390806198, 498.816360354423523, 47.0, 23.0 ],
 									"text" : "Begin",
 									"underline" : 1
 								}
@@ -16536,7 +16535,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 238.320710390806198, 461.555481553077698, 43.0, 22.0 ],
+									"patching_rect" : [ 238.320710390806198, 461.555481553077698, 43.0, 23.0 ],
 									"text" : "Trigg",
 									"underline" : 1
 								}
@@ -16564,8 +16563,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16927,7 +16926,7 @@
 									}
 ,
 									"size" : 3,
-									"value" : 1,
+									"value" : 0,
 									"varname" : "radiogroup"
 								}
 
@@ -17184,14 +17183,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SpatSlider.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GMU/patchers",
+				"bootpath" : "~/Documents/Git/GMU/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bufGranul~.mxo",
-				"type" : "iLaX"
+				"name" : "bufgranul~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "helpdetails.js",
@@ -17200,8 +17199,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "multiconvolve~.mxo",
-				"type" : "iLaX"
+				"name" : "multiconvolve~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "wfknob.png",
