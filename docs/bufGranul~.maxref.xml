@@ -191,7 +191,7 @@
                     <arg name="mode" optional="0" type="int" />
                 </arglist>
                 <digest>
-                    ets the constraint for killing a grain. Default is 0.
+                    Sets the constraint for killing a grain. Default is 0.
                 </digest>
                 <description>
                    Sets the constraint for killing a grain.
