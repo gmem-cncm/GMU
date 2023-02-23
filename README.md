@@ -48,5 +48,7 @@ GMU was developped at [GMEM - Marseille - Centre National de Création Musicale]
 And also contributions from :
 - Jean-François Oliver
 - Loïc Kessous
+- Arthus Touzet
+- Matéo Fayet
 
 More info : [GMU Website](https://gmem.org/recherche/gmu-granular-synthesis-environment/)
