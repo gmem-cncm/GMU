@@ -347,7 +347,7 @@ int C74_EXPORT main(void)
     class_addmethod(c, (method)synGranul_clear, "panic",0);				// panique ! effacement des grains en cours
 	class_addmethod(c, (method)synGranul_grain, "grain", A_GIMME, 0);
 
-	class_addmethod(c, (method)synGranul_multichanneloutputs, "multichanneloutputs", A_CANT, 0);
+	class_addmethod(c, (method)synGranul_multichanneloutputs, "multichanneloutputs", A_CANT, 0); //mc mulitchannel output
 
 #ifdef PERF_DEBUG
     class_addmethod(c, (method)synGranul_poll, "poll", A_LONG, 0);
