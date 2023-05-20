@@ -1,0 +1,266 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.23.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.23.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "mc.bufGranul~/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		},
+		{
+			"path" : "liveGranul~/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		},
+		{
+			"path" : "synGranul~/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		},
+		{
+			"path" : "rand_dist_list/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		},
+		{
+			"path" : "rand_dist_list~/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		},
+		{
+			"path" : "idleubutton/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		},
+		{
+			"path" : "bargraf~/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-pretarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/max-posttarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/arthus/SDKs/max-sdk/source/max-sdk-base/script/Info.plist.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/arthus/Documents/GitHub/GMU/source/build",
+		"source" : "/Users/arthus/Documents/GitHub/GMU/source"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

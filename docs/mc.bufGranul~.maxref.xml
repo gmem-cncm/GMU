@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
+
+<c74object name="bufGranul~">
+
+    <digest>
+        Sound multibuffer granulation with signal from parameters and buffer based envelope.
+    </digest>
+​
+    <description>
+         Grains are triggered either by signal zero-crossing or messages. Inputs can be signals or floats. bufGranul~ handles multichannel outputs.
+    </description>
+~
+    <!--METADATA-->
+    <metadatalist>
+        <metadata name="author">Charles Bascou and Laurent Pottier</metadata>
+        <metadata name="tag">Granular</metadata>
+        <metadata name="tag">Buffer</metadata>
+        <metadata name="tag">Multichannel</metadata>
+    </metadatalist>
+
+    <!--INLETS
+    <inletlist>
+        <inlet id="0" type="bang/signal Zero X-ing/set/">
+            <digest>Trigger</digest>
+        </inlet>
+        <inlet id="1" type="signal/float">
+            <digest>Begin</digest>
+            <description>
+                Time position in milliseconds where the grain waveform is picked in the sound buffer.
+            </description>
+        </inlet>
+           <inlet id="2" type="signal/float">
+            <digest>Detune</digest>
+            <description>
+               transposition factor (ie. read speed) of the grain waveform. For example, 1. corresponds to original speed, 0.5 to lower octave, 2. to upper octave. Note that if the speed is negative the buffer waveform is read backward.
+            </description>
+        </inlet>
+    </inletlist>
+    -->
+
+
+    <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="soundbuffer" optional="0" type="symbol">
+            <digest>Name of the sound buffer</digest>
+             <description>
+                    Name of the sound buffer stored by default in 0 position of the buffer list. Even if replaced later, this buffer has to be valid.
+            </description>
+        </objarg>
+        <objarg name="envbuffer" optional="0" type="symbol">
+            <digest>Name of the envelope buffer</digest>
+             <description>
+                    Name of the envelope buffer stored by default in 0 position of the buffer list. Even if replaced later, the buffer 0 has to be set and valid.
+            </description>
+        </objarg>
+        <objarg name="number_of_output" optional="1" type="int">
+            <digest>1-2-4-6 or 8 outputs if specified. Default is 2. </digest>
+        </objarg>
+        <objarg name="channel_offset" optional="1" type="int">
+            <digest> Channel to trigger if the loaded buffer contains several channels. Default is 1. </digest>
+        </objarg>
+    </objarglist>
+
+    <!--MESSAGES-->
+        <methodlist>
+         
+           <method name="bang">
+                <digest>
+                    Bang routine, Triggers a grain.
+                </digest>
+                <description>
+                   Bang routine, Triggers a grain.
+                </description>
+            </method>
+            <method name="bchan_offset">
+                <arglist>
+                    <arg name="mode" optional="0" type="int" />
+                </arglist>
+                <digest>
+                    Sets the maximum polyphony voices number.
+                </digest>
+                <description>
+                    Sets the maximum polyphony voices number. The default value is 512 grains playing at the same time. Similar to "nvoices".
+                </description>
+            </method>
+            <method name="envbuffer">
+                <arglist>
+                    <arg name="envelope buffer number" optional="0" type="int" />
+                </arglist>
+                <digest>
+                    Active envelope buffer.
+                </digest>
+                <description>
+                    Active envelope buffer.
+                </description>
+           </method>
+            <method name="float">
+                <digest>
+                    Affects values by floats.
+                </digest>
+                <description>
+                   Affects values by floats.
+                </description>
+            </method>
+            <method name="grain">
+                <arglist>
+                    <arg name="delay (ms)" optional="0" type="float" />
+                    <arg name="begin (ms)" optional="0" type="float" />
+                    <arg name="detune (ms)" optional="0" type="float" />
+                    <arg name="amp (ms)" optional="0" type="float" />
+                    <arg name="length (ms)" optional="0" type="float" />
+                    <arg name="pan [0;1]" optional="0" type="float" />
+                    <arg name="dist [0;1]" optional="0" type="float" />
+                    <arg name="buffer" optional="0" type="int" />
+                    <arg name="envbuffer" optional="0" type="int" />
+
+                </arglist>
+                <digest>
+                   Triggers a grain by a list of floats parameters.
+                </digest>
+                <description>
+                    Triggers a grain by a list of floats parameters. Easy way to trigger grains at the exact same time.
+                    <br/>
+                    <br/>Delay : time between the reception of the message and the grain trigger.
+                    <br/>Begin : time of the grain in the sample.
+                    <br/>Detune : speed ratio of the sample reading.
+                    <br/>Amp : amplitude of the signal.
+                    <br/>Length : length of the grain
+                    <br/>Pan : Multichannel sends ratio.
+                    <br/>Distance : Multichannel blend to simulate proximity.
+                    <br/>Buffer : sound buffer name.
+                    <br/>Envbuffer : envelope buffer name.
+                </description>
+            </method>
+            <method name="kill">
+                 <arglist>
+                    <arg name="grain" optional="0" type="int" />
+                </arglist>
+                <digest>
+                    Kill a grain depending on the polymode.
+                </digest>
+                <description>
+                   Kill a grain depending on the polymode.
+                </description>
+            </method>
+            <method name="killall">
+                <digest>
+                    Applies a small vector size fadeout and then panic.
+                </digest>
+                <description>
+                    Applies a small vector size fadeout and then panic.
+                </description>
+            </method>
+            <method name="loop">
+                <arglist>
+                    <arg name="mode" optional="0" type="int" />
+                    <arg name="begin(ms)" optional="1" type="float" />
+                    <arg name="end(ms)" optional="1" type="float" />
+                </arglist>
+                <digest>
+                    Loop mode message.
+                </digest>
+                <description>
+                    Loop mode message. Buffer position playback is wrapped between begin an end.
+                    <br/>loop 0 : loop disabled .
+                    <br/> loop 1 : loop between begin and end. If no begin  end is given loop entire buffer.
+                </description>
+            </method>
+            <method name="nvoices">
+                <arglist>
+                    <arg name="mode" optional="0" type="int" />
+                </arglist>
+                <digest>
+                    Sets the maximum polyphony voices number too.
+                </digest>
+                <description>
+                   Similar to bchan_offset. Sets the maximum polyphony voices number. The default value is 512 grains playing at the same time.
+                </description>
+            </method>
+            <method name="panic">
+                <digest>
+                    Panic! Stop the sound of all the playing grains.
+                </digest>
+                <description>
+                    Panic! Stop the sound of all the playing grains.
+                </description>
+            </method>
+            <method name="polymode">
+                <arglist>
+                    <arg name="mode" optional="0" type="int" />
+                </arglist>
+                <digest>
+                    Sets the constraint for killing a grain. Default is 0.
+                </digest>
+                <description>
+                   Sets the constraint for killing a grain.
+                   <br/> 
+                   <br/>polymode 0 : doesn't trigger if all voices ar allocated (default)
+                   <br/>polymode 1 : kill the oldest grain
+                   <br/>polymode 2 : kill the longest grain
+                   <br/>polymode 3 : kill the grain wich has the longest tail
+                </description>
+            </method>
+            <method name="set">
+                <arglist>
+                    <arg name="buffer number" optional="0" type="int" />
+                    <arg name="buffer name" optional="0" type="symbol" />
+                </arglist>
+                <digest>
+                    Store a specific sound buffer into a specific slot.
+                </digest>
+                <description>
+                    Store a specific sound buffer into a specific slot.
+                </description>
+            </method>
+            <method name="setenv">
+                <arglist>
+                    <arg name="envelope buffer number" optional="0" type="int" />
+                    <arg name="envelope buffer name" optional="0" type="symbol" />
+                </arglist>
+                <digest>
+                    Store a specific envelope buffer into a specific slot.
+                </digest>
+                <description>
+                    Store a specific envelope buffer into a specific slot.
+                </description>
+            </method>
+            <method name="sinterp">
+                <arglist>
+                    <arg name="mode" optional="0" type="int" />
+                </arglist>
+                <digest>
+                    Interpolation algorythm mode.
+                </digest>
+                <description>
+                    Sinc antialisased interpolation when resampling (eg. detuning).
+                    <br/>
+                    <br/> sinterp 0 : none
+                    <br/> sinterp 1 : linear
+                    <br/> sinterp 2 : sinc16
+                
+                </description>
+            </method>
+            <method name="tellme">
+                <digest>
+                    Print infos about the object in the console.
+                </digest>
+                <description>
+                   Print infos about the object in the console.
+                </description>
+            </method>
+           
+            
+
+            <!-- Assist et dsp64?? -->
+
+        </methodlist>
+
+        <!--SEEALSO-->
+	<seealsolist>
+		<seealso name="synGranul~"/>
+		<seealso name="liveGranul~"/>
+		<seealso name="buffer~"/>
+        <seealso name="polybuffer~"/>
+
+	</seealsolist>
+    
+    
+
+
+
+</c74object>
