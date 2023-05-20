@@ -31,4 +31,5 @@ Temporary Items
 
 source/CMakeLists.txt
 
-source/build
+source/build/
+source/CMakeLists.txt
