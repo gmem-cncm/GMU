@@ -237,6 +237,18 @@ mc.bufGranul_tilde_IS_TOP_LEVEL:STATIC=OFF
 mc.bufGranul_tilde_SOURCE_DIR:STATIC=C:/Users/mateo/Documents/GMEM Project/GMU/source/mc.bufGranul~
 
 //Value Computed by CMake
+mc.synGranul_tilde_BINARY_DIR:STATIC=C:/Users/mateo/Documents/GMEM Project/GMU/source/build/mc.synGranul~
+
+//The name to give to the external output file/directory
+mc.synGranul_tilde_EXTERN_OUTPUT_NAME:STRING=mc.synGranul~
+
+//Value Computed by CMake
+mc.synGranul_tilde_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mc.synGranul_tilde_SOURCE_DIR:STATIC=C:/Users/mateo/Documents/GMEM Project/GMU/source/mc.synGranul~
+
+//Value Computed by CMake
 rand_dist_list_BINARY_DIR:STATIC=C:/Users/mateo/Documents/GMEM Project/GMU/source/build/rand_dist_list
 
 //The name to give to the external output file/directory
@@ -366,7 +378,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -420,6 +432,8 @@ idleubutton_EXTERN_OUTPUT_NAME-ADVANCED:INTERNAL=1
 liveGranul_tilde_EXTERN_OUTPUT_NAME-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: mc.bufGranul_tilde_EXTERN_OUTPUT_NAME
 mc.bufGranul_tilde_EXTERN_OUTPUT_NAME-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: mc.synGranul_tilde_EXTERN_OUTPUT_NAME
+mc.synGranul_tilde_EXTERN_OUTPUT_NAME-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: rand_dist_list_EXTERN_OUTPUT_NAME
 rand_dist_list_EXTERN_OUTPUT_NAME-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: rand_dist_list_tilde_EXTERN_OUTPUT_NAME

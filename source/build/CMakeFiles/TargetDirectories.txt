@@ -14,3 +14,5 @@ C:/Users/mateo/Documents/GMEM Project/GMU/source/build/idleubutton/CMakeFiles/id
 C:/Users/mateo/Documents/GMEM Project/GMU/source/build/idleubutton/CMakeFiles/ALL_BUILD.dir
 C:/Users/mateo/Documents/GMEM Project/GMU/source/build/bargraf~/CMakeFiles/bargraf_tilde.dir
 C:/Users/mateo/Documents/GMEM Project/GMU/source/build/bargraf~/CMakeFiles/ALL_BUILD.dir
+C:/Users/mateo/Documents/GMEM Project/GMU/source/build/mc.synGranul~/CMakeFiles/mc.synGranul_tilde.dir
+C:/Users/mateo/Documents/GMEM Project/GMU/source/build/mc.synGranul~/CMakeFiles/ALL_BUILD.dir
