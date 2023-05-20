@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 948.0, 650.0 ],
+		"rect" : [ 41.0, 87.0, 948.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 41.0, 110.0, 948.0, 624.0 ],
+						"rect" : [ 41.0, 113.0, 948.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -157,7 +157,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 533.5, 94.665685783142095, 96.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "help synGranul~"
 								}
 
@@ -274,8 +273,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 30.078431248664856, 525.0, 89.0 ],
-									"text" : "synGranul~ also comes with the mc feature provided by Cycling. It is compatible with all mc. objects. \nYou can choose how many channels output you want from bufGranul and control it easily with \nthe multislider. bufGranul~ allows you to add some randomness to the pan parameter. You can also change the distance parameter. Distance must be different from 0 to allow Pan changing.\nmc.synGranul~ is nothing more than a good way to save space and patchcords. "
+									"patching_rect" : [ 2.0, 30.078431248664856, 525.0, 87.0 ],
+									"text" : "synGranul~ also comes with the mc feature provided by Cycling. It is compatible with all mc. objects. \nYou can choose how many channels output you want from bufGranul and control it easily with \nthe multislider. synGranul~ allows you to add some randomness to the pan parameter. You can also change the distance parameter. Distance must be different from 0 to allow Pan changing.\nmc.synGranul~ is nothing more than a good way to save space and patchcords. "
 								}
 
 							}
@@ -365,7 +364,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 699.0, 195.926643311977386, 114.0, 38.0 ],
+									"patching_rect" : [ 699.0, 195.926643311977386, 114.0, 37.0 ],
 									"text" : "Slide to change grain's focus"
 								}
 
@@ -379,7 +378,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.983744382858276, 195.926643311977386, 154.0, 38.0 ],
+									"patching_rect" : [ 330.983744382858276, 195.926643311977386, 154.0, 37.0 ],
 									"text" : "Move the dot to change \nthe grain's position"
 								}
 
@@ -471,7 +470,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 4.078431248664856, 266.0, 25.0 ],
+									"patching_rect" : [ 2.0, 4.078431248664856, 266.0, 24.0 ],
 									"text" : "mc.synGranul~",
 									"underline" : 1
 								}
@@ -532,7 +531,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 798.0, 557.150538980960846, 153.0, 79.0 ],
+									"patching_rect" : [ 798.0, 557.150538980960846, 153.0, 78.0 ],
 									"text" : "Binaural convolution: must have HISSTools\nOtherwise route the left dac for regular six channels output"
 								}
 
@@ -1273,7 +1272,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 803.5, 350.333818563716875, 152.0, 38.0 ],
+									"patching_rect" : [ 803.5, 350.333818563716875, 152.0, 37.0 ],
 									"text" : "Add some randomness to the pan parameter"
 								}
 
@@ -2468,18 +2467,18 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SpatSlider.maxpat",
-				"bootpath" : "~/Documents/GMEM Project/GMU/patchers",
+				"bootpath" : "~/Documents/GitHub/GMU/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mc.synGranul~.mxe64",
-				"type" : "mx64"
+				"name" : "mc.synGranul~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "multiconvolve~.mxe64",
-				"type" : "mx64"
+				"name" : "multiconvolve~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
