@@ -110,7 +110,7 @@ typedef struct _liveGranul
     // BUFFER SON
     
     long	  x_buf_frames;		// le nombre de sample dans le buffer~ son
-    double	 *x_buf_samples;	// pointeur sur le tableau d'échantillon du buffer~ son
+    double	 *x_buf_samples;	// pointeur sur le tableau d'ï¿½chantillon du buffer~ son
     long	x_buf_recpt; 		// pointeur d'ecriture dans le buffer
     
     long	x_buf_recpt_pad;
@@ -124,9 +124,9 @@ typedef struct _liveGranul
     t_buffer *x_env_buf[NEBUF];			// le buffer~ enveloppe
     t_symbol *x_env_sym[NEBUF];			// le symbol correspondant au nom du buffer~ enveloppe
     long	  x_env_frames[NEBUF];		// le nombre de sample dans le buffer~ enveloppe
-    float	 *x_env_samples[NEBUF];		// pointeur sur le tableau d'échantillon du buffer~ enveloppe
+    float	 *x_env_samples[NEBUF];		// pointeur sur le tableau d'ï¿½chantillon du buffer~ enveloppe
     int		  x_nenvbuffer;				// nombre de buffer enveloppe
-    int       x_active_env;				// le buffer enveloppe actif est celui dans lequel les nouveaux grains sont prélevés.
+    int       x_active_env;				// le buffer enveloppe actif est celui dans lequel les nouveaux grains sont prï¿½levï¿½s.
     
     // PARAMETRES D'HIVERS
     
@@ -160,8 +160,8 @@ typedef struct _liveGranul
     
     
     int   x_env_dir;					// direction de lecture de l'enveloppe
-    double *envinc;				// pas d'avancement dans le buffer enveloppe (par rapport à la longueur du grain
-    double *envind;				// indice de départ dans le buffer enveloppe (debut si lecture normale, fin si lecture inversee)
+    double *envinc;				// pas d'avancement dans le buffer enveloppe (par rapport ï¿½ la longueur du grain
+    double *envind;				// indice de dï¿½part dans le buffer enveloppe (debut si lecture normale, fin si lecture inversee)
     double *x_env;				// enveloppe de chaque voix
     int   *Venv;				// numero du buffer enveloppe dans lequel sera pris le grain
     
@@ -203,9 +203,9 @@ int liveGranul_desalloc(t_liveGranul *x);
 
 // Buffer son
 void liveGranul_set(t_liveGranul *x,t_symbol *msg, short ac, t_atom * av);		// definition des buffer~ son
-//void liveGranul_setInit(t_liveGranul *x, t_symbol *s);	// definition du buffer~ son (à l'initialisation du patch)
+//void liveGranul_setInit(t_liveGranul *x, t_symbol *s);	// definition du buffer~ son (ï¿½ l'initialisation du patch)
 void liveGranul_swap(t_liveGranul *x);					// bascule buffer son
-int liveGranul_bufferinfos(t_liveGranul *x);				// affectation des paramètres des buffers
+int liveGranul_bufferinfos(t_liveGranul *x);				// affectation des paramï¿½tres des buffers
 //void liveGranul_nbuffer(t_liveGranul *x, long n);		// nombre de buffer son
 
 // Bufffer enveloppe
@@ -288,12 +288,12 @@ int C74_EXPORT main(void)
     class_addmethod(c, (method)liveGranul_nvoices, "nvoices", A_LONG, 0);	// nombre de voix (polyphonie)
     class_addmethod(c, (method)liveGranul_tellme, "tellme",0);				// demande d'info
     class_addmethod(c, (method)liveGranul_bang, "bang", 0);    						// routine pour un bang, declenchement d'un grain
-    class_addmethod(c, (method)liveGranul_grain, "grain",    A_GIMME,    0);        // dŽclenchement des grains par message
+    class_addmethod(c, (method)liveGranul_grain, "grain",    A_GIMME,    0);        // dï¿½clenchement des grains par message
     class_addmethod(c, (method)liveGranul_float, "float", A_FLOAT, 0);							// affectation des valeurs par des flottants
     
     class_addmethod(c, (method)liveGranul_assist, "assist", A_CANT, 0);		// assistance in out
     class_addmethod(c, (method)liveGranul_dsp64, "dsp64", A_CANT, 0);			// signal processing
-    class_addmethod(c, (method)liveGranul_sinterp, "sinterp", A_LONG, 0);	// interpollation dans la lecture du buffer pour éviter les clics
+    class_addmethod(c, (method)liveGranul_sinterp, "sinterp", A_LONG, 0);	// interpollation dans la lecture du buffer pour ï¿½viter les clics
     class_addmethod(c, (method)liveGranul_clear, "clear",0);				// panique ! effacement des grains en cours
     class_addmethod(c, (method)liveGranul_clear, "panic",0);				// panique ! effacement des grains en cours
     
@@ -518,7 +518,7 @@ t_symbol * atom2symbol(t_atom * av, int ind)
 
 
 
-// Fonction de verification de la validitŽ du buffer demandŽ
+// Fonction de verification de la validitï¿½ du buffer demandï¿½
 int bufferenv_check(t_liveGranul *x, int num)
 {
 	return ( x->x_env_buf[num] == 0 ) ? 0 : num ;
@@ -897,7 +897,7 @@ void *liveGranul_new(t_symbol *s, short ac, t_atom *av)
 	if(ac < 2)
 	{
 		post("Missing Arguments Name 1 Envelope Buffer Name 2 Outputs number (1-2-4-6-8)");
-		return;
+		return 0;
 	} else {
 
 		//////////////arguments/////////////////
@@ -1098,12 +1098,12 @@ int liveGranul_bufferinfos(t_liveGranul *x)
     if (x->x_obj.z_disabled) return -1;
     
 
-	// Test sur la validité et l'activite des buffers & initialisations
+	// Test sur la validitï¿½ et l'activite des buffers & initialisations
 
 
 	for(cpt = 0; cpt < x->x_nenvbuffer ; cpt++)
 	{
-		if( x->x_env_sym[cpt] ) // si un nom de buffer a ŽtŽ donnŽ -> collecter les infos
+		if( x->x_env_sym[cpt] ) // si un nom de buffer a ï¿½tï¿½ donnï¿½ -> collecter les infos
 		{
 		
             if ((b = (t_buffer *)(x->x_env_sym[cpt]->s_thing)) && ob_sym(b) == ps_buffer && b->b_valid && !b->b_inuse) // attention inuse !!!
@@ -1116,7 +1116,7 @@ int liveGranul_bufferinfos(t_liveGranul *x)
             }
 			else {
 				//post("invalid %d",cpt);
-				// le buffer 0 est celui utilisŽ si celui choisi est pas valide ... si il n'y est pas -> pas dsp !!!
+				// le buffer 0 est celui utilisï¿½ si celui choisi est pas valide ... si il n'y est pas -> pas dsp !!!
 				if(cpt == 0) {return 0;}
 				x->x_env_buf[cpt] = 0;
 
@@ -1240,7 +1240,7 @@ void liveGranul_setenv(t_liveGranul *x, t_symbol *msg, short ac, t_atom * av)
 }
 
 
-// affectation du numŽro de buffer enveloppe actif
+// affectation du numï¿½ro de buffer enveloppe actif
 void liveGranul_envbuffer(t_liveGranul *x, long n)
 {
 	x->x_active_env = (n < 0)? 0 : ((n >= NEBUF)? NEBUF-1 : n );
@@ -1620,7 +1620,7 @@ void liveGranul_perform64(t_liveGranul *x, t_object *dsp64, double **ins, long n
             //si la voix est en cours
             if (x->x_voiceOn[i]) //&& x->x_ind[i] < x->Vlength[i] )
             {
-                // si delay + grand que taille vecteur on passe ˆ voix suivante
+                // si delay + grand que taille vecteur on passe ï¿½ voix suivante
                 if(x->x_delay[i] >= N)
                 {
                     x->x_delay[i] -= N ;
@@ -1631,7 +1631,7 @@ void liveGranul_perform64(t_liveGranul *x, t_object *dsp64, double **ins, long n
                 nech_process = MIN( (N - x->x_delay[i]) , x->x_remain_ind[i] );
                 
                 // Selon le buffer dans lequel on doit prendre le son x->Vbuf[i] (voir creation des grains)
-                // Il se peut que le buffer associŽ au grain ne soit plus valide -> verification -> si non on prend buffer #0
+                // Il se peut que le buffer associï¿½ au grain ne soit plus valide -> verification -> si non on prend buffer #0
                 //t_bufnum = x->x_buf_valid_index[x->Vbuf[i]];
                 //t_bufframes =  x->x_buf_frames[t_bufnum];
                 //t_bufsamples = x->x_buf_samples[t_bufnum];
@@ -1757,7 +1757,7 @@ void liveGranul_perform64(t_liveGranul *x, t_object *dsp64, double **ins, long n
                 //post("%d %d dsp_i_begin",dsp_i_begin,dsp_i_end);
                 
                 //********************************
-                //  MAJ de l'Žtat des grains
+                //  MAJ de l'ï¿½tat des grains
                 
                 x->x_sind[i] = target_findex;
                 
