@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1034.0, 756.0 ],
+		"rect" : [ 41.0, 87.0, 1034.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 1034.0, 730.0 ],
+						"rect" : [ 41.0, 113.0, 1034.0, 730.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -158,7 +158,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 146.751200306172336, 6.078431248664856, 177.0, 26.0 ],
+									"patching_rect" : [ 528.751200306172336, 35.078431248664856, 177.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -183,7 +183,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 146.751200306172336, 38.078431248664856, 96.0, 22.0 ],
+									"patching_rect" : [ 754.999999999999886, 68.0, 96.0, 22.0 ],
 									"text" : "help liveGranul~"
 								}
 
@@ -196,7 +196,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 254.751200306172336, 38.078431248664856, 51.0, 22.0 ],
+									"patching_rect" : [ 754.999999999999886, 96.0, 51.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -343,7 +343,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 35.078431248664856, 518.0, 47.0 ],
+									"patching_rect" : [ 1.0, 35.078431248664856, 518.0, 48.0 ],
 									"text" : "You can choose how many channels output you want from liveGranul~ and control it easily with \nthe multislider. liveGranul~ allows you to add some randomness to the pan parameter. You can also change the distance parameter. Distance must be different from 0 to allow Pan changing."
 								}
 
@@ -582,7 +582,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 365.0, 142.246534287929535, 154.0, 37.0 ],
+									"patching_rect" : [ 365.0, 142.246534287929535, 154.0, 38.0 ],
 									"text" : "Move the dot to change \nthe grain's position"
 								}
 
@@ -616,7 +616,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 730.0, 142.246534287929535, 114.0, 37.0 ],
+									"patching_rect" : [ 730.0, 142.246534287929535, 114.0, 38.0 ],
 									"text" : "Slide to change grain's focus"
 								}
 
@@ -641,7 +641,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 599.000000000000227, 20.665685534477234, 58.0, 22.0 ],
+									"patching_rect" : [ 867.000000000000227, 35.078431248664856, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -654,7 +654,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 599.000000000000227, 47.578431248664856, 61.0, 22.0 ],
+									"patching_rect" : [ 867.000000000000227, 61.991176962852478, 61.0, 22.0 ],
 									"text" : "delay 500"
 								}
 
@@ -667,7 +667,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 525.0, 20.665685534477234, 58.0, 22.0 ],
+									"patching_rect" : [ 793.0, 35.078431248664856, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -680,7 +680,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 636.776058936605637, 574.380106091499329, 153.0, 78.0 ],
+									"patching_rect" : [ 636.776058936605637, 574.380106091499329, 153.0, 79.0 ],
 									"text" : "Binaural convolution: must have HISSTools\nOtherwise route the left dac for regular six channels output"
 								}
 
@@ -2071,7 +2071,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 803.044342780599663, 280.0, 152.0, 37.0 ],
+									"patching_rect" : [ 803.044342780599663, 280.0, 152.0, 38.0 ],
 									"text" : "Add some randomness to the pan parameter"
 								}
 
@@ -2266,7 +2266,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 8.078431248664856, 266.0, 24.0 ],
+									"patching_rect" : [ 1.0, 8.078431248664856, 266.0, 25.0 ],
 									"text" : "mc.liveGranul~",
 									"underline" : 1
 								}
@@ -2818,18 +2818,18 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SpatSlider.maxpat",
-				"bootpath" : "~/Documents/GitHub/GMU/patchers",
+				"bootpath" : "~/Documents/GMEM Project/GMU/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mc.liveGranul~.mxo",
-				"type" : "iLaX"
+				"name" : "mc.liveGranul~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "multiconvolve~.mxo",
-				"type" : "iLaX"
+				"name" : "multiconvolve~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
