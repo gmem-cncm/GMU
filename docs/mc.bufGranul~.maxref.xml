@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
 
-<c74object name="bufGranul~">
+<c74object name="mc.bufGranul~">
 
     <digest>
-        Sound multibuffer granulation with signal from parameters and buffer based envelope.
+        Sound multibuffer granulation with signal from parameters and buffer based envelope (mc version).
     </digest>
 ​
     <description>
@@ -259,10 +259,14 @@
 
         <!--SEEALSO-->
 	<seealsolist>
+        <seealso name="bufGranul~"/>
 		<seealso name="synGranul~"/>
 		<seealso name="liveGranul~"/>
-		<seealso name="buffer~"/>
+        <seealso name="mc.synGranul~"/>
+		<seealso name="mc.liveGranul~"/>
+        <seealso name="buffer~"/>
         <seealso name="polybuffer~"/>
+
 
 	</seealsolist>
     
