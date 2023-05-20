@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mateo\Documents\GMEM Project\GMU\source\rand_dist_list\rand_dist_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mateo\Documents\GMEM Project\GMU\source\rand_dist_list\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E06DC9CB-9695-3D96-AD55-4CACFEF02548}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

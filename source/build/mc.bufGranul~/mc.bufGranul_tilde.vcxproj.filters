@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mateo\Documents\GMEM Project\GMU\source\mc.bufGranul~\mc.bufGranul2~.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mateo\Documents\GMEM Project\GMU\source\mc.bufGranul~\mc.bufGranul2~_DSP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\mateo\Documents\GMEM Project\GMU\source\mc.bufGranul~\mc.bufGranul2~.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mateo\Documents\GMEM Project\GMU\source\mc.bufGranul~\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E5466109-2FD6-3614-86A6-63322333873B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E06DC9CB-9695-3D96-AD55-4CACFEF02548}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

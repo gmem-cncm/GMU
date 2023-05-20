@@ -1,0 +1,1512 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"build" : "mc.bufGranul~",
+					"jsonFile" : "directory-mc.bufGranul~-Debug-f9d7c57c498a23a7a448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mc.bufGranul~",
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"build" : "liveGranul~",
+					"jsonFile" : "directory-liveGranul~-Debug-7e016ebff5203fd18b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "liveGranul~",
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"build" : "synGranul~",
+					"jsonFile" : "directory-synGranul~-Debug-5f0da17e57eded6979cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "synGranul~",
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"build" : "rand_dist_list",
+					"jsonFile" : "directory-rand_dist_list-Debug-701ab9f581e52ad3a721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "rand_dist_list",
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"build" : "rand_dist_list~",
+					"jsonFile" : "directory-rand_dist_list~-Debug-69fc20d2170d408fa728.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "rand_dist_list~",
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"build" : "idleubutton",
+					"jsonFile" : "directory-idleubutton-Debug-f736cf4ab82020feea6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "idleubutton",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"build" : "bargraf~",
+					"jsonFile" : "directory-bargraf~-Debug-7b43ea8383617754f0a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "bargraf~",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "source",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mc.bufGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "liveGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "synGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "rand_dist_list",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rand_dist_list_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "idleubutton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "bargraf_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-8026ecc1791751b4153d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-ALL_BUILD-Debug-466e8be4a08dd4edab8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-ALL_BUILD-Debug-ae06eccffcde30d72da0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5ffe63d377026f092360",
+					"jsonFile" : "target-ALL_BUILD-Debug-77e74fabd04faa5c08a1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-ALL_BUILD-Debug-0a3389222b6b0c3281e5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-ALL_BUILD-Debug-8f1d2eeb9beba1d58429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c585b31bed327ec50730",
+					"jsonFile" : "target-ALL_BUILD-Debug-485dd107bbcbd214d268.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-ALL_BUILD-Debug-388dc0949a55bec4afab.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-8af02c27651a69b1cd52.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "bargraf_tilde::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-bargraf_tilde-Debug-5483abe7f175d606214f.json",
+					"name" : "bargraf_tilde",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "idleubutton::@c585b31bed327ec50730",
+					"jsonFile" : "target-idleubutton-Debug-4c7ee64042830b688758.json",
+					"name" : "idleubutton",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "liveGranul_tilde::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-liveGranul_tilde-Debug-c22231b4103198cefe42.json",
+					"name" : "liveGranul_tilde",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mc.bufGranul_tilde::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-mc.bufGranul_tilde-Debug-55607664ec13b039cf7b.json",
+					"name" : "mc.bufGranul_tilde",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rand_dist_list::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-rand_dist_list-Debug-d26cc29568277806fba6.json",
+					"name" : "rand_dist_list",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rand_dist_list_tilde::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-rand_dist_list_tilde-Debug-89f6539f35a28d087d78.json",
+					"name" : "rand_dist_list_tilde",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "synGranul_tilde::@5ffe63d377026f092360",
+					"jsonFile" : "target-synGranul_tilde-Debug-bad514d3eceecf0bcc92.json",
+					"name" : "synGranul_tilde",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"build" : "mc.bufGranul~",
+					"jsonFile" : "directory-mc.bufGranul~-Release-f9d7c57c498a23a7a448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mc.bufGranul~",
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"build" : "liveGranul~",
+					"jsonFile" : "directory-liveGranul~-Release-7e016ebff5203fd18b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "liveGranul~",
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"build" : "synGranul~",
+					"jsonFile" : "directory-synGranul~-Release-5f0da17e57eded6979cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "synGranul~",
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"build" : "rand_dist_list",
+					"jsonFile" : "directory-rand_dist_list-Release-701ab9f581e52ad3a721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "rand_dist_list",
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"build" : "rand_dist_list~",
+					"jsonFile" : "directory-rand_dist_list~-Release-69fc20d2170d408fa728.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "rand_dist_list~",
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"build" : "idleubutton",
+					"jsonFile" : "directory-idleubutton-Release-f736cf4ab82020feea6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "idleubutton",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"build" : "bargraf~",
+					"jsonFile" : "directory-bargraf~-Release-7b43ea8383617754f0a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "bargraf~",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "source",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mc.bufGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "liveGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "synGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "rand_dist_list",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rand_dist_list_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "idleubutton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "bargraf_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-8026ecc1791751b4153d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-ALL_BUILD-Release-466e8be4a08dd4edab8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-ALL_BUILD-Release-ae06eccffcde30d72da0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5ffe63d377026f092360",
+					"jsonFile" : "target-ALL_BUILD-Release-77e74fabd04faa5c08a1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-ALL_BUILD-Release-0a3389222b6b0c3281e5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-ALL_BUILD-Release-8f1d2eeb9beba1d58429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c585b31bed327ec50730",
+					"jsonFile" : "target-ALL_BUILD-Release-485dd107bbcbd214d268.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-ALL_BUILD-Release-388dc0949a55bec4afab.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-8af02c27651a69b1cd52.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "bargraf_tilde::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-bargraf_tilde-Release-6ed95a264b62daa1ff0a.json",
+					"name" : "bargraf_tilde",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "idleubutton::@c585b31bed327ec50730",
+					"jsonFile" : "target-idleubutton-Release-c2bfba4434e9400c3ad1.json",
+					"name" : "idleubutton",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "liveGranul_tilde::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-liveGranul_tilde-Release-647d738bb0bdc1bfa3f8.json",
+					"name" : "liveGranul_tilde",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mc.bufGranul_tilde::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-mc.bufGranul_tilde-Release-fb980ac25d2c891574a6.json",
+					"name" : "mc.bufGranul_tilde",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rand_dist_list::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-rand_dist_list-Release-53b8e7c7a97188dd9b3c.json",
+					"name" : "rand_dist_list",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rand_dist_list_tilde::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-rand_dist_list_tilde-Release-57c4286550a036999149.json",
+					"name" : "rand_dist_list_tilde",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "synGranul_tilde::@5ffe63d377026f092360",
+					"jsonFile" : "target-synGranul_tilde-Release-987840e15c170087c528.json",
+					"name" : "synGranul_tilde",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"build" : "mc.bufGranul~",
+					"jsonFile" : "directory-mc.bufGranul~-MinSizeRel-f9d7c57c498a23a7a448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mc.bufGranul~",
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"build" : "liveGranul~",
+					"jsonFile" : "directory-liveGranul~-MinSizeRel-7e016ebff5203fd18b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "liveGranul~",
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"build" : "synGranul~",
+					"jsonFile" : "directory-synGranul~-MinSizeRel-5f0da17e57eded6979cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "synGranul~",
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"build" : "rand_dist_list",
+					"jsonFile" : "directory-rand_dist_list-MinSizeRel-701ab9f581e52ad3a721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "rand_dist_list",
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"build" : "rand_dist_list~",
+					"jsonFile" : "directory-rand_dist_list~-MinSizeRel-69fc20d2170d408fa728.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "rand_dist_list~",
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"build" : "idleubutton",
+					"jsonFile" : "directory-idleubutton-MinSizeRel-f736cf4ab82020feea6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "idleubutton",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"build" : "bargraf~",
+					"jsonFile" : "directory-bargraf~-MinSizeRel-7b43ea8383617754f0a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "bargraf~",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "source",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mc.bufGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "liveGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "synGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "rand_dist_list",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rand_dist_list_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "idleubutton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "bargraf_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8026ecc1791751b4153d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-466e8be4a08dd4edab8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ae06eccffcde30d72da0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5ffe63d377026f092360",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-77e74fabd04faa5c08a1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0a3389222b6b0c3281e5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8f1d2eeb9beba1d58429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c585b31bed327ec50730",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-485dd107bbcbd214d268.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-388dc0949a55bec4afab.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-8af02c27651a69b1cd52.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "bargraf_tilde::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-bargraf_tilde-MinSizeRel-ee595ab39a3e8a516239.json",
+					"name" : "bargraf_tilde",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "idleubutton::@c585b31bed327ec50730",
+					"jsonFile" : "target-idleubutton-MinSizeRel-5932895f0af7d29b2c17.json",
+					"name" : "idleubutton",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "liveGranul_tilde::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-liveGranul_tilde-MinSizeRel-51d2569a9a9cb9e0b322.json",
+					"name" : "liveGranul_tilde",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mc.bufGranul_tilde::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-mc.bufGranul_tilde-MinSizeRel-1796b698927b87d18bc5.json",
+					"name" : "mc.bufGranul_tilde",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rand_dist_list::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-rand_dist_list-MinSizeRel-e82c2a8249f5f2888b4f.json",
+					"name" : "rand_dist_list",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rand_dist_list_tilde::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-rand_dist_list_tilde-MinSizeRel-7ebc8a321a88fdf4e7b8.json",
+					"name" : "rand_dist_list_tilde",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "synGranul_tilde::@5ffe63d377026f092360",
+					"jsonFile" : "target-synGranul_tilde-MinSizeRel-ee528efb055fdfaf6c7b.json",
+					"name" : "synGranul_tilde",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"build" : "mc.bufGranul~",
+					"jsonFile" : "directory-mc.bufGranul~-RelWithDebInfo-f9d7c57c498a23a7a448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mc.bufGranul~",
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"build" : "liveGranul~",
+					"jsonFile" : "directory-liveGranul~-RelWithDebInfo-7e016ebff5203fd18b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "liveGranul~",
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"build" : "synGranul~",
+					"jsonFile" : "directory-synGranul~-RelWithDebInfo-5f0da17e57eded6979cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "synGranul~",
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"build" : "rand_dist_list",
+					"jsonFile" : "directory-rand_dist_list-RelWithDebInfo-701ab9f581e52ad3a721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "rand_dist_list",
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"build" : "rand_dist_list~",
+					"jsonFile" : "directory-rand_dist_list~-RelWithDebInfo-69fc20d2170d408fa728.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "rand_dist_list~",
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"build" : "idleubutton",
+					"jsonFile" : "directory-idleubutton-RelWithDebInfo-f736cf4ab82020feea6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "idleubutton",
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"build" : "bargraf~",
+					"jsonFile" : "directory-bargraf~-RelWithDebInfo-7b43ea8383617754f0a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "bargraf~",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "source",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mc.bufGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "liveGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "synGranul_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "rand_dist_list",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rand_dist_list_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "idleubutton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "bargraf_tilde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8026ecc1791751b4153d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-466e8be4a08dd4edab8c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ae06eccffcde30d72da0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5ffe63d377026f092360",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-77e74fabd04faa5c08a1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0a3389222b6b0c3281e5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8f1d2eeb9beba1d58429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@c585b31bed327ec50730",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-485dd107bbcbd214d268.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-388dc0949a55bec4afab.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-8af02c27651a69b1cd52.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "bargraf_tilde::@c3dfd1bb80d23ba879ed",
+					"jsonFile" : "target-bargraf_tilde-RelWithDebInfo-d4055e4e0e459dcb5898.json",
+					"name" : "bargraf_tilde",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "idleubutton::@c585b31bed327ec50730",
+					"jsonFile" : "target-idleubutton-RelWithDebInfo-d600a7cddad16761cfc7.json",
+					"name" : "idleubutton",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "liveGranul_tilde::@c44bf732d4ebde7ac936",
+					"jsonFile" : "target-liveGranul_tilde-RelWithDebInfo-e2a1467c9ff78190c039.json",
+					"name" : "liveGranul_tilde",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mc.bufGranul_tilde::@32a9d936f6f7e06e91da",
+					"jsonFile" : "target-mc.bufGranul_tilde-RelWithDebInfo-6adf194cb7f3cb1f1525.json",
+					"name" : "mc.bufGranul_tilde",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rand_dist_list::@e9e04cd5afc1e8a8b4b2",
+					"jsonFile" : "target-rand_dist_list-RelWithDebInfo-f2261f7f446f383e166a.json",
+					"name" : "rand_dist_list",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rand_dist_list_tilde::@45445cd0a3450fb96a85",
+					"jsonFile" : "target-rand_dist_list_tilde-RelWithDebInfo-098204ab7788b4bba3bc.json",
+					"name" : "rand_dist_list_tilde",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "synGranul_tilde::@5ffe63d377026f092360",
+					"jsonFile" : "target-synGranul_tilde-RelWithDebInfo-a08ec0953f0ae56951b0.json",
+					"name" : "synGranul_tilde",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mateo/Documents/GMEM Project/GMU/source/build",
+		"source" : "C:/Users/mateo/Documents/GMEM Project/GMU/source"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
