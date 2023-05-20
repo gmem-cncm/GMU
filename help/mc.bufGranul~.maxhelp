@@ -109,7 +109,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 573.0, 43.578430999999995, 177.0, 26.0 ],
+									"patching_rect" : [ 573.0, 33.078431000000002, 177.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
