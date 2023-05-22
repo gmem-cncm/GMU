@@ -1,13 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 
 # PATH OF THE MAX SDK
-set (C74_SDK ${CMAKE_CURRENT_SOURCE_DIR}/../../../Max\ externals/max-sdk/source)
-
-
-## MATFAYT PATH FOR SDK COMPILE
-#set (C74_SDK ${CMAKE_CURRENT_SOURCE_DIR}/../../../Max\ externals/max-sdk/source)
-
-## SuhtrA PATH FOR SDK COMPILE
+set (C74_SDK ${CMAKE_CURRENT_SOURCE_DIR}/../../)
 
 string(REGEX REPLACE "(.*)/" "" THIS_FOLDER_NAME "${CMAKE_CURRENT_SOURCE_DIR}")
 project(${THIS_FOLDER_NAME})
