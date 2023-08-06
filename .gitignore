@@ -21,6 +21,7 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+.vscode
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -29,3 +30,21 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+source/CMakeLists.txt
+
+source/build
+source/build/*
+
+source/CMakeLists.txt
+source/CMakeLists.txt
+source/build/synGranul~/cmake_install.cmake
+source/build/rand_dist_list~/cmake_install.cmake
+source/build/rand_dist_list/cmake_install.cmake
+source/build/mc.bufGranul~/cmake_install.cmake
+source/build/liveGranul~/cmake_install.cmake
+source/build/idleubutton/cmake_install.cmake
+source/build/CMakeFiles/TargetDirectories.txt
+source/build/CMakeFiles/CMakeOutput.log
+source/build/CMakeCache.txt
+source/build/cmake_install.cmake
+source/build/bargraf~/cmake_install.cmake

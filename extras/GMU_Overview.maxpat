@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 269.819277286529541, 482.867466807365417, 403.0, 20.0 ],
+					"text" : "Those three GMU objects are available in mc. versions (see maxhelp)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-26",
@@ -415,7 +427,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.819277286529541, 478.867466807365417, 465.0, 36.0 ],
+					"patching_rect" : [ 748.819277286529541, 590.867466807365417, 465.0, 36.0 ],
 					"text" : ";\r\nmax launchbrowser https://gmem.org/recherche/gmu-granular-synthesis-environment/"
 				}
 
@@ -556,7 +568,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "logo_2021_gmem.svg",
 				"bootpath" : "~/Documents/GMEM Project/GMU/media",
-				"patcherrelativepath" : "../media",
+				"patcherrelativepath" : "../../../../GMEM Project/GMU/media",
 				"type" : "svg",
 				"implicit" : 1
 			}
