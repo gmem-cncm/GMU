@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.19)
 
 # PATH OF THE MAX SDK
-set (C74_SDK ${CMAKE_CURRENT_SOURCE_DIR}/../../)
+set (C74_SDK "" CACHE PATH "Path to the Max SDK")
+if(NOT C74_SDK)
+  message(FATAL_ERROR "Max SDK Path is not set")
+endif()
 
 string(REGEX REPLACE "(.*)/" "" THIS_FOLDER_NAME "${CMAKE_CURRENT_SOURCE_DIR}")
 project(${THIS_FOLDER_NAME})
