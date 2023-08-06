@@ -38,6 +38,18 @@ Examples folder contains more advanced example patch (see *tranche_ctrl5.maxhelp
 
 Some patches needs the [iana~](https://forum.ircam.fr/projects/detail/max-sound-box/) external (for sinusoidal decomposition) by Todor Todoroff.
 
+## Build
+
+If you want to build the externals from source, you will need to install [CMake](https://cmake.org/) and [Max SDK](https://github.com/Cycling74/max-sdk).
+
+Go to the `build` folder and run:
+
+``` 
+cmake -DC74_SDK=</path/to/sdk/source> ..
+cmake --build .
+```
+The externals will be built in the `externals` folder.
+
 ## Contributions
 
 GMU was developped at [GMEM - Marseille - Centre National de Création Musicale](https://gmem.org/) by :
