@@ -1,6 +1,6 @@
 # GMU - GMEM Microsound Universe	
 
-![GMU_logo](https://gmem.org/wp-content/uploads/2017/02/test-interstellar3-1000x500-e1489077177439.png)
+![GMU_logo](https://cdn.artishoc.coop/73fdf21c-7f78-49a8-a3b9-14025fe01361/v1/medias/eyJfcmFpbHMiOnsibWVzc2FnZSI6Ik1qTTFOalU9IiwiZXhwIjpudWxsLCJwdXIiOiJtZWRpYS9tZWRpYV9pZCJ9fQ==--945665266434b7eb57a069a86cecce719f64dbdb3f109985639e45c540057957/c3a4489ca7b2/test-interstellar3-1000x500-e1489077177439.png)
 
 GMU is a flexible granular synthesis environnement for Max. It includes a set of synthesis and control DSP objects, advanced control subpatches and UI interfaces patches examples. 
 
